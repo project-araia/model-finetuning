@@ -1,0 +1,2 @@
+- Models are download in ~/.cache/huggingface/hub
+- Use huggingface-cli download <model-name>
