@@ -29,9 +29,8 @@ model = FastLanguageModel.get_peft_model(
     model,
     r = 128, # Choose any number > 0 ! Suggested 8, 16, 32, 64, 128
     target_modules = ["q_proj", "k_proj", "v_proj", "o_proj",
-                      "gate_proj", "up_proj", "down_proj",
-
-                      "embed_tokens", "lm_head",], # Add for continual pretraining
+                      "gate_proj", "up_proj", "down_proj"],
+                      #"embed_tokens", "lm_head",], # Add for continual pretraining
     lora_alpha = 32,
     lora_dropout = 0, # Supports any, but = 0 is optimized
     bias = "none",    # Supports any, but = "none" is optimized
