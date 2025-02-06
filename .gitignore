@@ -1,0 +1,9 @@
+__pycache__
+*.dat
+*.out
+*.xmf
+Backtrace*
+job.target
+core*
+__pycache__
+*.ipynb_checkpoints
