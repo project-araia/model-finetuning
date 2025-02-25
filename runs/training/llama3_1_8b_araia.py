@@ -52,7 +52,7 @@ model = FastLanguageModel.get_peft_model(
     loftq_config = None, # And LoftQ
 )
 
-callm_prompt = """Below is an instruction that describes a task, paired with an input along \
+araia_prompt = """Below is an instruction that describes a task, paired with an input along \
                   with its context. Write a response that appropriately completes the request.
 
 ### Instruction:
@@ -76,7 +76,7 @@ def formatting_prompts_func(examples):
     texts = []
     for instruction, input, context, output in zip(instructions, inputs, contexts, outputs):
         # Must add EOS_TOKEN, otherwise your generation will go on forever!
-        text = callm_prompt.format(instruction, input, context, output) + EOS_TOKEN
+        text = araia_prompt.format(instruction, input, context, output) + EOS_TOKEN
         texts.append(text)
     return { "text" : texts, }
 pass
@@ -142,11 +142,11 @@ print(f"Peak reserved memory for training = {used_memory_for_lora} GB.")
 print(f"Peak reserved memory % of max memory = {used_percentage} %.")
 print(f"Peak reserved memory for training % of max memory = {lora_percentage} %.")
 
-# callm_prompt = Copied from above
+# araia_prompt = Copied from above
 FastLanguageModel.for_inference(model) # Enable native 2x faster inference
 inputs = tokenizer(
 [
-    callm_prompt.format(
+    araia_prompt.format(
         "Can you provide a general overview of wildfire season in 2024, 2023, 2022, 2021, and \
          2020 in glacier national park?", # instruction
         "", # input
@@ -173,11 +173,11 @@ if False:
     )
     FastLanguageModel.for_inference(model) # Enable native 2x faster inference
 
-# callm_prompt = You MUST copy from above!
+# araia_prompt = You MUST copy from above!
 
 inputs = tokenizer(
 [
-    callm_prompt.format(
+    araia_prompt.format(
         "What is the forecast for wildfire at Glacier National Park in August 2025", # instruction
         "", # input
         "", # context
