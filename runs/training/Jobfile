@@ -1,0 +1,10 @@
+# YAML configuration file for `jobrunner`.
+
+# job configuration for setting up and submitting jobs,
+# archive and clean artifacts, defining target and input scripts
+job:
+  target: llama3_1_8b_callm.py 
+  submit:
+    - test.sh
+  clean:
+    - "job.submit.*"
