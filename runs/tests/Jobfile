@@ -6,3 +6,5 @@ job:
   target: llama3_1_8b_alpaca.py 
   submit:
     - test.sh
+  clean:
+    - "job.submit.*"
