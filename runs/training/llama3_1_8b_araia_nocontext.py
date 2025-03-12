@@ -52,41 +52,37 @@ model = FastLanguageModel.get_peft_model(
     loftq_config = None, # And LoftQ
 )
 
-araia_prompt_train = """Below is an instruction that describes a task, paired with an input along \
-                  with its context. Write a response that appropriately completes the request.
+araia_prompt_train = """Below is a conversation that teaches you how to interpret ClimRR Data.
 
-### Instruction:
+### User:
 {}
 
-### Input:
-{}
-
-### Response:
+### Assistant:
 {}"""
 
 araia_prompt_test = """\
-### Instruction:
+### User:
 {}
 
-### Response:
+### Assistant:
 {}"""
+
 
 EOS_TOKEN = tokenizer.eos_token # Must add EOS_TOKEN
 def formatting_prompts_func(examples):
-    instructions = examples["instruction"]
-    inputs       = examples["input"]
-    outputs      = examples["output"]
+    user_messages = examples["user"]
+    assistant_messages = examples["assistant"]
     texts = []
-    for instruction, input, output in zip(instructions, inputs, outputs):
+    for user, assistant in zip(user_messages, assistant_messages):
         # Must add EOS_TOKEN, otherwise your generation will go on forever!
-        text = araia_prompt_train.format(instruction, input, output) + EOS_TOKEN
+        text = araia_prompt_train.format(user, assistant) + EOS_TOKEN
         texts.append(text)
     return { "text" : texts, }
 pass
 
 
 from datasets import load_dataset
-dataset = load_dataset("json", data_files=f'{os.getenv("PROJECT_HOME")}/datasets/AnnualTemperatureMaximum/WithInputContext.json')["train"]
+dataset = load_dataset("json", data_files=f'{os.getenv("PROJECT_HOME")}/datasets/AnnualTemperatureMaximum/WithoutInputContext.json')["train"]
 print(dataset)
 dataset = dataset.map(formatting_prompts_func, batched = True,)
 
@@ -145,12 +141,12 @@ print(f"Peak reserved memory for training = {used_memory_for_lora} GB.")
 print(f"Peak reserved memory % of max memory = {used_percentage} %.")
 print(f"Peak reserved memory for training % of max memory = {lora_percentage} %.")
 
-# araia_prompt_train = Copied from above
+# araia_prompt = Copied from above
 FastLanguageModel.for_inference(model) # Enable native 2x faster inference
 inputs = tokenizer(
 [
     araia_prompt_test.format(
-        "What is your name?", # instruction
+        "How do you define a grid cell?", # instruction
         "", # output - leave this blank for generation!
     )
 ], return_tensors = "pt").to("cuda")
@@ -173,7 +169,7 @@ if False:
     )
     FastLanguageModel.for_inference(model) # Enable native 2x faster inference
 
-# araia_prompt_train = You MUST copy from above!
+# araia_prompt = You MUST copy from above!
 
 inputs = tokenizer(
 [
