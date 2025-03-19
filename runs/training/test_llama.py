@@ -28,8 +28,8 @@ fourbit_models = [
 ] # More models at https://huggingface.co/unsloth
 
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name = "lora_model",
-    #model_name = "unsloth/Meta-Llama-3.1-8B",
+    #model_name = "lora_model",
+    model_name = "unsloth/Meta-Llama-3.1-8B",
     max_seq_length = max_seq_length,
     dtype = dtype,
     load_in_4bit = load_in_4bit,
@@ -52,16 +52,17 @@ araia_prompt = """\nBelow is a User query that describes a task or a question, p
 ### Assistant:
 {}"""
 
-testing_dataset = f'{os.getenv("PROJECT_HOME")}/datasets/Testing/AnnualTemperatureMaximum/WithoutInputContext.json'
+testing_dataset = f'{os.getenv("PROJECT_HOME")}/datasets/Testing/AnnualTemperatureMaximum/WithInputContext.json'
 dataset = load_dataset("json", data_files=testing_dataset)["train"]
 
 queries = dataset["user"]
 outputs = dataset["assistant"]
 
-if "inputs" in dataset:
-    inputs = dataset["input"]
-else:
-    inputs = [""]*len(queries)
+#if "input" in dataset:
+inputs = dataset["input"]
+#else:
+#inputs = [""]*len(queries)
+#print(inputs)
 
 # araia_prompt_train = Copied from above
 FastLanguageModel.for_inference(model) # Enable native 2x faster inference
