@@ -2,6 +2,10 @@ import os
 from unsloth import FastLanguageModel
 import torch
 from transformers import TextStreamer
+from datasets import load_dataset
+from trl import SFTTrainer
+from transformers import TrainingArguments
+from unsloth import is_bfloat16_supported
 
 max_seq_length = 2048 # Choose any! We auto support RoPE Scaling internally!
 dtype = None # None for auto detection. Float16 for Tesla T4, V100, Bfloat16 for Ampere+
@@ -52,47 +56,41 @@ model = FastLanguageModel.get_peft_model(
     loftq_config = None, # And LoftQ
 )
 
-araia_prompt_train = """Below is an instruction that describes a task, paired with an input along \
-                  with its context. Write a response that appropriately completes the request.
+araia_prompt = """\nBelow is a User query that describes a task or a question, paired with an Input along with its context.
+                  \nWrite the Assitant's response that appropriately completes the request. If the Input is missing you should ignore it. 
 
-### Instruction:
+### User:
 {}
 
 ### Input:
 {}
 
-### Response:
+### Assistant:
 {}"""
 
-araia_prompt_test = """\
-### Instruction:
-{}
-
-### Response:
-{}"""
 
 EOS_TOKEN = tokenizer.eos_token # Must add EOS_TOKEN
 def formatting_prompts_func(examples):
-    instructions = examples["instruction"]
-    inputs       = examples["input"]
-    outputs      = examples["output"]
+    queries = examples["user"]
+    outputs = examples["assistant"]
+
+    if "input" in examples:
+        inputs = examples["input"]
+    else:
+        inputs = [""]*len(queries)
+ 
     texts = []
-    for instruction, input, output in zip(instructions, inputs, outputs):
+    for query, input, output in zip(queries, inputs, outputs):
         # Must add EOS_TOKEN, otherwise your generation will go on forever!
-        text = araia_prompt_train.format(instruction, input, output) + EOS_TOKEN
+        text = araia_prompt.format(query, input, output) + EOS_TOKEN
         texts.append(text)
     return { "text" : texts, }
 pass
 
-
-from datasets import load_dataset
-dataset = load_dataset("json", data_files=f'{os.getenv("PROJECT_HOME")}/datasets/AnnualTemperatureMaximum/WithInputContext.json')["train"]
+training_dataset = f'{os.getenv("PROJECT_HOME")}/datasets/Training/AnnualTemperatureMaximum/WithoutInputContext.json'
+dataset = load_dataset("json", data_files=training_dataset)["train"]
 print(dataset)
 dataset = dataset.map(formatting_prompts_func, batched = True,)
-
-from trl import SFTTrainer
-from transformers import TrainingArguments
-from unsloth import is_bfloat16_supported
 
 trainer = SFTTrainer(
     model = model,
@@ -137,9 +135,7 @@ used_memory_for_lora = round(used_memory - start_gpu_memory, 3)
 used_percentage = round(used_memory / max_memory * 100, 3)
 lora_percentage = round(used_memory_for_lora / max_memory * 100, 3)
 print(f"{trainer_stats.metrics['train_runtime']} seconds used for training.")
-print(
-    f"{round(trainer_stats.metrics['train_runtime']/60, 2)} minutes used for training."
-)
+print(f"{round(trainer_stats.metrics['train_runtime']/60, 2)} minutes used for training.")
 print(f"Peak reserved memory = {used_memory} GB.")
 print(f"Peak reserved memory for training = {used_memory_for_lora} GB.")
 print(f"Peak reserved memory % of max memory = {used_percentage} %.")
@@ -147,16 +143,6 @@ print(f"Peak reserved memory for training % of max memory = {lora_percentage} %.
 
 # araia_prompt_train = Copied from above
 FastLanguageModel.for_inference(model) # Enable native 2x faster inference
-inputs = tokenizer(
-[
-    araia_prompt_test.format(
-        "What is your name?", # instruction
-        "", # output - leave this blank for generation!
-    )
-], return_tensors = "pt").to("cuda")
-
-text_streamer = TextStreamer(tokenizer)
-_ = model.generate(**inputs, streamer = text_streamer, max_new_tokens = 128)
 
 model.save_pretrained("lora_model")  # Local saving
 tokenizer.save_pretrained("lora_model")
@@ -172,19 +158,6 @@ if False:
         load_in_4bit = load_in_4bit,
     )
     FastLanguageModel.for_inference(model) # Enable native 2x faster inference
-
-# araia_prompt_train = You MUST copy from above!
-
-inputs = tokenizer(
-[
-    araia_prompt_test.format(
-        "Tell me something about Paris.", # instruction
-        "", # output - leave this blank for generation!
-    )
-], return_tensors = "pt").to("cuda")
-
-text_streamer = TextStreamer(tokenizer)
-_ = model.generate(**inputs, streamer = text_streamer, max_new_tokens = 128)
 
 if False:
     # I highly do NOT suggest - use Unsloth if possible
