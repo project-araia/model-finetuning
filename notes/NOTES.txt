@@ -1,0 +1,31 @@
+Maybe not simplified, but here's what I put together. Added a few additional hazards as well:
+ 
+Extreme Heat
+Extreme Cold
+Heat Waves
+Drought
+Flooding
+Tropical Cyclone
+Hurricane
+Wildfires
+Convective Storm
+Sea Level Rise
+Permafrost Thaw
+Sea Level Rise
+Ocean Acidification
+Carbon Dioxide Fertilizer
+Rising Ocean Temperature
+Snowmelt Timing
+Arctic Sea Ice
+Ice Storm
+Derecho
+Tornado
+Extreme Wind
+Urban Heat Island
+
+
+TODO
+- Semantic similarity.
+- Matching numerical value of the quantities.
+- Sentence similarity (https://huggingface.co/tasks/sentence-similarity)
+- Compare base model with a higher parameter count.
