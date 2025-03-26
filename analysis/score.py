@@ -1,6 +1,9 @@
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+import re
+import os
+import json
 
 # Initialize the sentence transformer model
 model = SentenceTransformer('all-MiniLM-L6-v2')
@@ -18,17 +21,56 @@ def get_similarity_score(reference, base_output, fine_tuned_output):
 
     return base_similarity, fine_tuned_similarity
 
-# Sample data (you will replace this with the actual outputs)
-reference_output = """The temperature at grid R160C290 is projected to increase by 9.69769001\u00b0F by the end of the century under RCP 8.5. This places it in the 76.5th percentile for warming within the state and 88.25th percentile nationally."""
+def extract_assistant_responses(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        text = f.read()
 
-base_output = """The average annual temperature increase in the area from 1995 to 2050 is 4.2 degrees Celsius. This is slightly higher than the average temperature increase in the area from 1995 to 2050. The average temperature increase in the area from 1995 to 2050 is 4.2 degrees Celsius. This is slightly higher than the average temperature increase in the area from 1995 to 2050. The average temperature increase in the area from 1995 to 2050 is 4.2 degrees Celsius. This is slightly higher than the average temperature increase in the area from 1995"""
+    # Regular expression to extract Assistant responses
+    pattern = re.compile(r"### Assistant:\s*(.*?)(?=\n###|<\|end_of_text\|>|$)", re.S)
+    responses = pattern.findall(text)
 
-fine_tuned_output = """The temperature at grid R160C290 is projected to increase by 9.69769001°F by the end of the century under RCP 8.5. This places it in the 76.5th percentile for warming within the state and 88.25th percentile nationally"""
+    pattern_str = "---------------------------------------------------------------------------------------------"
 
-# Get similarity scores
-base_score, fine_tuned_score = get_similarity_score(reference_output, base_output, fine_tuned_output)
+    # Clean up unwanted headers and separators
+    cleaned_responses = []
+    for response in responses:
+        split_response = response.split(pattern_str)
+        cleaned_responses.append(split_response[0])
+
+    return cleaned_responses
+
+def extract_assistant_responses_json(file_path):
+    # Load the JSON data from file
+    with open(file_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # Extract assistant responses
+    responses = [entry['assistant'] for entry in data if 'assistant' in entry]
+
+    return responses
+
+# Path to your text file
+base_responses = extract_assistant_responses('../runs/training/outputs-march-2025/output_base_model_llama3.1_8b.txt')
+finetuned_responses = extract_assistant_responses('../runs/training/outputs-march-2025/output_finetuned_model.txt') 
+ref_responses = extract_assistant_responses_json('../datasets/Testing/AnnualTemperatureMaximum/WithoutInputContext.json')
+
+score_count = min(len(base_responses),len(finetuned_responses))
+
+base_score = 0.
+fine_tuned_score = 0.
+
+for i in range(score_count):
+    base_output = base_responses[i].strip("\n")
+    fine_tuned_output = finetuned_responses[i].strip("\n")
+    reference_output = ref_responses[i]
+
+    # Get similarity scores
+    scores = get_similarity_score(reference_output, base_output, fine_tuned_output)
+
+    base_score = base_score + scores[0]
+    fine_tuned_score = fine_tuned_score + scores[1]
+
 
 # Display results
-print(f"Base Model Similarity Score: {base_score:.4f}")
-print(f"Fine-tuned Model Similarity Score: {fine_tuned_score:.4f}")
-
+print(f"Base Model Similarity Score: {base_score/score_count:.4f}")
+print(f"Fine-tuned Model Similarity Score: {fine_tuned_score/score_count:.4f}")
