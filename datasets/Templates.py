@@ -96,4 +96,68 @@ templates = [
         "user": "Summarize the future climate trends for {grid}.",
         "assistant": "At grid {grid}, projections show higher summer heat index ({heat_index}), more dry days ({dry_days}), and a rise in annual max temperature by {temp_change}°F."
     },
+
+    # --- Relative Change Interpretation (with risk framing) ---
+    {
+        "user": "How much has the number of days above 95°F changed at {grid} from historical to mid-century?",
+        "assistant": "Grid {grid} is projected to experience an increase from {hist_days} to {mid_days} days above 95°F by mid-century, a {percent_change}% increase, tripling the number of dangerous heat days."
+    },
+    {
+        "user": "Is the change in heat index days at {grid} significant or just a small shift?",
+        "assistant": "Although the increase at grid {grid} is only from {hist_days} to {mid_days} days, that's a {percent_change}% rise, indicating a substantial change in heat stress conditions."
+    },
+
+    # --- Climate Risk Framing ---
+    {
+        "user": "What are the risks posed by projected climate changes at {grid}?",
+        "assistant": "Grid {grid} shows increased risk of heat-related stress with a rise in days above 95°F and reduced precipitation. These changes can intensify drought and cooling energy demands."
+    },
+    {
+        "user": "How might changes at {grid} affect farming or housing decisions?",
+        "assistant": "Rising maximum temperatures and fewer rainy days at grid {grid} could impact crop resilience and water supply. Higher heat index values may also influence building codes and energy needs."
+    },
+
+    # --- Variable Interaction Insight ---
+    {
+        "user": "What other variables should I look at along with heat index at {grid}?",
+        "assistant": "To understand the full impact, consider the increase in cooling degree days and dry days alongside the heat index at grid {grid}. These variables together suggest greater cooling demand and heat stress risk."
+    },
+    {
+        "user": "Why is rising heat index at {grid} a concern?",
+        "assistant": "At grid {grid}, the increase in heat index is compounded by rising temperatures and lower wind speeds, reducing the body’s ability to cool and raising the chance of heat-related illnesses."
+    },
+
+    # --- Cross-Region Comparison ---
+    {
+        "user": "Is the heat risk at {grid} higher than other areas in the state?",
+        "assistant": "Yes, grid {grid} ranks in the top {state_percentile}% for days above 95°F, indicating one of the highest heat exposure risks in the state."
+    },
+    {
+        "user": "How does wind speed at {grid} compare to other regions?",
+        "assistant": "Grid {grid} has lower wind speeds than {comparison_region}, which may reduce natural ventilation and increase the severity of heat stress events."
+    },
+
+    # --- Neighborhood/Adjacency Context ---
+    {
+        "user": "Is {grid} hotter than surrounding grid cells?",
+        "assistant": "Yes, grid {grid} has a projected maximum temperature increase of {change}°F, higher than its neighboring cells, making it a local hotspot under RCP 8.5."
+    },
+    {
+        "user": "How does fire risk at {grid} compare to nearby areas?",
+        "assistant": "Grid {grid} lies in the {state_percentile} percentile for fire weather index, indicating elevated risk compared to adjacent areas in the same region."
+    },
+
+    # --- Usability-Oriented Templates ---
+    {
+        "user": "I’m evaluating properties for purchase—what’s the future climate outlook at {grid}?",
+        "assistant": "At grid {grid}, future projections show increased heat index days, more dry spells, and higher cooling energy needs. These factors could affect livability and long-term planning."
+    },
+    {
+        "user": "How could climate projections at {grid} affect grant proposals for urban infrastructure?",
+        "assistant": "Grid {grid} shows substantial changes in temperature, precipitation, and heat stress indicators. These data support proposals focused on resilience, cooling access, and drought mitigation."
+    },
+    {
+        "user": "Are there any extreme values for climate at {grid} I should know about?",
+        "assistant": "Yes, grid {grid} is in the top {national_percentile}% nationally for summer heat index, suggesting unusually intense seasonal heat."
+    }
 ]
