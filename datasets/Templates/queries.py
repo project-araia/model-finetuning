@@ -43,7 +43,7 @@ templates = [
     # --- Cooling Degree Days – Annual Total ---
     {
         "user": "How are cooling needs changing at {grid}?",
-        "assistant": "Cooling degree days at grid {grid} are expected to increase by {change}.",
+        "assistant": "Cooling degree days at grid {grid} are expected to change by {change}.",
     },
     # --- Heating Degree Days – Annual Total ---
     {
