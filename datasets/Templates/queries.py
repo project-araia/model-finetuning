@@ -76,11 +76,7 @@ templates = [
     # --- Relative Change Interpretation (with risk framing) ---
     {
         "user": "How much has the number of days above 95°F changed at {grid} from historical to mid-century?",
-        "assistant": "Grid {grid} is projected to experience an increase from {hist_days} to {mid_days} days above 95°F by mid-century, a {percent_change}% increase, tripling the number of dangerous heat days.",
-    },
-    {
-        "user": "What does the change in heat index days at {grid} suggest about future conditions?",
-        "assistant": "Although the increase at grid {grid} is only from {hist_days} to {mid_days} days, that's a {percent_change}% rise, indicating a substantial change in heat stress conditions.",
+        "assistant": "Grid {grid} is projected to experience an increase from {hist_days} to {mid_days} days above 95°F by mid-century, a {percent_change}% increase.",
     },
     # --- Cross-Region Comparison ---
     {
