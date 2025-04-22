@@ -52,7 +52,7 @@ araia_prompt = """\nBelow is a User query that describes a task or a question, p
 ### Assistant:
 {}"""
 
-testing_dataset = f'{os.getenv("PROJECT_HOME")}/datasets/Testing/AnnualTemperatureMaximum/WithInputContext.json'
+testing_dataset = f'{os.getenv("PROJECT_HOME")}/datasets/Testing/Test.json'
 dataset = load_dataset("json", data_files=testing_dataset)["train"]
 
 queries = dataset["user"]
