@@ -1,0 +1,62 @@
+[
+    {
+        "user": "What is the projected annual max temperature at R073C493 by the end of the century?",
+        "input": {
+            "grid_cell": "R073C493",
+            "historical": {
+                "temp": 79.1427002
+            },
+            "rcp85": {
+                "mid_century": 81.81729889,
+                "end_century": 85.73239899,
+                "change_from_hist_end": 6.58971024
+            },
+            "rcp45": {
+                "mid_century": 81.3286972,
+                "end_century": 83.37290192,
+                "change_from_hist_end": 4.23022985
+            }
+        },
+        "assistant": "At grid R073C493, the annual maximum temperature is projected to reach 85.73239899\u00b0F under RCP 8.5, 83.37290192\u00b0F under RCP 4.5 and  by the end of the century."
+    },
+    {
+        "user": "What is the projected annual max temperature at R217C437 by the end of the century?",
+        "input": {
+            "grid_cell": "R217C437",
+            "historical": {
+                "temp": 48.20489883
+            },
+            "rcp85": {
+                "mid_century": 51.83520126,
+                "end_century": 58.64379883,
+                "change_from_hist_end": 10.43889999
+            },
+            "rcp45": {
+                "mid_century": 51.84140015,
+                "end_century": 54.21659851,
+                "change_from_hist_end": 6.01167011
+            }
+        },
+        "assistant": "At grid R217C437, the annual maximum temperature is projected to reach 58.64379883\u00b0F under RCP 8.5, 54.21659851\u00b0F under RCP 4.5 and  by the end of the century."
+    },
+    {
+        "user": "What is the projected annual max temperature at R061C379 by the end of the century?",
+        "input": {
+            "grid_cell": "R061C379",
+            "historical": {
+                "temp": 76.36650085
+            },
+            "rcp85": {
+                "mid_century": 78.71379852,
+                "end_century": 84.34069824,
+                "change_from_hist_end": 7.97415018
+            },
+            "rcp45": {
+                "mid_century": 78.19480133,
+                "end_century": 80.94499969,
+                "change_from_hist_end": 4.57848978
+            }
+        },
+        "assistant": "At grid R061C379, the annual maximum temperature is projected to reach 84.34069824\u00b0F under RCP 8.5, 80.94499969\u00b0F under RCP 4.5 and  by the end of the century."
+    }
+]

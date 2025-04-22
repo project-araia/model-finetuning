@@ -1,0 +1,3940 @@
+[
+    {
+        "user": "Compare the maximum annual temperature increase at grid R142C399 to nearby areas.",
+        "input": {
+            "grid_cell": "R142C399",
+            "historical": {
+                "temp": 64.04219818
+            },
+            "rcp85": {
+                "mid_century": 66.56980133,
+                "end_century": 72.10620117,
+                "change_from_hist_end": 8.06396008,
+                "percentile_increase_state": 21.0,
+                "percentile_increase_country": 60.5
+            },
+            "rcp45": {
+                "mid_century": 66.23149872,
+                "end_century": 68.78130341,
+                "change_from_hist_end": 4.73906994
+            }
+        },
+        "assistant": "The temperature at grid R142C399 is projected to increase by 8.06396008\u00b0F by the end of the century under RCP 8.5. This places it in the 21.0th percentile for warming within the state and 60.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R142C228 to nearby areas.",
+        "input": {
+            "grid_cell": "R142C228",
+            "historical": {
+                "temp": 53.38690186
+            },
+            "rcp85": {
+                "mid_century": 56.60329819,
+                "end_century": 63.17649841,
+                "change_from_hist_end": 9.78964043,
+                "percentile_increase_state": 79.0,
+                "percentile_increase_country": 89.5
+            },
+            "rcp45": {
+                "mid_century": 56.45859909,
+                "end_century": 57.60820007,
+                "change_from_hist_end": 4.22133017
+            }
+        },
+        "assistant": "The temperature at grid R142C228 is projected to increase by 9.78964043\u00b0F by the end of the century under RCP 8.5. This places it in the 79.0th percentile for warming within the state and 89.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R106C272 to nearby areas.",
+        "input": {
+            "grid_cell": "R106C272",
+            "historical": {
+                "temp": 61.22769928
+            },
+            "rcp85": {
+                "mid_century": 65.05220032,
+                "end_century": 70.84899902,
+                "change_from_hist_end": 9.62127018,
+                "percentile_increase_state": 74.0,
+                "percentile_increase_country": 87.0
+            },
+            "rcp45": {
+                "mid_century": 63.87189865,
+                "end_century": 65.63510132,
+                "change_from_hist_end": 4.40739012
+            }
+        },
+        "assistant": "The temperature at grid R106C272 is projected to increase by 9.62127018\u00b0F by the end of the century under RCP 8.5. This places it in the 74.0th percentile for warming within the state and 87.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R216C244 to nearby areas.",
+        "input": {
+            "grid_cell": "R216C244",
+            "historical": {
+                "temp": 49.0868988
+            },
+            "rcp85": {
+                "mid_century": 52.34189987,
+                "end_century": 58.13169861,
+                "change_from_hist_end": 9.04483032,
+                "percentile_increase_state": 49.0,
+                "percentile_increase_country": 74.5
+            },
+            "rcp45": {
+                "mid_century": 51.7969017,
+                "end_century": 54.24330139,
+                "change_from_hist_end": 5.15642977
+            }
+        },
+        "assistant": "The temperature at grid R216C244 is projected to increase by 9.04483032\u00b0F by the end of the century under RCP 8.5. This places it in the 49.0th percentile for warming within the state and 74.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R424C050 to nearby areas.",
+        "input": {
+            "grid_cell": "R424C050",
+            "historical": {
+                "temp": 36.2195015
+            },
+            "rcp85": {
+                "mid_century": 40.46900177,
+                "end_century": 49.87080002,
+                "change_from_hist_end": 13.65130043,
+                "percentile_increase_state": 98.0,
+                "percentile_increase_country": 99.0
+            },
+            "rcp45": {
+                "mid_century": 39.13830185,
+                "end_century": 40.22389984,
+                "change_from_hist_end": 4.00445986
+            }
+        },
+        "assistant": "The temperature at grid R424C050 is projected to increase by 13.65130043\u00b0F by the end of the century under RCP 8.5. This places it in the 98.0th percentile for warming within the state and 99.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R132C210 to nearby areas.",
+        "input": {
+            "grid_cell": "R132C210",
+            "historical": {
+                "temp": 59.10449982
+            },
+            "rcp85": {
+                "mid_century": 61.75579834,
+                "end_century": 67.9885025,
+                "change_from_hist_end": 8.88403988,
+                "percentile_increase_state": 42.5,
+                "percentile_increase_country": 71.25
+            },
+            "rcp45": {
+                "mid_century": 62.2580986,
+                "end_century": 63.36240005,
+                "change_from_hist_end": 4.25796986
+            }
+        },
+        "assistant": "The temperature at grid R132C210 is projected to increase by 8.88403988\u00b0F by the end of the century under RCP 8.5. This places it in the 42.5th percentile for warming within the state and 71.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R099C233 to nearby areas.",
+        "input": {
+            "grid_cell": "R099C233",
+            "historical": {
+                "temp": 80.76679993
+            },
+            "rcp85": {
+                "mid_century": 83.45700073,
+                "end_century": 89.1713028,
+                "change_from_hist_end": 8.40454006,
+                "percentile_increase_state": 28.000000000000004,
+                "percentile_increase_country": 64.0
+            },
+            "rcp45": {
+                "mid_century": 82.68049622,
+                "end_century": 84.1832962,
+                "change_from_hist_end": 3.41657996
+            }
+        },
+        "assistant": "The temperature at grid R099C233 is projected to increase by 8.40454006\u00b0F by the end of the century under RCP 8.5. This places it in the 28.000000000000004th percentile for warming within the state and 64.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R087C360 to nearby areas.",
+        "input": {
+            "grid_cell": "R087C360",
+            "historical": {
+                "temp": 74.41339874
+            },
+            "rcp85": {
+                "mid_century": 77.07990265,
+                "end_century": 82.72049713,
+                "change_from_hist_end": 8.30704021,
+                "percentile_increase_state": 26.0,
+                "percentile_increase_country": 63.0
+            },
+            "rcp45": {
+                "mid_century": 76.64749908,
+                "end_century": 79.53009796,
+                "change_from_hist_end": 5.1166501
+            }
+        },
+        "assistant": "The temperature at grid R087C360 is projected to increase by 8.30704021\u00b0F by the end of the century under RCP 8.5. This places it in the 26.0th percentile for warming within the state and 63.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R412C064 to nearby areas.",
+        "input": {
+            "grid_cell": "R412C064",
+            "historical": {
+                "temp": 35.87020111
+            },
+            "rcp85": {
+                "mid_century": 39.1833992,
+                "end_century": 46.81110001,
+                "change_from_hist_end": 10.94099998,
+                "percentile_increase_state": 91.5,
+                "percentile_increase_country": 95.75
+            },
+            "rcp45": {
+                "mid_century": 37.72869873,
+                "end_century": 38.48289871,
+                "change_from_hist_end": 2.61271
+            }
+        },
+        "assistant": "The temperature at grid R412C064 is projected to increase by 10.94099998\u00b0F by the end of the century under RCP 8.5. This places it in the 91.5th percentile for warming within the state and 95.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R103C209 to nearby areas.",
+        "input": {
+            "grid_cell": "R103C209",
+            "historical": {
+                "temp": 71.0746994
+            },
+            "rcp85": {
+                "mid_century": 73.50569916,
+                "end_century": 78.03910065,
+                "change_from_hist_end": 6.96435022,
+                "percentile_increase_state": 7.000000000000001,
+                "percentile_increase_country": 52.25
+            },
+            "rcp45": {
+                "mid_century": 72.79000092,
+                "end_century": 74.35579681,
+                "change_from_hist_end": 3.28106999
+            }
+        },
+        "assistant": "The temperature at grid R103C209 is projected to increase by 6.96435022\u00b0F by the end of the century under RCP 8.5. This places it in the 7.000000000000001th percentile for warming within the state and 52.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R215C310 to nearby areas.",
+        "input": {
+            "grid_cell": "R215C310",
+            "historical": {
+                "temp": 53.79800034
+            },
+            "rcp85": {
+                "mid_century": 56.45529938,
+                "end_century": 63.07979965,
+                "change_from_hist_end": 9.28184986,
+                "percentile_increase_state": 60.5,
+                "percentile_increase_country": 80.25
+            },
+            "rcp45": {
+                "mid_century": 56.74639893,
+                "end_century": 60.49209976,
+                "change_from_hist_end": 6.69407988
+            }
+        },
+        "assistant": "The temperature at grid R215C310 is projected to increase by 9.28184986\u00b0F by the end of the century under RCP 8.5. This places it in the 60.5th percentile for warming within the state and 80.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R394C136 to nearby areas.",
+        "input": {
+            "grid_cell": "R394C136",
+            "historical": {
+                "temp": 29.80620003
+            },
+            "rcp85": {
+                "mid_century": 34.36970139,
+                "end_century": 38.17179871,
+                "change_from_hist_end": 8.36553955,
+                "percentile_increase_state": 27.500000000000004,
+                "percentile_increase_country": 63.74999999999999
+            },
+            "rcp45": {
+                "mid_century": 32.61029816,
+                "end_century": 32.95709991,
+                "change_from_hist_end": 3.15082002
+            }
+        },
+        "assistant": "The temperature at grid R394C136 is projected to increase by 8.36553955\u00b0F by the end of the century under RCP 8.5. This places it in the 27.500000000000004th percentile for warming within the state and 63.74999999999999th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R461C073 to nearby areas.",
+        "input": {
+            "grid_cell": "R461C073",
+            "historical": {
+                "temp": 27.88829994
+            },
+            "rcp85": {
+                "mid_century": 32.33110046,
+                "end_century": 41.58449936,
+                "change_from_hist_end": 13.69620037,
+                "percentile_increase_state": 98.5,
+                "percentile_increase_country": 99.25
+            },
+            "rcp45": {
+                "mid_century": 31.69109917,
+                "end_century": 33.6310997,
+                "change_from_hist_end": 5.7427702
+            }
+        },
+        "assistant": "The temperature at grid R461C073 is projected to increase by 13.69620037\u00b0F by the end of the century under RCP 8.5. This places it in the 98.5th percentile for warming within the state and 99.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R121C487 to nearby areas.",
+        "input": {
+            "grid_cell": "R121C487",
+            "historical": {
+                "temp": 71.11699677
+            },
+            "rcp85": {
+                "mid_century": 73.37809753,
+                "end_century": 78.38610077,
+                "change_from_hist_end": 7.26910019,
+                "percentile_increase_state": 10.0,
+                "percentile_increase_country": 55.00000000000001
+            },
+            "rcp45": {
+                "mid_century": 73.44360352,
+                "end_century": 74.81759644,
+                "change_from_hist_end": 3.70062995
+            }
+        },
+        "assistant": "The temperature at grid R121C487 is projected to increase by 7.26910019\u00b0F by the end of the century under RCP 8.5. This places it in the 10.0th percentile for warming within the state and 55.00000000000001th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R081C389 to nearby areas.",
+        "input": {
+            "grid_cell": "R081C389",
+            "historical": {
+                "temp": 73.85140228
+            },
+            "rcp85": {
+                "mid_century": 76.1371994,
+                "end_century": 81.9598999,
+                "change_from_hist_end": 8.10851002,
+                "percentile_increase_state": 22.0,
+                "percentile_increase_country": 61.0
+            },
+            "rcp45": {
+                "mid_century": 76.00959778,
+                "end_century": 78.38860321,
+                "change_from_hist_end": 4.53718996
+            }
+        },
+        "assistant": "The temperature at grid R081C389 is projected to increase by 8.10851002\u00b0F by the end of the century under RCP 8.5. This places it in the 22.0th percentile for warming within the state and 61.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R147C191 to nearby areas.",
+        "input": {
+            "grid_cell": "R147C191",
+            "historical": {
+                "temp": 74.1631012
+            },
+            "rcp85": {
+                "mid_century": 76.67459869,
+                "end_century": 81.76580048,
+                "change_from_hist_end": 7.60265017,
+                "percentile_increase_state": 12.0,
+                "percentile_increase_country": 56.00000000000001
+            },
+            "rcp45": {
+                "mid_century": 76.24060059,
+                "end_century": 77.3010025,
+                "change_from_hist_end": 3.13786006
+            }
+        },
+        "assistant": "The temperature at grid R147C191 is projected to increase by 7.60265017\u00b0F by the end of the century under RCP 8.5. This places it in the 12.0th percentile for warming within the state and 56.00000000000001th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R098C277 to nearby areas.",
+        "input": {
+            "grid_cell": "R098C277",
+            "historical": {
+                "temp": 56.10950089
+            },
+            "rcp85": {
+                "mid_century": 59.20909882,
+                "end_century": 65.38539886,
+                "change_from_hist_end": 9.27591991,
+                "percentile_increase_state": 60.0,
+                "percentile_increase_country": 80.0
+            },
+            "rcp45": {
+                "mid_century": 58.61899948,
+                "end_century": 60.44070053,
+                "change_from_hist_end": 4.33125019
+            }
+        },
+        "assistant": "The temperature at grid R098C277 is projected to increase by 9.27591991\u00b0F by the end of the century under RCP 8.5. This places it in the 60.0th percentile for warming within the state and 80.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R073C493 to nearby areas.",
+        "input": {
+            "grid_cell": "R073C493",
+            "historical": {
+                "temp": 79.1427002
+            },
+            "rcp85": {
+                "mid_century": 81.81729889,
+                "end_century": 85.73239899,
+                "change_from_hist_end": 6.58971024,
+                "percentile_increase_state": 4.0,
+                "percentile_increase_country": 46.75
+            },
+            "rcp45": {
+                "mid_century": 81.3286972,
+                "end_century": 83.37290192,
+                "change_from_hist_end": 4.23022985
+            }
+        },
+        "assistant": "The temperature at grid R073C493 is projected to increase by 6.58971024\u00b0F by the end of the century under RCP 8.5. This places it in the 4.0th percentile for warming within the state and 46.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R217C437 to nearby areas.",
+        "input": {
+            "grid_cell": "R217C437",
+            "historical": {
+                "temp": 48.20489883
+            },
+            "rcp85": {
+                "mid_century": 51.83520126,
+                "end_century": 58.64379883,
+                "change_from_hist_end": 10.43889999,
+                "percentile_increase_state": 88.0,
+                "percentile_increase_country": 94.0
+            },
+            "rcp45": {
+                "mid_century": 51.84140015,
+                "end_century": 54.21659851,
+                "change_from_hist_end": 6.01167011
+            }
+        },
+        "assistant": "The temperature at grid R217C437 is projected to increase by 10.43889999\u00b0F by the end of the century under RCP 8.5. This places it in the 88.0th percentile for warming within the state and 94.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R061C379 to nearby areas.",
+        "input": {
+            "grid_cell": "R061C379",
+            "historical": {
+                "temp": 76.36650085
+            },
+            "rcp85": {
+                "mid_century": 78.71379852,
+                "end_century": 84.34069824,
+                "change_from_hist_end": 7.97415018,
+                "percentile_increase_state": 19.5,
+                "percentile_increase_country": 59.75
+            },
+            "rcp45": {
+                "mid_century": 78.19480133,
+                "end_century": 80.94499969,
+                "change_from_hist_end": 4.57848978
+            }
+        },
+        "assistant": "The temperature at grid R061C379 is projected to increase by 7.97415018\u00b0F by the end of the century under RCP 8.5. This places it in the 19.5th percentile for warming within the state and 59.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R072C363 to nearby areas.",
+        "input": {
+            "grid_cell": "R072C363",
+            "historical": {
+                "temp": 73.90000153
+            },
+            "rcp85": {
+                "mid_century": 76.58080292,
+                "end_century": 82.39749908,
+                "change_from_hist_end": 8.49748039,
+                "percentile_increase_state": 31.5,
+                "percentile_increase_country": 65.75
+            },
+            "rcp45": {
+                "mid_century": 76.38600159,
+                "end_century": 79.20089722,
+                "change_from_hist_end": 5.30084991
+            }
+        },
+        "assistant": "The temperature at grid R072C363 is projected to increase by 8.49748039\u00b0F by the end of the century under RCP 8.5. This places it in the 31.5th percentile for warming within the state and 65.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R085C348 to nearby areas.",
+        "input": {
+            "grid_cell": "R085C348",
+            "historical": {
+                "temp": 72.63480377
+            },
+            "rcp85": {
+                "mid_century": 75.82479858,
+                "end_century": 81.37660217,
+                "change_from_hist_end": 8.74182034,
+                "percentile_increase_state": 39.5,
+                "percentile_increase_country": 69.75
+            },
+            "rcp45": {
+                "mid_century": 75.13939667,
+                "end_century": 78.12550354,
+                "change_from_hist_end": 5.49073982
+            }
+        },
+        "assistant": "The temperature at grid R085C348 is projected to increase by 8.74182034\u00b0F by the end of the century under RCP 8.5. This places it in the 39.5th percentile for warming within the state and 69.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R115C426 to nearby areas.",
+        "input": {
+            "grid_cell": "R115C426",
+            "historical": {
+                "temp": 68.53489685
+            },
+            "rcp85": {
+                "mid_century": 70.94860077,
+                "end_century": 76.44850159,
+                "change_from_hist_end": 7.91362,
+                "percentile_increase_state": 17.5,
+                "percentile_increase_country": 58.75
+            },
+            "rcp45": {
+                "mid_century": 71.16449738,
+                "end_century": 72.76999664,
+                "change_from_hist_end": 4.2351799
+            }
+        },
+        "assistant": "The temperature at grid R115C426 is projected to increase by 7.91362\u00b0F by the end of the century under RCP 8.5. This places it in the 17.5th percentile for warming within the state and 58.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R165C239 to nearby areas.",
+        "input": {
+            "grid_cell": "R165C239",
+            "historical": {
+                "temp": 52.9253006
+            },
+            "rcp85": {
+                "mid_century": 55.99769974,
+                "end_century": 62.81999969,
+                "change_from_hist_end": 9.89472961,
+                "percentile_increase_state": 82.0,
+                "percentile_increase_country": 91.0
+            },
+            "rcp45": {
+                "mid_century": 55.36019897,
+                "end_century": 57.68519974,
+                "change_from_hist_end": 4.75988007
+            }
+        },
+        "assistant": "The temperature at grid R165C239 is projected to increase by 9.89472961\u00b0F by the end of the century under RCP 8.5. This places it in the 82.0th percentile for warming within the state and 91.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R125C393 to nearby areas.",
+        "input": {
+            "grid_cell": "R125C393",
+            "historical": {
+                "temp": 66.39550018
+            },
+            "rcp85": {
+                "mid_century": 68.88339996,
+                "end_century": 74.26509857,
+                "change_from_hist_end": 7.86955976,
+                "percentile_increase_state": 17.0,
+                "percentile_increase_country": 58.5
+            },
+            "rcp45": {
+                "mid_century": 68.7519989,
+                "end_century": 71.11710358,
+                "change_from_hist_end": 4.72160006
+            }
+        },
+        "assistant": "The temperature at grid R125C393 is projected to increase by 7.86955976\u00b0F by the end of the century under RCP 8.5. This places it in the 17.0th percentile for warming within the state and 58.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R119C348 to nearby areas.",
+        "input": {
+            "grid_cell": "R119C348",
+            "historical": {
+                "temp": 69.0542984
+            },
+            "rcp85": {
+                "mid_century": 72.33540344,
+                "end_century": 77.71489716,
+                "change_from_hist_end": 8.66057014,
+                "percentile_increase_state": 37.0,
+                "percentile_increase_country": 68.5
+            },
+            "rcp45": {
+                "mid_century": 71.6588974,
+                "end_century": 74.59500122,
+                "change_from_hist_end": 5.54067993
+            }
+        },
+        "assistant": "The temperature at grid R119C348 is projected to increase by 8.66057014\u00b0F by the end of the century under RCP 8.5. This places it in the 37.0th percentile for warming within the state and 68.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R117C330 to nearby areas.",
+        "input": {
+            "grid_cell": "R117C330",
+            "historical": {
+                "temp": 68.0535965
+            },
+            "rcp85": {
+                "mid_century": 71.76509857,
+                "end_century": 77.25299835,
+                "change_from_hist_end": 9.19935036,
+                "percentile_increase_state": 53.5,
+                "percentile_increase_country": 76.75
+            },
+            "rcp45": {
+                "mid_century": 70.41760254,
+                "end_century": 73.39240265,
+                "change_from_hist_end": 5.33874989
+            }
+        },
+        "assistant": "The temperature at grid R117C330 is projected to increase by 9.19935036\u00b0F by the end of the century under RCP 8.5. This places it in the 53.5th percentile for warming within the state and 76.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R400C060 to nearby areas.",
+        "input": {
+            "grid_cell": "R400C060",
+            "historical": {
+                "temp": 39.1446991
+            },
+            "rcp85": {
+                "mid_century": 42.9292984,
+                "end_century": 50.58309937,
+                "change_from_hist_end": 11.43840027,
+                "percentile_increase_state": 93.0,
+                "percentile_increase_country": 96.5
+            },
+            "rcp45": {
+                "mid_century": 41.90039825,
+                "end_century": 41.77709961,
+                "change_from_hist_end": 2.63231993
+            }
+        },
+        "assistant": "The temperature at grid R400C060 is projected to increase by 11.43840027\u00b0F by the end of the century under RCP 8.5. This places it in the 93.0th percentile for warming within the state and 96.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R150C322 to nearby areas.",
+        "input": {
+            "grid_cell": "R150C322",
+            "historical": {
+                "temp": 61.92599869
+            },
+            "rcp85": {
+                "mid_century": 65.34799957,
+                "end_century": 71.60119629,
+                "change_from_hist_end": 9.67510986,
+                "percentile_increase_state": 75.5,
+                "percentile_increase_country": 87.75
+            },
+            "rcp45": {
+                "mid_century": 65.09269714,
+                "end_century": 68.22589874,
+                "change_from_hist_end": 6.29983997
+            }
+        },
+        "assistant": "The temperature at grid R150C322 is projected to increase by 9.67510986\u00b0F by the end of the century under RCP 8.5. This places it in the 75.5th percentile for warming within the state and 87.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R178C251 to nearby areas.",
+        "input": {
+            "grid_cell": "R178C251",
+            "historical": {
+                "temp": 54.46770096
+            },
+            "rcp85": {
+                "mid_century": 57.39009857,
+                "end_century": 64.70570374,
+                "change_from_hist_end": 10.23799992,
+                "percentile_increase_state": 87.0,
+                "percentile_increase_country": 93.5
+            },
+            "rcp45": {
+                "mid_century": 57.1554985,
+                "end_century": 59.00230026,
+                "change_from_hist_end": 4.53455019
+            }
+        },
+        "assistant": "The temperature at grid R178C251 is projected to increase by 10.23799992\u00b0F by the end of the century under RCP 8.5. This places it in the 87.0th percentile for warming within the state and 93.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R227C508 to nearby areas.",
+        "input": {
+            "grid_cell": "R227C508",
+            "historical": {
+                "temp": 48.9280014
+            },
+            "rcp85": {
+                "mid_century": 52.53530121,
+                "end_century": 59.44680023,
+                "change_from_hist_end": 10.51879978,
+                "percentile_increase_state": 89.0,
+                "percentile_increase_country": 94.5
+            },
+            "rcp45": {
+                "mid_century": 53.88439941,
+                "end_century": 55.29809952,
+                "change_from_hist_end": 6.37015009
+            }
+        },
+        "assistant": "The temperature at grid R227C508 is projected to increase by 10.51879978\u00b0F by the end of the century under RCP 8.5. This places it in the 89.0th percentile for warming within the state and 94.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R104C447 to nearby areas.",
+        "input": {
+            "grid_cell": "R104C447",
+            "historical": {
+                "temp": 70.12030029
+            },
+            "rcp85": {
+                "mid_century": 72.29149628,
+                "end_century": 77.25450134,
+                "change_from_hist_end": 7.1342001,
+                "percentile_increase_state": 9.0,
+                "percentile_increase_country": 54.25
+            },
+            "rcp45": {
+                "mid_century": 72.60160065,
+                "end_century": 74.00350189,
+                "change_from_hist_end": 3.8831799
+            }
+        },
+        "assistant": "The temperature at grid R104C447 is projected to increase by 7.1342001\u00b0F by the end of the century under RCP 8.5. This places it in the 9.0th percentile for warming within the state and 54.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R159C491 to nearby areas.",
+        "input": {
+            "grid_cell": "R159C491",
+            "historical": {
+                "temp": 63.41120148
+            },
+            "rcp85": {
+                "mid_century": 66.3572998,
+                "end_century": 71.77069855,
+                "change_from_hist_end": 8.35949993,
+                "percentile_increase_state": 27.0,
+                "percentile_increase_country": 63.5
+            },
+            "rcp45": {
+                "mid_century": 67.23020172,
+                "end_century": 68.67089844,
+                "change_from_hist_end": 5.25974989
+            }
+        },
+        "assistant": "The temperature at grid R159C491 is projected to increase by 8.35949993\u00b0F by the end of the century under RCP 8.5. This places it in the 27.0th percentile for warming within the state and 63.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R377C131 to nearby areas.",
+        "input": {
+            "grid_cell": "R377C131",
+            "historical": {
+                "temp": 32.5094986
+            },
+            "rcp85": {
+                "mid_century": 36.81840134,
+                "end_century": 40.69530106,
+                "change_from_hist_end": 8.18575001,
+                "percentile_increase_state": 23.0,
+                "percentile_increase_country": 61.5
+            },
+            "rcp45": {
+                "mid_century": 35.64139938,
+                "end_century": 36.19400024,
+                "change_from_hist_end": 3.68442988
+            }
+        },
+        "assistant": "The temperature at grid R377C131 is projected to increase by 8.18575001\u00b0F by the end of the century under RCP 8.5. This places it in the 23.0th percentile for warming within the state and 61.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R173C413 to nearby areas.",
+        "input": {
+            "grid_cell": "R173C413",
+            "historical": {
+                "temp": 58.81890106
+            },
+            "rcp85": {
+                "mid_century": 61.36489868,
+                "end_century": 67.84359741,
+                "change_from_hist_end": 9.02466965,
+                "percentile_increase_state": 47.5,
+                "percentile_increase_country": 73.75
+            },
+            "rcp45": {
+                "mid_century": 61.48410034,
+                "end_century": 64.49430084,
+                "change_from_hist_end": 5.67532015
+            }
+        },
+        "assistant": "The temperature at grid R173C413 is projected to increase by 9.02466965\u00b0F by the end of the century under RCP 8.5. This places it in the 47.5th percentile for warming within the state and 73.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R198C494 to nearby areas.",
+        "input": {
+            "grid_cell": "R198C494",
+            "historical": {
+                "temp": 53.52230072
+            },
+            "rcp85": {
+                "mid_century": 56.94419861,
+                "end_century": 63.17259979,
+                "change_from_hist_end": 9.65028,
+                "percentile_increase_state": 74.5,
+                "percentile_increase_country": 87.25
+            },
+            "rcp45": {
+                "mid_century": 57.76729965,
+                "end_century": 59.83089828,
+                "change_from_hist_end": 6.30861998
+            }
+        },
+        "assistant": "The temperature at grid R198C494 is projected to increase by 9.65028\u00b0F by the end of the century under RCP 8.5. This places it in the 74.5th percentile for warming within the state and 87.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R217C337 to nearby areas.",
+        "input": {
+            "grid_cell": "R217C337",
+            "historical": {
+                "temp": 50.57770157
+            },
+            "rcp85": {
+                "mid_century": 53.23529816,
+                "end_century": 60.16930008,
+                "change_from_hist_end": 9.59160995,
+                "percentile_increase_state": 72.5,
+                "percentile_increase_country": 86.25
+            },
+            "rcp45": {
+                "mid_century": 52.3260994,
+                "end_century": 57.26729965,
+                "change_from_hist_end": 6.68969011
+            }
+        },
+        "assistant": "The temperature at grid R217C337 is projected to increase by 9.59160995\u00b0F by the end of the century under RCP 8.5. This places it in the 72.5th percentile for warming within the state and 86.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R418C151 to nearby areas.",
+        "input": {
+            "grid_cell": "R418C151",
+            "historical": {
+                "temp": 30.9260006
+            },
+            "rcp85": {
+                "mid_century": 37.24269867,
+                "end_century": 43.89580154,
+                "change_from_hist_end": 12.96990013,
+                "percentile_increase_state": 97.5,
+                "percentile_increase_country": 98.75
+            },
+            "rcp45": {
+                "mid_century": 34.26660156,
+                "end_century": 34.59260178,
+                "change_from_hist_end": 3.66657996
+            }
+        },
+        "assistant": "The temperature at grid R418C151 is projected to increase by 12.96990013\u00b0F by the end of the century under RCP 8.5. This places it in the 97.5th percentile for warming within the state and 98.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R218C280 to nearby areas.",
+        "input": {
+            "grid_cell": "R218C280",
+            "historical": {
+                "temp": 55.14649963
+            },
+            "rcp85": {
+                "mid_century": 58.26079941,
+                "end_century": 64.25749969,
+                "change_from_hist_end": 9.11102009,
+                "percentile_increase_state": 50.5,
+                "percentile_increase_country": 75.25
+            },
+            "rcp45": {
+                "mid_century": 58.4496994,
+                "end_century": 62.12469864,
+                "change_from_hist_end": 6.97824001
+            }
+        },
+        "assistant": "The temperature at grid R218C280 is projected to increase by 9.11102009\u00b0F by the end of the century under RCP 8.5. This places it in the 50.5th percentile for warming within the state and 75.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R173C459 to nearby areas.",
+        "input": {
+            "grid_cell": "R173C459",
+            "historical": {
+                "temp": 58.36489868
+            },
+            "rcp85": {
+                "mid_century": 61.08539963,
+                "end_century": 67.63980103,
+                "change_from_hist_end": 9.27493954,
+                "percentile_increase_state": 59.5,
+                "percentile_increase_country": 79.75
+            },
+            "rcp45": {
+                "mid_century": 61.9754982,
+                "end_century": 63.81610107,
+                "change_from_hist_end": 5.45120001
+            }
+        },
+        "assistant": "The temperature at grid R173C459 is projected to increase by 9.27493954\u00b0F by the end of the century under RCP 8.5. This places it in the 59.5th percentile for warming within the state and 79.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R232C326 to nearby areas.",
+        "input": {
+            "grid_cell": "R232C326",
+            "historical": {
+                "temp": 50.13890076
+            },
+            "rcp85": {
+                "mid_century": 52.88420105,
+                "end_century": 59.85649872,
+                "change_from_hist_end": 9.7176199,
+                "percentile_increase_state": 77.5,
+                "percentile_increase_country": 88.75
+            },
+            "rcp45": {
+                "mid_century": 51.86729813,
+                "end_century": 56.95489883,
+                "change_from_hist_end": 6.81608009
+            }
+        },
+        "assistant": "The temperature at grid R232C326 is projected to increase by 9.7176199\u00b0F by the end of the century under RCP 8.5. This places it in the 77.5th percentile for warming within the state and 88.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R087C406 to nearby areas.",
+        "input": {
+            "grid_cell": "R087C406",
+            "historical": {
+                "temp": 73.06939697
+            },
+            "rcp85": {
+                "mid_century": 75.61119843,
+                "end_century": 81.30699921,
+                "change_from_hist_end": 8.23754978,
+                "percentile_increase_state": 23.5,
+                "percentile_increase_country": 61.75000000000001
+            },
+            "rcp45": {
+                "mid_century": 75.38430023,
+                "end_century": 77.24320221,
+                "change_from_hist_end": 4.17375994
+            }
+        },
+        "assistant": "The temperature at grid R087C406 is projected to increase by 8.23754978\u00b0F by the end of the century under RCP 8.5. This places it in the 23.5th percentile for warming within the state and 61.75000000000001th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R217C200 to nearby areas.",
+        "input": {
+            "grid_cell": "R217C200",
+            "historical": {
+                "temp": 53.12250137
+            },
+            "rcp85": {
+                "mid_century": 56.41910172,
+                "end_century": 61.24369812,
+                "change_from_hist_end": 8.12125969,
+                "percentile_increase_state": 22.5,
+                "percentile_increase_country": 61.25000000000001
+            },
+            "rcp45": {
+                "mid_century": 55.74900055,
+                "end_century": 57.75579834,
+                "change_from_hist_end": 4.63331985
+            }
+        },
+        "assistant": "The temperature at grid R217C200 is projected to increase by 8.12125969\u00b0F by the end of the century under RCP 8.5. This places it in the 22.5th percentile for warming within the state and 61.25000000000001th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R092C476 to nearby areas.",
+        "input": {
+            "grid_cell": "R092C476",
+            "historical": {
+                "temp": 74.76339722
+            },
+            "rcp85": {
+                "mid_century": 76.53399658,
+                "end_century": 81.35310364,
+                "change_from_hist_end": 6.58975983,
+                "percentile_increase_state": 4.5,
+                "percentile_increase_country": 47.0
+            },
+            "rcp45": {
+                "mid_century": 76.84290314,
+                "end_century": 78.31629944,
+                "change_from_hist_end": 3.5529201
+            }
+        },
+        "assistant": "The temperature at grid R092C476 is projected to increase by 6.58975983\u00b0F by the end of the century under RCP 8.5. This places it in the 4.5th percentile for warming within the state and 47.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R088C259 to nearby areas.",
+        "input": {
+            "grid_cell": "R088C259",
+            "historical": {
+                "temp": 75.97070313
+            },
+            "rcp85": {
+                "mid_century": 79.1190033,
+                "end_century": 84.498703,
+                "change_from_hist_end": 8.5280304,
+                "percentile_increase_state": 32.5,
+                "percentile_increase_country": 66.25
+            },
+            "rcp45": {
+                "mid_century": 78.43979645,
+                "end_century": 79.82859802,
+                "change_from_hist_end": 3.85790992
+            }
+        },
+        "assistant": "The temperature at grid R088C259 is projected to increase by 8.5280304\u00b0F by the end of the century under RCP 8.5. This places it in the 32.5th percentile for warming within the state and 66.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R115C441 to nearby areas.",
+        "input": {
+            "grid_cell": "R115C441",
+            "historical": {
+                "temp": 68.4434967
+            },
+            "rcp85": {
+                "mid_century": 70.82659912,
+                "end_century": 75.94499969,
+                "change_from_hist_end": 7.50153017,
+                "percentile_increase_state": 11.5,
+                "percentile_increase_country": 55.75
+            },
+            "rcp45": {
+                "mid_century": 71.10179901,
+                "end_century": 72.45490265,
+                "change_from_hist_end": 4.0113802
+            }
+        },
+        "assistant": "The temperature at grid R115C441 is projected to increase by 7.50153017\u00b0F by the end of the century under RCP 8.5. This places it in the 11.5th percentile for warming within the state and 55.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R066C329 to nearby areas.",
+        "input": {
+            "grid_cell": "R066C329",
+            "historical": {
+                "temp": 72.73290253
+            },
+            "rcp85": {
+                "mid_century": 75.24199677,
+                "end_century": 81.18630219,
+                "change_from_hist_end": 8.45343018,
+                "percentile_increase_state": 30.0,
+                "percentile_increase_country": 65.0
+            },
+            "rcp45": {
+                "mid_century": 74.86039734,
+                "end_century": 77.49040222,
+                "change_from_hist_end": 4.75746012
+            }
+        },
+        "assistant": "The temperature at grid R066C329 is projected to increase by 8.45343018\u00b0F by the end of the century under RCP 8.5. This places it in the 30.0th percentile for warming within the state and 65.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R045C369 to nearby areas.",
+        "input": {
+            "grid_cell": "R045C369",
+            "historical": {
+                "temp": 77.13500214
+            },
+            "rcp85": {
+                "mid_century": 79.82900238,
+                "end_century": 84.97250366,
+                "change_from_hist_end": 7.83748007,
+                "percentile_increase_state": 15.5,
+                "percentile_increase_country": 57.75
+            },
+            "rcp45": {
+                "mid_century": 79.46980286,
+                "end_century": 81.2602005,
+                "change_from_hist_end": 4.12519979
+            }
+        },
+        "assistant": "The temperature at grid R045C369 is projected to increase by 7.83748007\u00b0F by the end of the century under RCP 8.5. This places it in the 15.5th percentile for warming within the state and 57.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R432C097 to nearby areas.",
+        "input": {
+            "grid_cell": "R432C097",
+            "historical": {
+                "temp": 32.4844017
+            },
+            "rcp85": {
+                "mid_century": 36.45140076,
+                "end_century": 44.71350098,
+                "change_from_hist_end": 12.22900009,
+                "percentile_increase_state": 95.5,
+                "percentile_increase_country": 97.75
+            },
+            "rcp45": {
+                "mid_century": 35.26409912,
+                "end_century": 35.75849915,
+                "change_from_hist_end": 3.27402997
+            }
+        },
+        "assistant": "The temperature at grid R432C097 is projected to increase by 12.22900009\u00b0F by the end of the century under RCP 8.5. This places it in the 95.5th percentile for warming within the state and 97.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R212C191 to nearby areas.",
+        "input": {
+            "grid_cell": "R212C191",
+            "historical": {
+                "temp": 57.22330093
+            },
+            "rcp85": {
+                "mid_century": 59.93270111,
+                "end_century": 64.50679779,
+                "change_from_hist_end": 7.28345013,
+                "percentile_increase_state": 10.5,
+                "percentile_increase_country": 55.25
+            },
+            "rcp45": {
+                "mid_century": 59.645401,
+                "end_century": 61.33789825,
+                "change_from_hist_end": 4.11455011
+            }
+        },
+        "assistant": "The temperature at grid R212C191 is projected to increase by 7.28345013\u00b0F by the end of the century under RCP 8.5. This places it in the 10.5th percentile for warming within the state and 55.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R113C464 to nearby areas.",
+        "input": {
+            "grid_cell": "R113C464",
+            "historical": {
+                "temp": 68.9477005
+            },
+            "rcp85": {
+                "mid_century": 71.07730103,
+                "end_century": 76.08630371,
+                "change_from_hist_end": 7.13852978,
+                "percentile_increase_state": 9.5,
+                "percentile_increase_country": 54.50000000000001
+            },
+            "rcp45": {
+                "mid_century": 71.3167038,
+                "end_century": 72.36209869,
+                "change_from_hist_end": 3.41431999
+            }
+        },
+        "assistant": "The temperature at grid R113C464 is projected to increase by 7.13852978\u00b0F by the end of the century under RCP 8.5. This places it in the 9.5th percentile for warming within the state and 54.50000000000001th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R159C407 to nearby areas.",
+        "input": {
+            "grid_cell": "R159C407",
+            "historical": {
+                "temp": 61.60509872
+            },
+            "rcp85": {
+                "mid_century": 63.91059875,
+                "end_century": 70.1733017,
+                "change_from_hist_end": 8.56822968,
+                "percentile_increase_state": 33.5,
+                "percentile_increase_country": 66.75
+            },
+            "rcp45": {
+                "mid_century": 64.33439636,
+                "end_century": 67.03350067,
+                "change_from_hist_end": 5.42845011
+            }
+        },
+        "assistant": "The temperature at grid R159C407 is projected to increase by 8.56822968\u00b0F by the end of the century under RCP 8.5. This places it in the 33.5th percentile for warming within the state and 66.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R123C415 to nearby areas.",
+        "input": {
+            "grid_cell": "R123C415",
+            "historical": {
+                "temp": 67.82209778
+            },
+            "rcp85": {
+                "mid_century": 70.47229767,
+                "end_century": 76.44740295,
+                "change_from_hist_end": 8.62530994,
+                "percentile_increase_state": 35.0,
+                "percentile_increase_country": 67.5
+            },
+            "rcp45": {
+                "mid_century": 70.3615036,
+                "end_century": 72.89230347,
+                "change_from_hist_end": 5.07018995
+            }
+        },
+        "assistant": "The temperature at grid R123C415 is projected to increase by 8.62530994\u00b0F by the end of the century under RCP 8.5. This places it in the 35.0th percentile for warming within the state and 67.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R156C422 to nearby areas.",
+        "input": {
+            "grid_cell": "R156C422",
+            "historical": {
+                "temp": 61.86999893
+            },
+            "rcp85": {
+                "mid_century": 64.70850372,
+                "end_century": 70.90129852,
+                "change_from_hist_end": 9.03131008,
+                "percentile_increase_state": 48.0,
+                "percentile_increase_country": 74.0
+            },
+            "rcp45": {
+                "mid_century": 65.08869934,
+                "end_century": 67.72360229,
+                "change_from_hist_end": 5.85368013
+            }
+        },
+        "assistant": "The temperature at grid R156C422 is projected to increase by 9.03131008\u00b0F by the end of the century under RCP 8.5. This places it in the 48.0th percentile for warming within the state and 74.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R110C468 to nearby areas.",
+        "input": {
+            "grid_cell": "R110C468",
+            "historical": {
+                "temp": 71.18710327
+            },
+            "rcp85": {
+                "mid_century": 73.25710297,
+                "end_century": 78.11920166,
+                "change_from_hist_end": 6.93209982,
+                "percentile_increase_state": 6.0,
+                "percentile_increase_country": 51.5
+            },
+            "rcp45": {
+                "mid_century": 73.21179962,
+                "end_century": 74.55319977,
+                "change_from_hist_end": 3.36610007
+            }
+        },
+        "assistant": "The temperature at grid R110C468 is projected to increase by 6.93209982\u00b0F by the end of the century under RCP 8.5. This places it in the 6.0th percentile for warming within the state and 51.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R134C441 to nearby areas.",
+        "input": {
+            "grid_cell": "R134C441",
+            "historical": {
+                "temp": 65.59500122
+            },
+            "rcp85": {
+                "mid_century": 67.68399811,
+                "end_century": 73.26789856,
+                "change_from_hist_end": 7.6729598,
+                "percentile_increase_state": 13.5,
+                "percentile_increase_country": 56.75
+            },
+            "rcp45": {
+                "mid_century": 68.270401,
+                "end_century": 69.63289642,
+                "change_from_hist_end": 4.03790998
+            }
+        },
+        "assistant": "The temperature at grid R134C441 is projected to increase by 7.6729598\u00b0F by the end of the century under RCP 8.5. This places it in the 13.5th percentile for warming within the state and 56.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R427C081 to nearby areas.",
+        "input": {
+            "grid_cell": "R427C081",
+            "historical": {
+                "temp": 34.09889984
+            },
+            "rcp85": {
+                "mid_century": 37.98609924,
+                "end_century": 46.47919846,
+                "change_from_hist_end": 12.38029957,
+                "percentile_increase_state": 96.5,
+                "percentile_increase_country": 98.25
+            },
+            "rcp45": {
+                "mid_century": 37.29579926,
+                "end_century": 37.93289948,
+                "change_from_hist_end": 3.83395004
+            }
+        },
+        "assistant": "The temperature at grid R427C081 is projected to increase by 12.38029957\u00b0F by the end of the century under RCP 8.5. This places it in the 96.5th percentile for warming within the state and 98.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R124C240 to nearby areas.",
+        "input": {
+            "grid_cell": "R124C240",
+            "historical": {
+                "temp": 74.32029724
+            },
+            "rcp85": {
+                "mid_century": 77.40110016,
+                "end_century": 83.05090332,
+                "change_from_hist_end": 8.73060989,
+                "percentile_increase_state": 39.0,
+                "percentile_increase_country": 69.5
+            },
+            "rcp45": {
+                "mid_century": 76.35410309,
+                "end_century": 78.19249725,
+                "change_from_hist_end": 3.87217999
+            }
+        },
+        "assistant": "The temperature at grid R124C240 is projected to increase by 8.73060989\u00b0F by the end of the century under RCP 8.5. This places it in the 39.0th percentile for warming within the state and 69.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R138C362 to nearby areas.",
+        "input": {
+            "grid_cell": "R138C362",
+            "historical": {
+                "temp": 65.55490112
+            },
+            "rcp85": {
+                "mid_century": 68.48310089,
+                "end_century": 74.02780151,
+                "change_from_hist_end": 8.47282028,
+                "percentile_increase_state": 30.5,
+                "percentile_increase_country": 65.25
+            },
+            "rcp45": {
+                "mid_century": 67.90660095,
+                "end_century": 71.07949829,
+                "change_from_hist_end": 5.52453995
+            }
+        },
+        "assistant": "The temperature at grid R138C362 is projected to increase by 8.47282028\u00b0F by the end of the century under RCP 8.5. This places it in the 30.5th percentile for warming within the state and 65.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R231C488 to nearby areas.",
+        "input": {
+            "grid_cell": "R231C488",
+            "historical": {
+                "temp": 48.41350174
+            },
+            "rcp85": {
+                "mid_century": 52.41080093,
+                "end_century": 60.08399963,
+                "change_from_hist_end": 11.67059994,
+                "percentile_increase_state": 94.0,
+                "percentile_increase_country": 97.0
+            },
+            "rcp45": {
+                "mid_century": 53.47629929,
+                "end_century": 55.44879913,
+                "change_from_hist_end": 7.03536987
+            }
+        },
+        "assistant": "The temperature at grid R231C488 is projected to increase by 11.67059994\u00b0F by the end of the century under RCP 8.5. This places it in the 94.0th percentile for warming within the state and 97.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R220C370 to nearby areas.",
+        "input": {
+            "grid_cell": "R220C370",
+            "historical": {
+                "temp": 48.12749863
+            },
+            "rcp85": {
+                "mid_century": 51.07020187,
+                "end_century": 57.35829926,
+                "change_from_hist_end": 9.23071003,
+                "percentile_increase_state": 55.50000000000001,
+                "percentile_increase_country": 77.75
+            },
+            "rcp45": {
+                "mid_century": 49.50960159,
+                "end_century": 53.56990051,
+                "change_from_hist_end": 5.44234991
+            }
+        },
+        "assistant": "The temperature at grid R220C370 is projected to increase by 9.23071003\u00b0F by the end of the century under RCP 8.5. This places it in the 55.50000000000001th percentile for warming within the state and 77.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R050C349 to nearby areas.",
+        "input": {
+            "grid_cell": "R050C349",
+            "historical": {
+                "temp": 78.13819885
+            },
+            "rcp85": {
+                "mid_century": 81.11579895,
+                "end_century": 86.90249634,
+                "change_from_hist_end": 8.76428986,
+                "percentile_increase_state": 40.5,
+                "percentile_increase_country": 70.25
+            },
+            "rcp45": {
+                "mid_century": 80.55709839,
+                "end_century": 83.57039642,
+                "change_from_hist_end": 5.43218994
+            }
+        },
+        "assistant": "The temperature at grid R050C349 is projected to increase by 8.76428986\u00b0F by the end of the century under RCP 8.5. This places it in the 40.5th percentile for warming within the state and 70.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R234C351 to nearby areas.",
+        "input": {
+            "grid_cell": "R234C351",
+            "historical": {
+                "temp": 48.21630096
+            },
+            "rcp85": {
+                "mid_century": 51.1733017,
+                "end_century": 58.02220154,
+                "change_from_hist_end": 9.80589962,
+                "percentile_increase_state": 80.5,
+                "percentile_increase_country": 90.25
+            },
+            "rcp45": {
+                "mid_century": 49.69680023,
+                "end_century": 54.08580017,
+                "change_from_hist_end": 5.86950016
+            }
+        },
+        "assistant": "The temperature at grid R234C351 is projected to increase by 9.80589962\u00b0F by the end of the century under RCP 8.5. This places it in the 80.5th percentile for warming within the state and 90.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R184C501 to nearby areas.",
+        "input": {
+            "grid_cell": "R184C501",
+            "historical": {
+                "temp": 60.76850128
+            },
+            "rcp85": {
+                "mid_century": 64.01260376,
+                "end_century": 69.96549988,
+                "change_from_hist_end": 9.19698048,
+                "percentile_increase_state": 53.0,
+                "percentile_increase_country": 76.5
+            },
+            "rcp45": {
+                "mid_century": 64.91329956,
+                "end_century": 66.64160156,
+                "change_from_hist_end": 5.87317991
+            }
+        },
+        "assistant": "The temperature at grid R184C501 is projected to increase by 9.19698048\u00b0F by the end of the century under RCP 8.5. This places it in the 53.0th percentile for warming within the state and 76.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R131C299 to nearby areas.",
+        "input": {
+            "grid_cell": "R131C299",
+            "historical": {
+                "temp": 54.42610168
+            },
+            "rcp85": {
+                "mid_century": 57.51440048,
+                "end_century": 63.68270111,
+                "change_from_hist_end": 9.25664043,
+                "percentile_increase_state": 58.5,
+                "percentile_increase_country": 79.25
+            },
+            "rcp45": {
+                "mid_century": 56.70130157,
+                "end_century": 58.70569992,
+                "change_from_hist_end": 4.27966976
+            }
+        },
+        "assistant": "The temperature at grid R131C299 is projected to increase by 9.25664043\u00b0F by the end of the century under RCP 8.5. This places it in the 58.5th percentile for warming within the state and 79.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R113C482 to nearby areas.",
+        "input": {
+            "grid_cell": "R113C482",
+            "historical": {
+                "temp": 71.94999695
+            },
+            "rcp85": {
+                "mid_century": 73.9815979,
+                "end_century": 79.05809784,
+                "change_from_hist_end": 7.10803986,
+                "percentile_increase_state": 8.5,
+                "percentile_increase_country": 54.0
+            },
+            "rcp45": {
+                "mid_century": 74.01080322,
+                "end_century": 75.5868988,
+                "change_from_hist_end": 3.63690996
+            }
+        },
+        "assistant": "The temperature at grid R113C482 is projected to increase by 7.10803986\u00b0F by the end of the century under RCP 8.5. This places it in the 8.5th percentile for warming within the state and 54.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R431C106 to nearby areas.",
+        "input": {
+            "grid_cell": "R431C106",
+            "historical": {
+                "temp": 33.29449844
+            },
+            "rcp85": {
+                "mid_century": 37.8409996,
+                "end_century": 45.6026001,
+                "change_from_hist_end": 12.30809975,
+                "percentile_increase_state": 96.0,
+                "percentile_increase_country": 98.0
+            },
+            "rcp45": {
+                "mid_century": 36.3227005,
+                "end_century": 36.56760025,
+                "change_from_hist_end": 3.27305007
+            }
+        },
+        "assistant": "The temperature at grid R431C106 is projected to increase by 12.30809975\u00b0F by the end of the century under RCP 8.5. This places it in the 96.0th percentile for warming within the state and 98.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R195C405 to nearby areas.",
+        "input": {
+            "grid_cell": "R195C405",
+            "historical": {
+                "temp": 53.34000015
+            },
+            "rcp85": {
+                "mid_century": 56.46549988,
+                "end_century": 62.87030029,
+                "change_from_hist_end": 9.53036022,
+                "percentile_increase_state": 71.0,
+                "percentile_increase_country": 85.5
+            },
+            "rcp45": {
+                "mid_century": 55.41699982,
+                "end_century": 58.49129868,
+                "change_from_hist_end": 5.15138006
+            }
+        },
+        "assistant": "The temperature at grid R195C405 is projected to increase by 9.53036022\u00b0F by the end of the century under RCP 8.5. This places it in the 71.0th percentile for warming within the state and 85.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R215C303 to nearby areas.",
+        "input": {
+            "grid_cell": "R215C303",
+            "historical": {
+                "temp": 54.15480042
+            },
+            "rcp85": {
+                "mid_century": 56.98519897,
+                "end_century": 63.39960098,
+                "change_from_hist_end": 9.24483013,
+                "percentile_increase_state": 56.99999999999999,
+                "percentile_increase_country": 78.5
+            },
+            "rcp45": {
+                "mid_century": 57.15890121,
+                "end_century": 60.88759995,
+                "change_from_hist_end": 6.73274994
+            }
+        },
+        "assistant": "The temperature at grid R215C303 is projected to increase by 9.24483013\u00b0F by the end of the century under RCP 8.5. This places it in the 56.99999999999999th percentile for warming within the state and 78.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R190C476 to nearby areas.",
+        "input": {
+            "grid_cell": "R190C476",
+            "historical": {
+                "temp": 54.39830017
+            },
+            "rcp85": {
+                "mid_century": 57.1405983,
+                "end_century": 63.66080093,
+                "change_from_hist_end": 9.26257038,
+                "percentile_increase_state": 59.0,
+                "percentile_increase_country": 79.5
+            },
+            "rcp45": {
+                "mid_century": 58.2641983,
+                "end_century": 60.03499985,
+                "change_from_hist_end": 5.63670015
+            }
+        },
+        "assistant": "The temperature at grid R190C476 is projected to increase by 9.26257038\u00b0F by the end of the century under RCP 8.5. This places it in the 59.0th percentile for warming within the state and 79.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R123C382 to nearby areas.",
+        "input": {
+            "grid_cell": "R123C382",
+            "historical": {
+                "temp": 66.6434021
+            },
+            "rcp85": {
+                "mid_century": 68.93219757,
+                "end_century": 74.36589813,
+                "change_from_hist_end": 7.72249985,
+                "percentile_increase_state": 14.499999999999998,
+                "percentile_increase_country": 57.25
+            },
+            "rcp45": {
+                "mid_century": 68.91049957,
+                "end_century": 70.95749664,
+                "change_from_hist_end": 4.31409979
+            }
+        },
+        "assistant": "The temperature at grid R123C382 is projected to increase by 7.72249985\u00b0F by the end of the century under RCP 8.5. This places it in the 14.499999999999998th percentile for warming within the state and 57.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R216C252 to nearby areas.",
+        "input": {
+            "grid_cell": "R216C252",
+            "historical": {
+                "temp": 44.96749878
+            },
+            "rcp85": {
+                "mid_century": 47.95190048,
+                "end_century": 54.06399918,
+                "change_from_hist_end": 9.09646034,
+                "percentile_increase_state": 50.0,
+                "percentile_increase_country": 75.0
+            },
+            "rcp45": {
+                "mid_century": 47.66030121,
+                "end_century": 50.104599,
+                "change_from_hist_end": 5.13710022
+            }
+        },
+        "assistant": "The temperature at grid R216C252 is projected to increase by 9.09646034\u00b0F by the end of the century under RCP 8.5. This places it in the 50.0th percentile for warming within the state and 75.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R145C466 to nearby areas.",
+        "input": {
+            "grid_cell": "R145C466",
+            "historical": {
+                "temp": 62.96500015
+            },
+            "rcp85": {
+                "mid_century": 65.09420013,
+                "end_century": 70.61360168,
+                "change_from_hist_end": 7.64862013,
+                "percentile_increase_state": 13.0,
+                "percentile_increase_country": 56.49999999999999
+            },
+            "rcp45": {
+                "mid_century": 65.89289856,
+                "end_century": 66.8864975,
+                "change_from_hist_end": 3.92150998
+            }
+        },
+        "assistant": "The temperature at grid R145C466 is projected to increase by 7.64862013\u00b0F by the end of the century under RCP 8.5. This places it in the 13.0th percentile for warming within the state and 56.49999999999999th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R133C252 to nearby areas.",
+        "input": {
+            "grid_cell": "R133C252",
+            "historical": {
+                "temp": 51.63769913
+            },
+            "rcp85": {
+                "mid_century": 55.22990036,
+                "end_century": 61.57770157,
+                "change_from_hist_end": 9.93999004,
+                "percentile_increase_state": 83.0,
+                "percentile_increase_country": 91.5
+            },
+            "rcp45": {
+                "mid_century": 54.64400101,
+                "end_century": 56.53319931,
+                "change_from_hist_end": 4.8955102
+            }
+        },
+        "assistant": "The temperature at grid R133C252 is projected to increase by 9.93999004\u00b0F by the end of the century under RCP 8.5. This places it in the 83.0th percentile for warming within the state and 91.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R234C507 to nearby areas.",
+        "input": {
+            "grid_cell": "R234C507",
+            "historical": {
+                "temp": 45.70320129
+            },
+            "rcp85": {
+                "mid_century": 49.64569855,
+                "end_century": 56.56489944,
+                "change_from_hist_end": 10.86159992,
+                "percentile_increase_state": 91.0,
+                "percentile_increase_country": 95.5
+            },
+            "rcp45": {
+                "mid_century": 51.04380035,
+                "end_century": 52.58959961,
+                "change_from_hist_end": 6.88634014
+            }
+        },
+        "assistant": "The temperature at grid R234C507 is projected to increase by 10.86159992\u00b0F by the end of the century under RCP 8.5. This places it in the 91.0th percentile for warming within the state and 95.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R410C083 to nearby areas.",
+        "input": {
+            "grid_cell": "R410C083",
+            "historical": {
+                "temp": 38.37530136
+            },
+            "rcp85": {
+                "mid_century": 41.83369827,
+                "end_century": 49.22299957,
+                "change_from_hist_end": 10.84770012,
+                "percentile_increase_state": 90.5,
+                "percentile_increase_country": 95.25
+            },
+            "rcp45": {
+                "mid_century": 40.64649963,
+                "end_century": 41.50170135,
+                "change_from_hist_end": 3.12637997
+            }
+        },
+        "assistant": "The temperature at grid R410C083 is projected to increase by 10.84770012\u00b0F by the end of the century under RCP 8.5. This places it in the 90.5th percentile for warming within the state and 95.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R066C417 to nearby areas.",
+        "input": {
+            "grid_cell": "R066C417",
+            "historical": {
+                "temp": 73.17350006
+            },
+            "rcp85": {
+                "mid_century": 75.40149689,
+                "end_century": 79.56929779,
+                "change_from_hist_end": 6.39581013,
+                "percentile_increase_state": 2.5,
+                "percentile_increase_country": 45.25
+            },
+            "rcp45": {
+                "mid_century": 75.07759857,
+                "end_century": 75.64720154,
+                "change_from_hist_end": 2.47373009
+            }
+        },
+        "assistant": "The temperature at grid R066C417 is projected to increase by 6.39581013\u00b0F by the end of the century under RCP 8.5. This places it in the 2.5th percentile for warming within the state and 45.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R156C471 to nearby areas.",
+        "input": {
+            "grid_cell": "R156C471",
+            "historical": {
+                "temp": 58.93849945
+            },
+            "rcp85": {
+                "mid_century": 60.86029816,
+                "end_century": 66.80020142,
+                "change_from_hist_end": 7.86166,
+                "percentile_increase_state": 16.0,
+                "percentile_increase_country": 57.99999999999999
+            },
+            "rcp45": {
+                "mid_century": 61.90999985,
+                "end_century": 63.49240112,
+                "change_from_hist_end": 4.55383015
+            }
+        },
+        "assistant": "The temperature at grid R156C471 is projected to increase by 7.86166\u00b0F by the end of the century under RCP 8.5. This places it in the 16.0th percentile for warming within the state and 57.99999999999999th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R091C273 to nearby areas.",
+        "input": {
+            "grid_cell": "R091C273",
+            "historical": {
+                "temp": 60.44670105
+            },
+            "rcp85": {
+                "mid_century": 63.42459869,
+                "end_century": 69.69719696,
+                "change_from_hist_end": 9.25053978,
+                "percentile_increase_state": 57.99999999999999,
+                "percentile_increase_country": 79.0
+            },
+            "rcp45": {
+                "mid_century": 63.45800018,
+                "end_century": 65.12039948,
+                "change_from_hist_end": 4.67369986
+            }
+        },
+        "assistant": "The temperature at grid R091C273 is projected to increase by 9.25053978\u00b0F by the end of the century under RCP 8.5. This places it in the 57.99999999999999th percentile for warming within the state and 79.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R184C243 to nearby areas.",
+        "input": {
+            "grid_cell": "R184C243",
+            "historical": {
+                "temp": 46.89590073
+            },
+            "rcp85": {
+                "mid_century": 50.10319901,
+                "end_century": 56.707901,
+                "change_from_hist_end": 9.81200027,
+                "percentile_increase_state": 81.0,
+                "percentile_increase_country": 90.5
+            },
+            "rcp45": {
+                "mid_century": 49.51649857,
+                "end_century": 51.18040085,
+                "change_from_hist_end": 4.2845602
+            }
+        },
+        "assistant": "The temperature at grid R184C243 is projected to increase by 9.81200027\u00b0F by the end of the century under RCP 8.5. This places it in the 81.0th percentile for warming within the state and 90.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R159C240 to nearby areas.",
+        "input": {
+            "grid_cell": "R159C240",
+            "historical": {
+                "temp": 53.50880051
+            },
+            "rcp85": {
+                "mid_century": 56.8105011,
+                "end_century": 63.42409897,
+                "change_from_hist_end": 9.91537952,
+                "percentile_increase_state": 82.5,
+                "percentile_increase_country": 91.25
+            },
+            "rcp45": {
+                "mid_century": 56.4109993,
+                "end_century": 58.59999847,
+                "change_from_hist_end": 5.09129
+            }
+        },
+        "assistant": "The temperature at grid R159C240 is projected to increase by 9.91537952\u00b0F by the end of the century under RCP 8.5. This places it in the 82.5th percentile for warming within the state and 91.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R128C343 to nearby areas.",
+        "input": {
+            "grid_cell": "R128C343",
+            "historical": {
+                "temp": 68.12660217
+            },
+            "rcp85": {
+                "mid_century": 71.42780304,
+                "end_century": 76.97750092,
+                "change_from_hist_end": 8.85091972,
+                "percentile_increase_state": 41.5,
+                "percentile_increase_country": 70.75
+            },
+            "rcp45": {
+                "mid_century": 70.46820068,
+                "end_century": 73.978302,
+                "change_from_hist_end": 5.85170984
+            }
+        },
+        "assistant": "The temperature at grid R128C343 is projected to increase by 8.85091972\u00b0F by the end of the century under RCP 8.5. This places it in the 41.5th percentile for warming within the state and 70.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R190C488 to nearby areas.",
+        "input": {
+            "grid_cell": "R190C488",
+            "historical": {
+                "temp": 55.14910126
+            },
+            "rcp85": {
+                "mid_century": 58.37990189,
+                "end_century": 64.67040253,
+                "change_from_hist_end": 9.52130032,
+                "percentile_increase_state": 70.0,
+                "percentile_increase_country": 85.0
+            },
+            "rcp45": {
+                "mid_century": 59.44990158,
+                "end_century": 61.42070007,
+                "change_from_hist_end": 6.27165985
+            }
+        },
+        "assistant": "The temperature at grid R190C488 is projected to increase by 9.52130032\u00b0F by the end of the century under RCP 8.5. This places it in the 70.0th percentile for warming within the state and 85.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R386C069 to nearby areas.",
+        "input": {
+            "grid_cell": "R386C069",
+            "historical": {
+                "temp": 39.06010056
+            },
+            "rcp85": {
+                "mid_century": 43.60430145,
+                "end_century": 49.74909973,
+                "change_from_hist_end": 10.68900013,
+                "percentile_increase_state": 89.5,
+                "percentile_increase_country": 94.75
+            },
+            "rcp45": {
+                "mid_century": 41.61930084,
+                "end_century": 41.67860031,
+                "change_from_hist_end": 2.61847997
+            }
+        },
+        "assistant": "The temperature at grid R386C069 is projected to increase by 10.68900013\u00b0F by the end of the century under RCP 8.5. This places it in the 89.5th percentile for warming within the state and 94.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R178C510 to nearby areas.",
+        "input": {
+            "grid_cell": "R178C510",
+            "historical": {
+                "temp": 61.90499878
+            },
+            "rcp85": {
+                "mid_century": 64.36219788,
+                "end_century": 69.58799744,
+                "change_from_hist_end": 7.6830101,
+                "percentile_increase_state": 14.000000000000002,
+                "percentile_increase_country": 56.99999999999999
+            },
+            "rcp45": {
+                "mid_century": 65.02549744,
+                "end_century": 65.82520294,
+                "change_from_hist_end": 3.9201901
+            }
+        },
+        "assistant": "The temperature at grid R178C510 is projected to increase by 7.6830101\u00b0F by the end of the century under RCP 8.5. This places it in the 14.000000000000002th percentile for warming within the state and 56.99999999999999th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R105C472 to nearby areas.",
+        "input": {
+            "grid_cell": "R105C472",
+            "historical": {
+                "temp": 72.61109924
+            },
+            "rcp85": {
+                "mid_century": 74.70110321,
+                "end_century": 79.48609924,
+                "change_from_hist_end": 6.87503004,
+                "percentile_increase_state": 5.5,
+                "percentile_increase_country": 51.0
+            },
+            "rcp45": {
+                "mid_century": 74.75389862,
+                "end_century": 76.14849854,
+                "change_from_hist_end": 3.53743005
+            }
+        },
+        "assistant": "The temperature at grid R105C472 is projected to increase by 6.87503004\u00b0F by the end of the century under RCP 8.5. This places it in the 5.5th percentile for warming within the state and 51.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R166C351 to nearby areas.",
+        "input": {
+            "grid_cell": "R166C351",
+            "historical": {
+                "temp": 61.4131012
+            },
+            "rcp85": {
+                "mid_century": 63.68510056,
+                "end_century": 70.12030029,
+                "change_from_hist_end": 8.70716,
+                "percentile_increase_state": 38.5,
+                "percentile_increase_country": 69.25
+            },
+            "rcp45": {
+                "mid_century": 63.1841011,
+                "end_century": 68.17960358,
+                "change_from_hist_end": 6.76653004
+            }
+        },
+        "assistant": "The temperature at grid R166C351 is projected to increase by 8.70716\u00b0F by the end of the century under RCP 8.5. This places it in the 38.5th percentile for warming within the state and 69.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R387C113 to nearby areas.",
+        "input": {
+            "grid_cell": "R387C113",
+            "historical": {
+                "temp": 41.62459946
+            },
+            "rcp85": {
+                "mid_century": 45.7784996,
+                "end_century": 50.55649948,
+                "change_from_hist_end": 8.93188,
+                "percentile_increase_state": 44.0,
+                "percentile_increase_country": 72.0
+            },
+            "rcp45": {
+                "mid_century": 45.56529999,
+                "end_century": 45.71149826,
+                "change_from_hist_end": 4.08696985
+            }
+        },
+        "assistant": "The temperature at grid R387C113 is projected to increase by 8.93188\u00b0F by the end of the century under RCP 8.5. This places it in the 44.0th percentile for warming within the state and 72.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R071C342 to nearby areas.",
+        "input": {
+            "grid_cell": "R071C342",
+            "historical": {
+                "temp": 72.65200043
+            },
+            "rcp85": {
+                "mid_century": 75.59970093,
+                "end_century": 81.28289795,
+                "change_from_hist_end": 8.63086033,
+                "percentile_increase_state": 35.5,
+                "percentile_increase_country": 67.75
+            },
+            "rcp45": {
+                "mid_century": 74.85489655,
+                "end_century": 77.78690338,
+                "change_from_hist_end": 5.13496017
+            }
+        },
+        "assistant": "The temperature at grid R071C342 is projected to increase by 8.63086033\u00b0F by the end of the century under RCP 8.5. This places it in the 35.5th percentile for warming within the state and 67.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R227C216 to nearby areas.",
+        "input": {
+            "grid_cell": "R227C216",
+            "historical": {
+                "temp": 55.1086998
+            },
+            "rcp85": {
+                "mid_century": 58.46989822,
+                "end_century": 64.63950348,
+                "change_from_hist_end": 9.53075027,
+                "percentile_increase_state": 71.5,
+                "percentile_increase_country": 85.75
+            },
+            "rcp45": {
+                "mid_century": 57.97900009,
+                "end_century": 60.34379959,
+                "change_from_hist_end": 5.23514986
+            }
+        },
+        "assistant": "The temperature at grid R227C216 is projected to increase by 9.53075027\u00b0F by the end of the century under RCP 8.5. This places it in the 71.5th percentile for warming within the state and 85.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R070C386 to nearby areas.",
+        "input": {
+            "grid_cell": "R070C386",
+            "historical": {
+                "temp": 75.11910248
+            },
+            "rcp85": {
+                "mid_century": 77.47019958,
+                "end_century": 83.0707016,
+                "change_from_hist_end": 7.95151997,
+                "percentile_increase_state": 18.5,
+                "percentile_increase_country": 59.25
+            },
+            "rcp45": {
+                "mid_century": 77.06510162,
+                "end_century": 79.48329926,
+                "change_from_hist_end": 4.36415005
+            }
+        },
+        "assistant": "The temperature at grid R070C386 is projected to increase by 7.95151997\u00b0F by the end of the century under RCP 8.5. This places it in the 18.5th percentile for warming within the state and 59.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R152C190 to nearby areas.",
+        "input": {
+            "grid_cell": "R152C190",
+            "historical": {
+                "temp": 74.09210205
+            },
+            "rcp85": {
+                "mid_century": 76.52290344,
+                "end_century": 81.95899963,
+                "change_from_hist_end": 7.86686993,
+                "percentile_increase_state": 16.5,
+                "percentile_increase_country": 58.25
+            },
+            "rcp45": {
+                "mid_century": 75.97979736,
+                "end_century": 76.98059845,
+                "change_from_hist_end": 2.88852
+            }
+        },
+        "assistant": "The temperature at grid R152C190 is projected to increase by 7.86686993\u00b0F by the end of the century under RCP 8.5. This places it in the 16.5th percentile for warming within the state and 58.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R197C258 to nearby areas.",
+        "input": {
+            "grid_cell": "R197C258",
+            "historical": {
+                "temp": 45.59590149
+            },
+            "rcp85": {
+                "mid_century": 48.68719864,
+                "end_century": 54.88940048,
+                "change_from_hist_end": 9.29356003,
+                "percentile_increase_state": 62.0,
+                "percentile_increase_country": 81.0
+            },
+            "rcp45": {
+                "mid_century": 48.44430161,
+                "end_century": 50.57780075,
+                "change_from_hist_end": 4.98196983
+            }
+        },
+        "assistant": "The temperature at grid R197C258 is projected to increase by 9.29356003\u00b0F by the end of the century under RCP 8.5. This places it in the 62.0th percentile for warming within the state and 81.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R105C306 to nearby areas.",
+        "input": {
+            "grid_cell": "R105C306",
+            "historical": {
+                "temp": 63.57550049
+            },
+            "rcp85": {
+                "mid_century": 66.76779938,
+                "end_century": 73.10399628,
+                "change_from_hist_end": 9.5284996,
+                "percentile_increase_state": 70.5,
+                "percentile_increase_country": 85.25
+            },
+            "rcp45": {
+                "mid_century": 66.01080322,
+                "end_century": 68.56700134,
+                "change_from_hist_end": 4.99146986
+            }
+        },
+        "assistant": "The temperature at grid R105C306 is projected to increase by 9.5284996\u00b0F by the end of the century under RCP 8.5. This places it in the 70.5th percentile for warming within the state and 85.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R186C453 to nearby areas.",
+        "input": {
+            "grid_cell": "R186C453",
+            "historical": {
+                "temp": 55.43239975
+            },
+            "rcp85": {
+                "mid_century": 58.52119827,
+                "end_century": 65.25830078,
+                "change_from_hist_end": 9.82590008,
+                "percentile_increase_state": 81.5,
+                "percentile_increase_country": 90.75
+            },
+            "rcp45": {
+                "mid_century": 59.23500061,
+                "end_century": 61.53590012,
+                "change_from_hist_end": 6.10356998
+            }
+        },
+        "assistant": "The temperature at grid R186C453 is projected to increase by 9.82590008\u00b0F by the end of the century under RCP 8.5. This places it in the 81.5th percentile for warming within the state and 90.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R231C279 to nearby areas.",
+        "input": {
+            "grid_cell": "R231C279",
+            "historical": {
+                "temp": 50.27429962
+            },
+            "rcp85": {
+                "mid_century": 53.43700027,
+                "end_century": 59.72710037,
+                "change_from_hist_end": 9.45273972,
+                "percentile_increase_state": 68.5,
+                "percentile_increase_country": 84.25
+            },
+            "rcp45": {
+                "mid_century": 53.68780136,
+                "end_century": 57.36510086,
+                "change_from_hist_end": 7.09078979
+            }
+        },
+        "assistant": "The temperature at grid R231C279 is projected to increase by 9.45273972\u00b0F by the end of the century under RCP 8.5. This places it in the 68.5th percentile for warming within the state and 84.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R212C354 to nearby areas.",
+        "input": {
+            "grid_cell": "R212C354",
+            "historical": {
+                "temp": 53.5
+            },
+            "rcp85": {
+                "mid_century": 56.17890167,
+                "end_century": 62.88410187,
+                "change_from_hist_end": 9.38414001,
+                "percentile_increase_state": 68.0,
+                "percentile_increase_country": 84.0
+            },
+            "rcp45": {
+                "mid_century": 54.92359924,
+                "end_century": 59.71829987,
+                "change_from_hist_end": 6.21836996
+            }
+        },
+        "assistant": "The temperature at grid R212C354 is projected to increase by 9.38414001\u00b0F by the end of the century under RCP 8.5. This places it in the 68.0th percentile for warming within the state and 84.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R079C287 to nearby areas.",
+        "input": {
+            "grid_cell": "R079C287",
+            "historical": {
+                "temp": 69.70359802
+            },
+            "rcp85": {
+                "mid_century": 72.56890106,
+                "end_century": 79.00469971,
+                "change_from_hist_end": 9.30109024,
+                "percentile_increase_state": 63.0,
+                "percentile_increase_country": 81.5
+            },
+            "rcp45": {
+                "mid_century": 72.05460358,
+                "end_century": 74.14160156,
+                "change_from_hist_end": 4.43793011
+            }
+        },
+        "assistant": "The temperature at grid R079C287 is projected to increase by 9.30109024\u00b0F by the end of the century under RCP 8.5. This places it in the 63.0th percentile for warming within the state and 81.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R077C344 to nearby areas.",
+        "input": {
+            "grid_cell": "R077C344",
+            "historical": {
+                "temp": 74.25859833
+            },
+            "rcp85": {
+                "mid_century": 77.26650238,
+                "end_century": 82.90499878,
+                "change_from_hist_end": 8.64647007,
+                "percentile_increase_state": 36.5,
+                "percentile_increase_country": 68.25
+            },
+            "rcp45": {
+                "mid_century": 76.50980377,
+                "end_century": 79.52510071,
+                "change_from_hist_end": 5.26657009
+            }
+        },
+        "assistant": "The temperature at grid R077C344 is projected to increase by 8.64647007\u00b0F by the end of the century under RCP 8.5. This places it in the 36.5th percentile for warming within the state and 68.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R458C071 to nearby areas.",
+        "input": {
+            "grid_cell": "R458C071",
+            "historical": {
+                "temp": 28.34550095
+            },
+            "rcp85": {
+                "mid_century": 34.00709915,
+                "end_century": 44.38679886,
+                "change_from_hist_end": 16.04129982,
+                "percentile_increase_state": 99.5,
+                "percentile_increase_country": 99.75
+            },
+            "rcp45": {
+                "mid_century": 33.20560074,
+                "end_century": 35.1753006,
+                "change_from_hist_end": 6.82981014
+            }
+        },
+        "assistant": "The temperature at grid R458C071 is projected to increase by 16.04129982\u00b0F by the end of the century under RCP 8.5. This places it in the 99.5th percentile for warming within the state and 99.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R146C182 to nearby areas.",
+        "input": {
+            "grid_cell": "R146C182",
+            "historical": {
+                "temp": 68.02290344
+            },
+            "rcp85": {
+                "mid_century": 70.63410187,
+                "end_century": 74.97180176,
+                "change_from_hist_end": 6.94891024,
+                "percentile_increase_state": 6.5,
+                "percentile_increase_country": 52.0
+            },
+            "rcp45": {
+                "mid_century": 70.03579712,
+                "end_century": 70.87979889,
+                "change_from_hist_end": 2.85694003
+            }
+        },
+        "assistant": "The temperature at grid R146C182 is projected to increase by 6.94891024\u00b0F by the end of the century under RCP 8.5. This places it in the 6.5th percentile for warming within the state and 52.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R216C276 to nearby areas.",
+        "input": {
+            "grid_cell": "R216C276",
+            "historical": {
+                "temp": 50.71110153
+            },
+            "rcp85": {
+                "mid_century": 53.98080063,
+                "end_century": 59.95840073,
+                "change_from_hist_end": 9.24730015,
+                "percentile_increase_state": 57.49999999999999,
+                "percentile_increase_country": 78.75
+            },
+            "rcp45": {
+                "mid_century": 54.18569946,
+                "end_century": 57.64410019,
+                "change_from_hist_end": 6.93298006
+            }
+        },
+        "assistant": "The temperature at grid R216C276 is projected to increase by 9.24730015\u00b0F by the end of the century under RCP 8.5. This places it in the 57.49999999999999th percentile for warming within the state and 78.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R070C399 to nearby areas.",
+        "input": {
+            "grid_cell": "R070C399",
+            "historical": {
+                "temp": 73.86270142
+            },
+            "rcp85": {
+                "mid_century": 76.2888031,
+                "end_century": 81.24169922,
+                "change_from_hist_end": 7.37897015,
+                "percentile_increase_state": 11.0,
+                "percentile_increase_country": 55.50000000000001
+            },
+            "rcp45": {
+                "mid_century": 75.4539032,
+                "end_century": 77.23860168,
+                "change_from_hist_end": 3.37586999
+            }
+        },
+        "assistant": "The temperature at grid R070C399 is projected to increase by 7.37897015\u00b0F by the end of the century under RCP 8.5. This places it in the 11.0th percentile for warming within the state and 55.50000000000001th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R176C330 to nearby areas.",
+        "input": {
+            "grid_cell": "R176C330",
+            "historical": {
+                "temp": 59.21319962
+            },
+            "rcp85": {
+                "mid_century": 62.02560043,
+                "end_century": 68.52570343,
+                "change_from_hist_end": 9.31245041,
+                "percentile_increase_state": 64.5,
+                "percentile_increase_country": 82.25
+            },
+            "rcp45": {
+                "mid_century": 62.05279922,
+                "end_century": 65.74089813,
+                "change_from_hist_end": 6.52762985
+            }
+        },
+        "assistant": "The temperature at grid R176C330 is projected to increase by 9.31245041\u00b0F by the end of the century under RCP 8.5. This places it in the 64.5th percentile for warming within the state and 82.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R445C124 to nearby areas.",
+        "input": {
+            "grid_cell": "R445C124",
+            "historical": {
+                "temp": 26.40439987
+            },
+            "rcp85": {
+                "mid_century": 31.15320015,
+                "end_century": 38.24969864,
+                "change_from_hist_end": 11.84529972,
+                "percentile_increase_state": 95.0,
+                "percentile_increase_country": 97.5
+            },
+            "rcp45": {
+                "mid_century": 30.15660095,
+                "end_century": 29.89319992,
+                "change_from_hist_end": 3.48882008
+            }
+        },
+        "assistant": "The temperature at grid R445C124 is projected to increase by 11.84529972\u00b0F by the end of the century under RCP 8.5. This places it in the 95.0th percentile for warming within the state and 97.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R165C363 to nearby areas.",
+        "input": {
+            "grid_cell": "R165C363",
+            "historical": {
+                "temp": 61.84909821
+            },
+            "rcp85": {
+                "mid_century": 64.23899841,
+                "end_century": 70.59220123,
+                "change_from_hist_end": 8.74308014,
+                "percentile_increase_state": 40.0,
+                "percentile_increase_country": 70.0
+            },
+            "rcp45": {
+                "mid_century": 63.4314003,
+                "end_century": 68.19750214,
+                "change_from_hist_end": 6.34845018
+            }
+        },
+        "assistant": "The temperature at grid R165C363 is projected to increase by 8.74308014\u00b0F by the end of the century under RCP 8.5. This places it in the 40.0th percentile for warming within the state and 70.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R210C487 to nearby areas.",
+        "input": {
+            "grid_cell": "R210C487",
+            "historical": {
+                "temp": 51.10240173
+            },
+            "rcp85": {
+                "mid_century": 54.62559891,
+                "end_century": 61.51480103,
+                "change_from_hist_end": 10.41240025,
+                "percentile_increase_state": 87.5,
+                "percentile_increase_country": 93.75
+            },
+            "rcp45": {
+                "mid_century": 55.52399826,
+                "end_century": 57.80319977,
+                "change_from_hist_end": 6.70084
+            }
+        },
+        "assistant": "The temperature at grid R210C487 is projected to increase by 10.41240025\u00b0F by the end of the century under RCP 8.5. This places it in the 87.5th percentile for warming within the state and 93.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R133C215 to nearby areas.",
+        "input": {
+            "grid_cell": "R133C215",
+            "historical": {
+                "temp": 54.71080017
+            },
+            "rcp85": {
+                "mid_century": 57.65520096,
+                "end_century": 64.01989746,
+                "change_from_hist_end": 9.30910015,
+                "percentile_increase_state": 64.0,
+                "percentile_increase_country": 82.0
+            },
+            "rcp45": {
+                "mid_century": 57.78990173,
+                "end_century": 58.71500015,
+                "change_from_hist_end": 4.00418997
+            }
+        },
+        "assistant": "The temperature at grid R133C215 is projected to increase by 9.30910015\u00b0F by the end of the century under RCP 8.5. This places it in the 64.0th percentile for warming within the state and 82.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R193C330 to nearby areas.",
+        "input": {
+            "grid_cell": "R193C330",
+            "historical": {
+                "temp": 58.60770035
+            },
+            "rcp85": {
+                "mid_century": 60.88759995,
+                "end_century": 67.93470001,
+                "change_from_hist_end": 9.32699966,
+                "percentile_increase_state": 65.5,
+                "percentile_increase_country": 82.75
+            },
+            "rcp45": {
+                "mid_century": 60.52529907,
+                "end_century": 65.21469879,
+                "change_from_hist_end": 6.60695982
+            }
+        },
+        "assistant": "The temperature at grid R193C330 is projected to increase by 9.32699966\u00b0F by the end of the century under RCP 8.5. This places it in the 65.5th percentile for warming within the state and 82.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R144C186 to nearby areas.",
+        "input": {
+            "grid_cell": "R144C186",
+            "historical": {
+                "temp": 71.94059753
+            },
+            "rcp85": {
+                "mid_century": 74.3615036,
+                "end_century": 79.0358963,
+                "change_from_hist_end": 7.0953002,
+                "percentile_increase_state": 8.0,
+                "percentile_increase_country": 53.75
+            },
+            "rcp45": {
+                "mid_century": 73.65529633,
+                "end_century": 74.5664978,
+                "change_from_hist_end": 2.62589002
+            }
+        },
+        "assistant": "The temperature at grid R144C186 is projected to increase by 7.0953002\u00b0F by the end of the century under RCP 8.5. This places it in the 8.0th percentile for warming within the state and 53.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R110C363 to nearby areas.",
+        "input": {
+            "grid_cell": "R110C363",
+            "historical": {
+                "temp": 70.39209747
+            },
+            "rcp85": {
+                "mid_century": 73.54090118,
+                "end_century": 78.73549652,
+                "change_from_hist_end": 8.34344959,
+                "percentile_increase_state": 26.5,
+                "percentile_increase_country": 63.24999999999999
+            },
+            "rcp45": {
+                "mid_century": 73.12950134,
+                "end_century": 75.44409943,
+                "change_from_hist_end": 5.05201006
+            }
+        },
+        "assistant": "The temperature at grid R110C363 is projected to increase by 8.34344959\u00b0F by the end of the century under RCP 8.5. This places it in the 26.5th percentile for warming within the state and 63.24999999999999th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R215C476 to nearby areas.",
+        "input": {
+            "grid_cell": "R215C476",
+            "historical": {
+                "temp": 47.19960022
+            },
+            "rcp85": {
+                "mid_century": 51.01530075,
+                "end_century": 58.43399811,
+                "change_from_hist_end": 11.2343998,
+                "percentile_increase_state": 92.0,
+                "percentile_increase_country": 96.0
+            },
+            "rcp45": {
+                "mid_century": 51.89239883,
+                "end_century": 53.17770004,
+                "change_from_hist_end": 5.97805023
+            }
+        },
+        "assistant": "The temperature at grid R215C476 is projected to increase by 11.2343998\u00b0F by the end of the century under RCP 8.5. This places it in the 92.0th percentile for warming within the state and 96.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R208C343 to nearby areas.",
+        "input": {
+            "grid_cell": "R208C343",
+            "historical": {
+                "temp": 53.92979813
+            },
+            "rcp85": {
+                "mid_century": 56.52629852,
+                "end_century": 63.24280167,
+                "change_from_hist_end": 9.31299973,
+                "percentile_increase_state": 65.0,
+                "percentile_increase_country": 82.5
+            },
+            "rcp45": {
+                "mid_century": 55.41960144,
+                "end_century": 60.70619965,
+                "change_from_hist_end": 6.77642012
+            }
+        },
+        "assistant": "The temperature at grid R208C343 is projected to increase by 9.31299973\u00b0F by the end of the century under RCP 8.5. This places it in the 65.0th percentile for warming within the state and 82.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R151C455 to nearby areas.",
+        "input": {
+            "grid_cell": "R151C455",
+            "historical": {
+                "temp": 62.49679947
+            },
+            "rcp85": {
+                "mid_century": 64.92610168,
+                "end_century": 70.77179718,
+                "change_from_hist_end": 8.27495003,
+                "percentile_increase_state": 25.5,
+                "percentile_increase_country": 62.74999999999999
+            },
+            "rcp45": {
+                "mid_century": 65.85420227,
+                "end_century": 67.00019836,
+                "change_from_hist_end": 4.50334978
+            }
+        },
+        "assistant": "The temperature at grid R151C455 is projected to increase by 8.27495003\u00b0F by the end of the century under RCP 8.5. This places it in the 25.5th percentile for warming within the state and 62.74999999999999th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R179C345 to nearby areas.",
+        "input": {
+            "grid_cell": "R179C345",
+            "historical": {
+                "temp": 60.07120132
+            },
+            "rcp85": {
+                "mid_century": 62.77220154,
+                "end_century": 69.31390381,
+                "change_from_hist_end": 9.24273968,
+                "percentile_increase_state": 56.49999999999999,
+                "percentile_increase_country": 78.25
+            },
+            "rcp45": {
+                "mid_century": 62.61809921,
+                "end_century": 67.28569794,
+                "change_from_hist_end": 7.21455002
+            }
+        },
+        "assistant": "The temperature at grid R179C345 is projected to increase by 9.24273968\u00b0F by the end of the century under RCP 8.5. This places it in the 56.49999999999999th percentile for warming within the state and 78.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R173C189 to nearby areas.",
+        "input": {
+            "grid_cell": "R173C189",
+            "historical": {
+                "temp": 47.16999817
+            },
+            "rcp85": {
+                "mid_century": 50.05419922,
+                "end_century": 55.93579865,
+                "change_from_hist_end": 8.76583004,
+                "percentile_increase_state": 41.0,
+                "percentile_increase_country": 70.5
+            },
+            "rcp45": {
+                "mid_century": 49.58729935,
+                "end_century": 50.99720001,
+                "change_from_hist_end": 3.82726002
+            }
+        },
+        "assistant": "The temperature at grid R173C189 is projected to increase by 8.76583004\u00b0F by the end of the century under RCP 8.5. This places it in the 41.0th percentile for warming within the state and 70.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R183C443 to nearby areas.",
+        "input": {
+            "grid_cell": "R183C443",
+            "historical": {
+                "temp": 56.51050186
+            },
+            "rcp85": {
+                "mid_century": 59.46829987,
+                "end_century": 66.17479706,
+                "change_from_hist_end": 9.66429043,
+                "percentile_increase_state": 75.0,
+                "percentile_increase_country": 87.5
+            },
+            "rcp45": {
+                "mid_century": 59.95780182,
+                "end_century": 62.6495018,
+                "change_from_hist_end": 6.13905001
+            }
+        },
+        "assistant": "The temperature at grid R183C443 is projected to increase by 9.66429043\u00b0F by the end of the century under RCP 8.5. This places it in the 75.0th percentile for warming within the state and 87.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R054C352 to nearby areas.",
+        "input": {
+            "grid_cell": "R054C352",
+            "historical": {
+                "temp": 76.65740204
+            },
+            "rcp85": {
+                "mid_century": 79.78890228,
+                "end_century": 85.29650116,
+                "change_from_hist_end": 8.63910007,
+                "percentile_increase_state": 36.0,
+                "percentile_increase_country": 68.0
+            },
+            "rcp45": {
+                "mid_century": 79.21669769,
+                "end_century": 82.26670074,
+                "change_from_hist_end": 5.60924006
+            }
+        },
+        "assistant": "The temperature at grid R054C352 is projected to increase by 8.63910007\u00b0F by the end of the century under RCP 8.5. This places it in the 36.0th percentile for warming within the state and 68.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R382C133 to nearby areas.",
+        "input": {
+            "grid_cell": "R382C133",
+            "historical": {
+                "temp": 31.32789993
+            },
+            "rcp85": {
+                "mid_century": 35.79610062,
+                "end_century": 39.57350159,
+                "change_from_hist_end": 8.24567986,
+                "percentile_increase_state": 24.5,
+                "percentile_increase_country": 62.25000000000001
+            },
+            "rcp45": {
+                "mid_century": 34.46350098,
+                "end_century": 35.4375,
+                "change_from_hist_end": 4.10966015
+            }
+        },
+        "assistant": "The temperature at grid R382C133 is projected to increase by 8.24567986\u00b0F by the end of the century under RCP 8.5. This places it in the 24.5th percentile for warming within the state and 62.25000000000001th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R163C476 to nearby areas.",
+        "input": {
+            "grid_cell": "R163C476",
+            "historical": {
+                "temp": 55.20949936
+            },
+            "rcp85": {
+                "mid_century": 57.33670044,
+                "end_century": 63.25930023,
+                "change_from_hist_end": 8.04985046,
+                "percentile_increase_state": 20.5,
+                "percentile_increase_country": 60.25
+            },
+            "rcp45": {
+                "mid_century": 58.68460083,
+                "end_century": 59.93799973,
+                "change_from_hist_end": 4.72845984
+            }
+        },
+        "assistant": "The temperature at grid R163C476 is projected to increase by 8.04985046\u00b0F by the end of the century under RCP 8.5. This places it in the 20.5th percentile for warming within the state and 60.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R166C356 to nearby areas.",
+        "input": {
+            "grid_cell": "R166C356",
+            "historical": {
+                "temp": 61.43330002
+            },
+            "rcp85": {
+                "mid_century": 63.77429962,
+                "end_century": 70.10119629,
+                "change_from_hist_end": 8.66798973,
+                "percentile_increase_state": 37.5,
+                "percentile_increase_country": 68.75
+            },
+            "rcp45": {
+                "mid_century": 62.97240067,
+                "end_century": 67.98570251,
+                "change_from_hist_end": 6.55241013
+            }
+        },
+        "assistant": "The temperature at grid R166C356 is projected to increase by 8.66798973\u00b0F by the end of the century under RCP 8.5. This places it in the 37.5th percentile for warming within the state and 68.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R120C396 to nearby areas.",
+        "input": {
+            "grid_cell": "R120C396",
+            "historical": {
+                "temp": 65.37619781
+            },
+            "rcp85": {
+                "mid_century": 67.81479645,
+                "end_century": 73.16480255,
+                "change_from_hist_end": 7.78853989,
+                "percentile_increase_state": 15.0,
+                "percentile_increase_country": 57.49999999999999
+            },
+            "rcp45": {
+                "mid_century": 67.52529907,
+                "end_century": 69.88999939,
+                "change_from_hist_end": 4.51373005
+            }
+        },
+        "assistant": "The temperature at grid R120C396 is projected to increase by 7.78853989\u00b0F by the end of the century under RCP 8.5. This places it in the 15.0th percentile for warming within the state and 57.49999999999999th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R151C377 to nearby areas.",
+        "input": {
+            "grid_cell": "R151C377",
+            "historical": {
+                "temp": 64.01059723
+            },
+            "rcp85": {
+                "mid_century": 66.59590149,
+                "end_century": 72.1135025,
+                "change_from_hist_end": 8.10284996,
+                "percentile_increase_state": 21.5,
+                "percentile_increase_country": 60.75000000000001
+            },
+            "rcp45": {
+                "mid_century": 65.78450012,
+                "end_century": 68.9233017,
+                "change_from_hist_end": 4.91265011
+            }
+        },
+        "assistant": "The temperature at grid R151C377 is projected to increase by 8.10284996\u00b0F by the end of the century under RCP 8.5. This places it in the 21.5th percentile for warming within the state and 60.75000000000001th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R169C285 to nearby areas.",
+        "input": {
+            "grid_cell": "R169C285",
+            "historical": {
+                "temp": 48.44469833
+            },
+            "rcp85": {
+                "mid_century": 51.71020126,
+                "end_century": 58.68149948,
+                "change_from_hist_end": 10.23680019,
+                "percentile_increase_state": 86.5,
+                "percentile_increase_country": 93.25
+            },
+            "rcp45": {
+                "mid_century": 51.07080078,
+                "end_century": 53.03419876,
+                "change_from_hist_end": 4.58948994
+            }
+        },
+        "assistant": "The temperature at grid R169C285 is projected to increase by 10.23680019\u00b0F by the end of the century under RCP 8.5. This places it in the 86.5th percentile for warming within the state and 93.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R229C514 to nearby areas.",
+        "input": {
+            "grid_cell": "R229C514",
+            "historical": {
+                "temp": 51.3370018
+            },
+            "rcp85": {
+                "mid_century": 55.10680008,
+                "end_century": 61.7901001,
+                "change_from_hist_end": 10.4531002,
+                "percentile_increase_state": 88.5,
+                "percentile_increase_country": 94.25
+            },
+            "rcp45": {
+                "mid_century": 56.4090004,
+                "end_century": 57.83850098,
+                "change_from_hist_end": 6.50149012
+            }
+        },
+        "assistant": "The temperature at grid R229C514 is projected to increase by 10.4531002\u00b0F by the end of the century under RCP 8.5. This places it in the 88.5th percentile for warming within the state and 94.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R207C391 to nearby areas.",
+        "input": {
+            "grid_cell": "R207C391",
+            "historical": {
+                "temp": 50.29589844
+            },
+            "rcp85": {
+                "mid_century": 53.19010162,
+                "end_century": 59.4131012,
+                "change_from_hist_end": 9.11723042,
+                "percentile_increase_state": 51.0,
+                "percentile_increase_country": 75.5
+            },
+            "rcp45": {
+                "mid_century": 51.89120102,
+                "end_century": 55.41770172,
+                "change_from_hist_end": 5.12182999
+            }
+        },
+        "assistant": "The temperature at grid R207C391 is projected to increase by 9.11723042\u00b0F by the end of the century under RCP 8.5. This places it in the 51.0th percentile for warming within the state and 75.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R178C234 to nearby areas.",
+        "input": {
+            "grid_cell": "R178C234",
+            "historical": {
+                "temp": 60.39450073
+            },
+            "rcp85": {
+                "mid_century": 62.9978981,
+                "end_century": 69.75039673,
+                "change_from_hist_end": 9.35589981,
+                "percentile_increase_state": 66.5,
+                "percentile_increase_country": 83.25
+            },
+            "rcp45": {
+                "mid_century": 62.9457016,
+                "end_century": 65.26979828,
+                "change_from_hist_end": 4.87533998
+            }
+        },
+        "assistant": "The temperature at grid R178C234 is projected to increase by 9.35589981\u00b0F by the end of the century under RCP 8.5. This places it in the 66.5th percentile for warming within the state and 83.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R207C382 to nearby areas.",
+        "input": {
+            "grid_cell": "R207C382",
+            "historical": {
+                "temp": 50.54320145
+            },
+            "rcp85": {
+                "mid_century": 53.61719894,
+                "end_century": 59.917099,
+                "change_from_hist_end": 9.37386036,
+                "percentile_increase_state": 67.0,
+                "percentile_increase_country": 83.5
+            },
+            "rcp45": {
+                "mid_century": 52.21429825,
+                "end_century": 56.0379982,
+                "change_from_hist_end": 5.49475002
+            }
+        },
+        "assistant": "The temperature at grid R207C382 is projected to increase by 9.37386036\u00b0F by the end of the century under RCP 8.5. This places it in the 67.0th percentile for warming within the state and 83.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R231C385 to nearby areas.",
+        "input": {
+            "grid_cell": "R231C385",
+            "historical": {
+                "temp": 43.83879852
+            },
+            "rcp85": {
+                "mid_century": 46.92639923,
+                "end_century": 52.98880005,
+                "change_from_hist_end": 9.14995956,
+                "percentile_increase_state": 51.5,
+                "percentile_increase_country": 75.75
+            },
+            "rcp45": {
+                "mid_century": 45.52180099,
+                "end_century": 48.93050003,
+                "change_from_hist_end": 5.0917201
+            }
+        },
+        "assistant": "The temperature at grid R231C385 is projected to increase by 9.14995956\u00b0F by the end of the century under RCP 8.5. This places it in the 51.5th percentile for warming within the state and 75.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R108C318 to nearby areas.",
+        "input": {
+            "grid_cell": "R108C318",
+            "historical": {
+                "temp": 68.70089722
+            },
+            "rcp85": {
+                "mid_century": 72.07579803,
+                "end_century": 77.90129852,
+                "change_from_hist_end": 9.20032978,
+                "percentile_increase_state": 54.0,
+                "percentile_increase_country": 77.0
+            },
+            "rcp45": {
+                "mid_century": 70.80419922,
+                "end_century": 73.5684967,
+                "change_from_hist_end": 4.86759996
+            }
+        },
+        "assistant": "The temperature at grid R108C318 is projected to increase by 9.20032978\u00b0F by the end of the century under RCP 8.5. This places it in the 54.0th percentile for warming within the state and 77.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R400C090 to nearby areas.",
+        "input": {
+            "grid_cell": "R400C090",
+            "historical": {
+                "temp": 36.24069977
+            },
+            "rcp85": {
+                "mid_century": 40.80250168,
+                "end_century": 46.22610092,
+                "change_from_hist_end": 9.98542023,
+                "percentile_increase_state": 84.0,
+                "percentile_increase_country": 92.0
+            },
+            "rcp45": {
+                "mid_century": 39.3932991,
+                "end_century": 39.38550186,
+                "change_from_hist_end": 3.14484
+            }
+        },
+        "assistant": "The temperature at grid R400C090 is projected to increase by 9.98542023\u00b0F by the end of the century under RCP 8.5. This places it in the 84.0th percentile for warming within the state and 92.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R132C221 to nearby areas.",
+        "input": {
+            "grid_cell": "R132C221",
+            "historical": {
+                "temp": 59.2947998
+            },
+            "rcp85": {
+                "mid_century": 62.34370041,
+                "end_century": 68.60040283,
+                "change_from_hist_end": 9.30558968,
+                "percentile_increase_state": 63.5,
+                "percentile_increase_country": 81.75
+            },
+            "rcp45": {
+                "mid_century": 62.12060165,
+                "end_century": 63.39599991,
+                "change_from_hist_end": 4.10114002
+            }
+        },
+        "assistant": "The temperature at grid R132C221 is projected to increase by 9.30558968\u00b0F by the end of the century under RCP 8.5. This places it in the 63.5th percentile for warming within the state and 81.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R398C121 to nearby areas.",
+        "input": {
+            "grid_cell": "R398C121",
+            "historical": {
+                "temp": 28.02499962
+            },
+            "rcp85": {
+                "mid_century": 32.5603981,
+                "end_century": 36.92309952,
+                "change_from_hist_end": 8.8980999,
+                "percentile_increase_state": 43.0,
+                "percentile_increase_country": 71.5
+            },
+            "rcp45": {
+                "mid_century": 30.95549965,
+                "end_century": 30.94169998,
+                "change_from_hist_end": 2.91665006
+            }
+        },
+        "assistant": "The temperature at grid R398C121 is projected to increase by 8.8980999\u00b0F by the end of the century under RCP 8.5. This places it in the 43.0th percentile for warming within the state and 71.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R190C320 to nearby areas.",
+        "input": {
+            "grid_cell": "R190C320",
+            "historical": {
+                "temp": 59.56389999
+            },
+            "rcp85": {
+                "mid_century": 62.10820007,
+                "end_century": 69.07489777,
+                "change_from_hist_end": 9.51097965,
+                "percentile_increase_state": 69.5,
+                "percentile_increase_country": 84.75
+            },
+            "rcp45": {
+                "mid_century": 62.09180069,
+                "end_century": 66.22450256,
+                "change_from_hist_end": 6.66062021
+            }
+        },
+        "assistant": "The temperature at grid R190C320 is projected to increase by 9.51097965\u00b0F by the end of the century under RCP 8.5. This places it in the 69.5th percentile for warming within the state and 84.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R083C288 to nearby areas.",
+        "input": {
+            "grid_cell": "R083C288",
+            "historical": {
+                "temp": 67.36329651
+            },
+            "rcp85": {
+                "mid_century": 70.19799805,
+                "end_century": 76.74019623,
+                "change_from_hist_end": 9.37695026,
+                "percentile_increase_state": 67.5,
+                "percentile_increase_country": 83.75
+            },
+            "rcp45": {
+                "mid_century": 69.59329987,
+                "end_century": 71.78440094,
+                "change_from_hist_end": 4.42113018
+            }
+        },
+        "assistant": "The temperature at grid R083C288 is projected to increase by 9.37695026\u00b0F by the end of the century under RCP 8.5. This places it in the 67.5th percentile for warming within the state and 83.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R174C177 to nearby areas.",
+        "input": {
+            "grid_cell": "R174C177",
+            "historical": {
+                "temp": 59.28730011
+            },
+            "rcp85": {
+                "mid_century": 62.05350113,
+                "end_century": 65.63839722,
+                "change_from_hist_end": 6.35108995,
+                "percentile_increase_state": 2.0,
+                "percentile_increase_country": 44.75
+            },
+            "rcp45": {
+                "mid_century": 61.60509872,
+                "end_century": 62.20600128,
+                "change_from_hist_end": 2.91867995
+            }
+        },
+        "assistant": "The temperature at grid R174C177 is projected to increase by 6.35108995\u00b0F by the end of the century under RCP 8.5. This places it in the 2.0th percentile for warming within the state and 44.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R110C386 to nearby areas.",
+        "input": {
+            "grid_cell": "R110C386",
+            "historical": {
+                "temp": 66.9681015
+            },
+            "rcp85": {
+                "mid_century": 69.64929962,
+                "end_century": 74.93199921,
+                "change_from_hist_end": 7.96393013,
+                "percentile_increase_state": 19.0,
+                "percentile_increase_country": 59.5
+            },
+            "rcp45": {
+                "mid_century": 69.43759918,
+                "end_century": 71.35980225,
+                "change_from_hist_end": 4.39167976
+            }
+        },
+        "assistant": "The temperature at grid R110C386 is projected to increase by 7.96393013\u00b0F by the end of the century under RCP 8.5. This places it in the 19.0th percentile for warming within the state and 59.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R156C417 to nearby areas.",
+        "input": {
+            "grid_cell": "R156C417",
+            "historical": {
+                "temp": 61.68830109
+            },
+            "rcp85": {
+                "mid_century": 64.42150116,
+                "end_century": 70.69100189,
+                "change_from_hist_end": 9.00273991,
+                "percentile_increase_state": 46.5,
+                "percentile_increase_country": 73.25
+            },
+            "rcp45": {
+                "mid_century": 64.71640015,
+                "end_century": 67.44999695,
+                "change_from_hist_end": 5.76167011
+            }
+        },
+        "assistant": "The temperature at grid R156C417 is projected to increase by 9.00273991\u00b0F by the end of the century under RCP 8.5. This places it in the 46.5th percentile for warming within the state and 73.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R436C113 to nearby areas.",
+        "input": {
+            "grid_cell": "R436C113",
+            "historical": {
+                "temp": 30.22520065
+            },
+            "rcp85": {
+                "mid_century": 34.55179977,
+                "end_century": 41.90819931,
+                "change_from_hist_end": 11.68299961,
+                "percentile_increase_state": 94.5,
+                "percentile_increase_country": 97.25
+            },
+            "rcp45": {
+                "mid_century": 33.04059982,
+                "end_century": 33.29330063,
+                "change_from_hist_end": 3.06803989
+            }
+        },
+        "assistant": "The temperature at grid R436C113 is projected to increase by 11.68299961\u00b0F by the end of the century under RCP 8.5. This places it in the 94.5th percentile for warming within the state and 97.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R452C169 to nearby areas.",
+        "input": {
+            "grid_cell": "R452C169",
+            "historical": {
+                "temp": 19.5625
+            },
+            "rcp85": {
+                "mid_century": 27.90999985,
+                "end_century": 36.03469849,
+                "change_from_hist_end": 16.4720993,
+                "percentile_increase_state": 100.0,
+                "percentile_increase_country": 100.0
+            },
+            "rcp45": {
+                "mid_century": 24.18470001,
+                "end_century": 24.28179932,
+                "change_from_hist_end": 4.71923018
+            }
+        },
+        "assistant": "The temperature at grid R452C169 is projected to increase by 16.4720993\u00b0F by the end of the century under RCP 8.5. This places it in the 100.0th percentile for warming within the state and 100.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R117C257 to nearby areas.",
+        "input": {
+            "grid_cell": "R117C257",
+            "historical": {
+                "temp": 61.93590164
+            },
+            "rcp85": {
+                "mid_century": 65.14759827,
+                "end_century": 71.64109802,
+                "change_from_hist_end": 9.70522022,
+                "percentile_increase_state": 77.0,
+                "percentile_increase_country": 88.5
+            },
+            "rcp45": {
+                "mid_century": 64.02320099,
+                "end_century": 65.93170166,
+                "change_from_hist_end": 3.99572992
+            }
+        },
+        "assistant": "The temperature at grid R117C257 is projected to increase by 9.70522022\u00b0F by the end of the century under RCP 8.5. This places it in the 77.0th percentile for warming within the state and 88.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R347C162 to nearby areas.",
+        "input": {
+            "grid_cell": "R347C162",
+            "historical": {
+                "temp": 27.20490074
+            },
+            "rcp85": {
+                "mid_century": 30.53389931,
+                "end_century": 32.99010086,
+                "change_from_hist_end": 5.78524017,
+                "percentile_increase_state": 1.0,
+                "percentile_increase_country": 39.75
+            },
+            "rcp45": {
+                "mid_century": 29.42149925,
+                "end_century": 30.54269981,
+                "change_from_hist_end": 3.33786988
+            }
+        },
+        "assistant": "The temperature at grid R347C162 is projected to increase by 5.78524017\u00b0F by the end of the century under RCP 8.5. This places it in the 1.0th percentile for warming within the state and 39.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R227C263 to nearby areas.",
+        "input": {
+            "grid_cell": "R227C263",
+            "historical": {
+                "temp": 51.64410019
+            },
+            "rcp85": {
+                "mid_century": 55.06169891,
+                "end_century": 60.9817009,
+                "change_from_hist_end": 9.33755016,
+                "percentile_increase_state": 66.0,
+                "percentile_increase_country": 83.0
+            },
+            "rcp45": {
+                "mid_century": 55.27479935,
+                "end_century": 58.48910141,
+                "change_from_hist_end": 6.84497976
+            }
+        },
+        "assistant": "The temperature at grid R227C263 is projected to increase by 9.33755016\u00b0F by the end of the century under RCP 8.5. This places it in the 66.0th percentile for warming within the state and 83.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R112C226 to nearby areas.",
+        "input": {
+            "grid_cell": "R112C226",
+            "historical": {
+                "temp": 66.49169922
+            },
+            "rcp85": {
+                "mid_century": 69.41750336,
+                "end_century": 75.10169983,
+                "change_from_hist_end": 8.60999012,
+                "percentile_increase_state": 34.5,
+                "percentile_increase_country": 67.25
+            },
+            "rcp45": {
+                "mid_century": 68.58429718,
+                "end_century": 70.36460114,
+                "change_from_hist_end": 3.87283993
+            }
+        },
+        "assistant": "The temperature at grid R112C226 is projected to increase by 8.60999012\u00b0F by the end of the century under RCP 8.5. This places it in the 34.5th percentile for warming within the state and 67.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R089C226 to nearby areas.",
+        "input": {
+            "grid_cell": "R089C226",
+            "historical": {
+                "temp": 85.34130096
+            },
+            "rcp85": {
+                "mid_century": 88.1115036,
+                "end_century": 93.76029968,
+                "change_from_hist_end": 8.41903973,
+                "percentile_increase_state": 28.999999999999996,
+                "percentile_increase_country": 64.5
+            },
+            "rcp45": {
+                "mid_century": 87.30719757,
+                "end_century": 88.8789978,
+                "change_from_hist_end": 3.53769994
+            }
+        },
+        "assistant": "The temperature at grid R089C226 is projected to increase by 8.41903973\u00b0F by the end of the century under RCP 8.5. This places it in the 28.999999999999996th percentile for warming within the state and 64.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R170C243 to nearby areas.",
+        "input": {
+            "grid_cell": "R170C243",
+            "historical": {
+                "temp": 51.93579865
+            },
+            "rcp85": {
+                "mid_century": 54.84960175,
+                "end_century": 61.70069885,
+                "change_from_hist_end": 9.76486969,
+                "percentile_increase_state": 78.5,
+                "percentile_increase_country": 89.25
+            },
+            "rcp45": {
+                "mid_century": 54.42470169,
+                "end_century": 56.47029877,
+                "change_from_hist_end": 4.53450012
+            }
+        },
+        "assistant": "The temperature at grid R170C243 is projected to increase by 9.76486969\u00b0F by the end of the century under RCP 8.5. This places it in the 78.5th percentile for warming within the state and 89.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R404C057 to nearby areas.",
+        "input": {
+            "grid_cell": "R404C057",
+            "historical": {
+                "temp": 39.69900131
+            },
+            "rcp85": {
+                "mid_century": 43.63119888,
+                "end_century": 51.10580063,
+                "change_from_hist_end": 11.40680027,
+                "percentile_increase_state": 92.5,
+                "percentile_increase_country": 96.25
+            },
+            "rcp45": {
+                "mid_century": 42.10480118,
+                "end_century": 42.4090004,
+                "change_from_hist_end": 2.71000004
+            }
+        },
+        "assistant": "The temperature at grid R404C057 is projected to increase by 11.40680027\u00b0F by the end of the century under RCP 8.5. This places it in the 92.5th percentile for warming within the state and 96.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R095C410 to nearby areas.",
+        "input": {
+            "grid_cell": "R095C410",
+            "historical": {
+                "temp": 72.25119781
+            },
+            "rcp85": {
+                "mid_century": 74.9654007,
+                "end_century": 80.6631012,
+                "change_from_hist_end": 8.41189957,
+                "percentile_increase_state": 28.499999999999996,
+                "percentile_increase_country": 64.25
+            },
+            "rcp45": {
+                "mid_century": 74.97029877,
+                "end_century": 76.61450195,
+                "change_from_hist_end": 4.36332989
+            }
+        },
+        "assistant": "The temperature at grid R095C410 is projected to increase by 8.41189957\u00b0F by the end of the century under RCP 8.5. This places it in the 28.499999999999996th percentile for warming within the state and 64.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R229C272 to nearby areas.",
+        "input": {
+            "grid_cell": "R229C272",
+            "historical": {
+                "temp": 52.65029907
+            },
+            "rcp85": {
+                "mid_century": 55.78079987,
+                "end_century": 62.13019943,
+                "change_from_hist_end": 9.47988987,
+                "percentile_increase_state": 69.0,
+                "percentile_increase_country": 84.5
+            },
+            "rcp45": {
+                "mid_century": 56.20349884,
+                "end_century": 59.66339874,
+                "change_from_hist_end": 7.01312017
+            }
+        },
+        "assistant": "The temperature at grid R229C272 is projected to increase by 9.47988987\u00b0F by the end of the century under RCP 8.5. This places it in the 69.0th percentile for warming within the state and 84.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R430C041 to nearby areas.",
+        "input": {
+            "grid_cell": "R430C041",
+            "historical": {
+                "temp": 33.14360046
+            },
+            "rcp85": {
+                "mid_century": 37.71900177,
+                "end_century": 47.58840179,
+                "change_from_hist_end": 14.44489956,
+                "percentile_increase_state": 99.0,
+                "percentile_increase_country": 99.5
+            },
+            "rcp45": {
+                "mid_century": 36.21530151,
+                "end_century": 37.77460098,
+                "change_from_hist_end": 4.63101006
+            }
+        },
+        "assistant": "The temperature at grid R430C041 is projected to increase by 14.44489956\u00b0F by the end of the century under RCP 8.5. This places it in the 99.0th percentile for warming within the state and 99.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R425C108 to nearby areas.",
+        "input": {
+            "grid_cell": "R425C108",
+            "historical": {
+                "temp": 32.85269928
+            },
+            "rcp85": {
+                "mid_century": 37.082901,
+                "end_century": 44.52149963,
+                "change_from_hist_end": 11.66880035,
+                "percentile_increase_state": 93.5,
+                "percentile_increase_country": 96.75
+            },
+            "rcp45": {
+                "mid_century": 35.80739975,
+                "end_century": 36.17269897,
+                "change_from_hist_end": 3.32000995
+            }
+        },
+        "assistant": "The temperature at grid R425C108 is projected to increase by 11.66880035\u00b0F by the end of the century under RCP 8.5. This places it in the 93.5th percentile for warming within the state and 96.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R370C133 to nearby areas.",
+        "input": {
+            "grid_cell": "R370C133",
+            "historical": {
+                "temp": 29.98880005
+            },
+            "rcp85": {
+                "mid_century": 32.99599838,
+                "end_century": 34.64550018,
+                "change_from_hist_end": 4.65667009,
+                "percentile_increase_state": 0.5,
+                "percentile_increase_country": 25.75
+            },
+            "rcp45": {
+                "mid_century": 32.08520126,
+                "end_century": 32.59120178,
+                "change_from_hist_end": 2.60239005
+            }
+        },
+        "assistant": "The temperature at grid R370C133 is projected to increase by 4.65667009\u00b0F by the end of the century under RCP 8.5. This places it in the 0.5th percentile for warming within the state and 25.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R149C318 to nearby areas.",
+        "input": {
+            "grid_cell": "R149C318",
+            "historical": {
+                "temp": 60.60269928
+            },
+            "rcp85": {
+                "mid_century": 63.85329819,
+                "end_century": 70.28769684,
+                "change_from_hist_end": 9.68494034,
+                "percentile_increase_state": 76.0,
+                "percentile_increase_country": 88.0
+            },
+            "rcp45": {
+                "mid_century": 63.76869965,
+                "end_century": 66.88480377,
+                "change_from_hist_end": 6.28204012
+            }
+        },
+        "assistant": "The temperature at grid R149C318 is projected to increase by 9.68494034\u00b0F by the end of the century under RCP 8.5. This places it in the 76.0th percentile for warming within the state and 88.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R090C254 to nearby areas.",
+        "input": {
+            "grid_cell": "R090C254",
+            "historical": {
+                "temp": 81.0617981
+            },
+            "rcp85": {
+                "mid_century": 84.11669922,
+                "end_century": 89.65730286,
+                "change_from_hist_end": 8.59547043,
+                "percentile_increase_state": 34.0,
+                "percentile_increase_country": 67.0
+            },
+            "rcp45": {
+                "mid_century": 83.43979645,
+                "end_century": 84.86990356,
+                "change_from_hist_end": 3.80806994
+            }
+        },
+        "assistant": "The temperature at grid R090C254 is projected to increase by 8.59547043\u00b0F by the end of the century under RCP 8.5. This places it in the 34.0th percentile for warming within the state and 67.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R155C394 to nearby areas.",
+        "input": {
+            "grid_cell": "R155C394",
+            "historical": {
+                "temp": 63.00450134
+            },
+            "rcp85": {
+                "mid_century": 65.35669708,
+                "end_century": 71.24639893,
+                "change_from_hist_end": 8.24184036,
+                "percentile_increase_state": 24.0,
+                "percentile_increase_country": 62.0
+            },
+            "rcp45": {
+                "mid_century": 65.16989899,
+                "end_century": 67.95800018,
+                "change_from_hist_end": 4.95350981
+            }
+        },
+        "assistant": "The temperature at grid R155C394 is projected to increase by 8.24184036\u00b0F by the end of the century under RCP 8.5. This places it in the 24.0th percentile for warming within the state and 62.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R187C239 to nearby areas.",
+        "input": {
+            "grid_cell": "R187C239",
+            "historical": {
+                "temp": 39.9029007
+            },
+            "rcp85": {
+                "mid_century": 43.06949997,
+                "end_century": 48.99489975,
+                "change_from_hist_end": 9.09195042,
+                "percentile_increase_state": 49.5,
+                "percentile_increase_country": 74.75
+            },
+            "rcp45": {
+                "mid_century": 42.50500107,
+                "end_century": 44.06930161,
+                "change_from_hist_end": 4.16639996
+            }
+        },
+        "assistant": "The temperature at grid R187C239 is projected to increase by 9.09195042\u00b0F by the end of the century under RCP 8.5. This places it in the 49.5th percentile for warming within the state and 74.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R182C384 to nearby areas.",
+        "input": {
+            "grid_cell": "R182C384",
+            "historical": {
+                "temp": 56.61029816
+            },
+            "rcp85": {
+                "mid_century": 59.34170151,
+                "end_century": 65.77030182,
+                "change_from_hist_end": 9.16001987,
+                "percentile_increase_state": 52.0,
+                "percentile_increase_country": 76.0
+            },
+            "rcp45": {
+                "mid_century": 58.26390076,
+                "end_century": 62.52909851,
+                "change_from_hist_end": 5.91882992
+            }
+        },
+        "assistant": "The temperature at grid R182C384 is projected to increase by 9.16001987\u00b0F by the end of the century under RCP 8.5. This places it in the 52.0th percentile for warming within the state and 76.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R162C404 to nearby areas.",
+        "input": {
+            "grid_cell": "R162C404",
+            "historical": {
+                "temp": 61.86780167
+            },
+            "rcp85": {
+                "mid_century": 64.12809753,
+                "end_century": 70.34919739,
+                "change_from_hist_end": 8.48139,
+                "percentile_increase_state": 31.0,
+                "percentile_increase_country": 65.5
+            },
+            "rcp45": {
+                "mid_century": 64.68379974,
+                "end_century": 67.11699677,
+                "change_from_hist_end": 5.24926996
+            }
+        },
+        "assistant": "The temperature at grid R162C404 is projected to increase by 8.48139\u00b0F by the end of the century under RCP 8.5. This places it in the 31.0th percentile for warming within the state and 65.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R171C220 to nearby areas.",
+        "input": {
+            "grid_cell": "R171C220",
+            "historical": {
+                "temp": 50.68709946
+            },
+            "rcp85": {
+                "mid_century": 53.53269958,
+                "end_century": 60.26670074,
+                "change_from_hist_end": 9.57952976,
+                "percentile_increase_state": 72.0,
+                "percentile_increase_country": 86.0
+            },
+            "rcp45": {
+                "mid_century": 53.42760086,
+                "end_century": 55.15240097,
+                "change_from_hist_end": 4.46528006
+            }
+        },
+        "assistant": "The temperature at grid R171C220 is projected to increase by 9.57952976\u00b0F by the end of the century under RCP 8.5. This places it in the 72.0th percentile for warming within the state and 86.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R153C266 to nearby areas.",
+        "input": {
+            "grid_cell": "R153C266",
+            "historical": {
+                "temp": 51.78450012
+            },
+            "rcp85": {
+                "mid_century": 54.9958992,
+                "end_century": 61.78710175,
+                "change_from_hist_end": 10.00259972,
+                "percentile_increase_state": 84.5,
+                "percentile_increase_country": 92.25
+            },
+            "rcp45": {
+                "mid_century": 54.50759888,
+                "end_century": 56.21749878,
+                "change_from_hist_end": 4.43309021
+            }
+        },
+        "assistant": "The temperature at grid R153C266 is projected to increase by 10.00259972\u00b0F by the end of the century under RCP 8.5. This places it in the 84.5th percentile for warming within the state and 92.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R206C261 to nearby areas.",
+        "input": {
+            "grid_cell": "R206C261",
+            "historical": {
+                "temp": 49.13890076
+            },
+            "rcp85": {
+                "mid_century": 52.26139832,
+                "end_century": 58.36819839,
+                "change_from_hist_end": 9.2293396,
+                "percentile_increase_state": 55.00000000000001,
+                "percentile_increase_country": 77.5
+            },
+            "rcp45": {
+                "mid_century": 52.27930069,
+                "end_century": 54.99530029,
+                "change_from_hist_end": 5.85636997
+            }
+        },
+        "assistant": "The temperature at grid R206C261 is projected to increase by 9.2293396\u00b0F by the end of the century under RCP 8.5. This places it in the 55.00000000000001th percentile for warming within the state and 77.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R202C318 to nearby areas.",
+        "input": {
+            "grid_cell": "R202C318",
+            "historical": {
+                "temp": 55.43180084
+            },
+            "rcp85": {
+                "mid_century": 57.75669861,
+                "end_century": 64.44809723,
+                "change_from_hist_end": 9.01632023,
+                "percentile_increase_state": 47.0,
+                "percentile_increase_country": 73.5
+            },
+            "rcp45": {
+                "mid_century": 57.4231987,
+                "end_century": 61.74489975,
+                "change_from_hist_end": 6.3131299
+            }
+        },
+        "assistant": "The temperature at grid R202C318 is projected to increase by 9.01632023\u00b0F by the end of the century under RCP 8.5. This places it in the 47.0th percentile for warming within the state and 73.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R177C359 to nearby areas.",
+        "input": {
+            "grid_cell": "R177C359",
+            "historical": {
+                "temp": 59.78170013
+            },
+            "rcp85": {
+                "mid_century": 62.04290009,
+                "end_century": 68.76599884,
+                "change_from_hist_end": 8.98429012,
+                "percentile_increase_state": 45.5,
+                "percentile_increase_country": 72.75
+            },
+            "rcp45": {
+                "mid_century": 61.34140015,
+                "end_century": 66.56400299,
+                "change_from_hist_end": 6.7823
+            }
+        },
+        "assistant": "The temperature at grid R177C359 is projected to increase by 8.98429012\u00b0F by the end of the century under RCP 8.5. This places it in the 45.5th percentile for warming within the state and 72.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R452C140 to nearby areas.",
+        "input": {
+            "grid_cell": "R452C140",
+            "historical": {
+                "temp": 17.69580078
+            },
+            "rcp85": {
+                "mid_century": 21.94510078,
+                "end_century": 28.53969955,
+                "change_from_hist_end": 10.84389973,
+                "percentile_increase_state": 90.0,
+                "percentile_increase_country": 95.0
+            },
+            "rcp45": {
+                "mid_century": 20.07889938,
+                "end_century": 20.45560074,
+                "change_from_hist_end": 2.75976992
+            }
+        },
+        "assistant": "The temperature at grid R452C140 is projected to increase by 10.84389973\u00b0F by the end of the century under RCP 8.5. This places it in the 90.0th percentile for warming within the state and 95.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R197C429 to nearby areas.",
+        "input": {
+            "grid_cell": "R197C429",
+            "historical": {
+                "temp": 52.26010132
+            },
+            "rcp85": {
+                "mid_century": 55.52949905,
+                "end_century": 61.87239838,
+                "change_from_hist_end": 9.61238003,
+                "percentile_increase_state": 73.0,
+                "percentile_increase_country": 86.5
+            },
+            "rcp45": {
+                "mid_century": 55.09769821,
+                "end_century": 57.74610138,
+                "change_from_hist_end": 5.48608017
+            }
+        },
+        "assistant": "The temperature at grid R197C429 is projected to increase by 9.61238003\u00b0F by the end of the century under RCP 8.5. This places it in the 73.0th percentile for warming within the state and 86.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R151C389 to nearby areas.",
+        "input": {
+            "grid_cell": "R151C389",
+            "historical": {
+                "temp": 64.26300049
+            },
+            "rcp85": {
+                "mid_century": 66.64520264,
+                "end_century": 72.25289917,
+                "change_from_hist_end": 7.98991013,
+                "percentile_increase_state": 20.0,
+                "percentile_increase_country": 60.0
+            },
+            "rcp45": {
+                "mid_century": 66.16770172,
+                "end_century": 69.11360168,
+                "change_from_hist_end": 4.8505702
+            }
+        },
+        "assistant": "The temperature at grid R151C389 is projected to increase by 7.98991013\u00b0F by the end of the century under RCP 8.5. This places it in the 20.0th percentile for warming within the state and 60.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R100C215 to nearby areas.",
+        "input": {
+            "grid_cell": "R100C215",
+            "historical": {
+                "temp": 70.81259918
+            },
+            "rcp85": {
+                "mid_century": 73.63439941,
+                "end_century": 78.4394989,
+                "change_from_hist_end": 7.62693024,
+                "percentile_increase_state": 12.5,
+                "percentile_increase_country": 56.25
+            },
+            "rcp45": {
+                "mid_century": 73.05950165,
+                "end_century": 74.34739685,
+                "change_from_hist_end": 3.53484988
+            }
+        },
+        "assistant": "The temperature at grid R100C215 is projected to increase by 7.62693024\u00b0F by the end of the century under RCP 8.5. This places it in the 12.5th percentile for warming within the state and 56.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R161C395 to nearby areas.",
+        "input": {
+            "grid_cell": "R161C395",
+            "historical": {
+                "temp": 61.89030075
+            },
+            "rcp85": {
+                "mid_century": 64.17910004,
+                "end_century": 70.32620239,
+                "change_from_hist_end": 8.43585014,
+                "percentile_increase_state": 29.5,
+                "percentile_increase_country": 64.75
+            },
+            "rcp45": {
+                "mid_century": 63.99909973,
+                "end_century": 67.10910034,
+                "change_from_hist_end": 5.21872997
+            }
+        },
+        "assistant": "The temperature at grid R161C395 is projected to increase by 8.43585014\u00b0F by the end of the century under RCP 8.5. This places it in the 29.5th percentile for warming within the state and 64.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R138C269 to nearby areas.",
+        "input": {
+            "grid_cell": "R138C269",
+            "historical": {
+                "temp": 62.91859818
+            },
+            "rcp85": {
+                "mid_century": 66.167099,
+                "end_century": 72.71690369,
+                "change_from_hist_end": 9.79827023,
+                "percentile_increase_state": 79.5,
+                "percentile_increase_country": 89.75
+            },
+            "rcp45": {
+                "mid_century": 64.96620178,
+                "end_century": 67.14579773,
+                "change_from_hist_end": 4.22721004
+            }
+        },
+        "assistant": "The temperature at grid R138C269 is projected to increase by 9.79827023\u00b0F by the end of the century under RCP 8.5. This places it in the 79.5th percentile for warming within the state and 89.75th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R150C437 to nearby areas.",
+        "input": {
+            "grid_cell": "R150C437",
+            "historical": {
+                "temp": 62.5522995
+            },
+            "rcp85": {
+                "mid_century": 65.11640167,
+                "end_century": 71.06539917,
+                "change_from_hist_end": 8.51309013,
+                "percentile_increase_state": 32.0,
+                "percentile_increase_country": 66.0
+            },
+            "rcp45": {
+                "mid_century": 65.59420013,
+                "end_century": 67.49520111,
+                "change_from_hist_end": 4.9429698
+            }
+        },
+        "assistant": "The temperature at grid R150C437 is projected to increase by 8.51309013\u00b0F by the end of the century under RCP 8.5. This places it in the 32.0th percentile for warming within the state and 66.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R119C230 to nearby areas.",
+        "input": {
+            "grid_cell": "R119C230",
+            "historical": {
+                "temp": 71.56539917
+            },
+            "rcp85": {
+                "mid_century": 74.34380341,
+                "end_century": 80.42030334,
+                "change_from_hist_end": 8.85486984,
+                "percentile_increase_state": 42.0,
+                "percentile_increase_country": 71.0
+            },
+            "rcp45": {
+                "mid_century": 73.53220367,
+                "end_century": 75.41619873,
+                "change_from_hist_end": 3.85077
+            }
+        },
+        "assistant": "The temperature at grid R119C230 is projected to increase by 8.85486984\u00b0F by the end of the century under RCP 8.5. This places it in the 42.0th percentile for warming within the state and 71.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R230C387 to nearby areas.",
+        "input": {
+            "grid_cell": "R230C387",
+            "historical": {
+                "temp": 42.5
+            },
+            "rcp85": {
+                "mid_century": 45.81489944,
+                "end_century": 51.74240112,
+                "change_from_hist_end": 9.24236012,
+                "percentile_increase_state": 56.00000000000001,
+                "percentile_increase_country": 78.0
+            },
+            "rcp45": {
+                "mid_century": 44.56529999,
+                "end_century": 47.70759964,
+                "change_from_hist_end": 5.20757008
+            }
+        },
+        "assistant": "The temperature at grid R230C387 is projected to increase by 9.24236012\u00b0F by the end of the century under RCP 8.5. This places it in the 56.00000000000001th percentile for warming within the state and 78.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R196C212 to nearby areas.",
+        "input": {
+            "grid_cell": "R196C212",
+            "historical": {
+                "temp": 54.68159866
+            },
+            "rcp85": {
+                "mid_century": 57.73450089,
+                "end_century": 63.72460175,
+                "change_from_hist_end": 9.04296017,
+                "percentile_increase_state": 48.5,
+                "percentile_increase_country": 74.25
+            },
+            "rcp45": {
+                "mid_century": 57.7560997,
+                "end_century": 59.83800125,
+                "change_from_hist_end": 5.15642977
+            }
+        },
+        "assistant": "The temperature at grid R196C212 is projected to increase by 9.04296017\u00b0F by the end of the century under RCP 8.5. This places it in the 48.5th percentile for warming within the state and 74.25th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R122C273 to nearby areas.",
+        "input": {
+            "grid_cell": "R122C273",
+            "historical": {
+                "temp": 61.00419998
+            },
+            "rcp85": {
+                "mid_century": 64.65950012,
+                "end_century": 70.80660248,
+                "change_from_hist_end": 9.80233002,
+                "percentile_increase_state": 80.0,
+                "percentile_increase_country": 90.0
+            },
+            "rcp45": {
+                "mid_century": 63.31159973,
+                "end_century": 65.17050171,
+                "change_from_hist_end": 4.16628981
+            }
+        },
+        "assistant": "The temperature at grid R122C273 is projected to increase by 9.80233002\u00b0F by the end of the century under RCP 8.5. This places it in the 80.0th percentile for warming within the state and 90.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R421C147 to nearby areas.",
+        "input": {
+            "grid_cell": "R421C147",
+            "historical": {
+                "temp": 29.5442009
+            },
+            "rcp85": {
+                "mid_century": 35.82979965,
+                "end_century": 42.2901001,
+                "change_from_hist_end": 12.74590015,
+                "percentile_increase_state": 97.0,
+                "percentile_increase_country": 98.5
+            },
+            "rcp45": {
+                "mid_century": 33.26890182,
+                "end_century": 33.11019897,
+                "change_from_hist_end": 3.56599998
+            }
+        },
+        "assistant": "The temperature at grid R421C147 is projected to increase by 12.74590015\u00b0F by the end of the century under RCP 8.5. This places it in the 97.0th percentile for warming within the state and 98.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R163C174 to nearby areas.",
+        "input": {
+            "grid_cell": "R163C174",
+            "historical": {
+                "temp": 58.27149963
+            },
+            "rcp85": {
+                "mid_century": 60.43119812,
+                "end_century": 64.29229736,
+                "change_from_hist_end": 6.0207901,
+                "percentile_increase_state": 1.5,
+                "percentile_increase_country": 42.0
+            },
+            "rcp45": {
+                "mid_century": 60.29270172,
+                "end_century": 60.95759964,
+                "change_from_hist_end": 2.68610001
+            }
+        },
+        "assistant": "The temperature at grid R163C174 is projected to increase by 6.0207901\u00b0F by the end of the century under RCP 8.5. This places it in the 1.5th percentile for warming within the state and 42.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R200C334 to nearby areas.",
+        "input": {
+            "grid_cell": "R200C334",
+            "historical": {
+                "temp": 55.53910065
+            },
+            "rcp85": {
+                "mid_century": 58.04240036,
+                "end_century": 64.82460022,
+                "change_from_hist_end": 9.28542995,
+                "percentile_increase_state": 61.0,
+                "percentile_increase_country": 80.5
+            },
+            "rcp45": {
+                "mid_century": 57.18780136,
+                "end_century": 62.14239883,
+                "change_from_hist_end": 6.60323
+            }
+        },
+        "assistant": "The temperature at grid R200C334 is projected to increase by 9.28542995\u00b0F by the end of the century under RCP 8.5. This places it in the 61.0th percentile for warming within the state and 80.5th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R145C486 to nearby areas.",
+        "input": {
+            "grid_cell": "R145C486",
+            "historical": {
+                "temp": 65.00700378
+            },
+            "rcp85": {
+                "mid_century": 67.75260162,
+                "end_century": 72.94629669,
+                "change_from_hist_end": 7.93920994,
+                "percentile_increase_state": 18.0,
+                "percentile_increase_country": 59.0
+            },
+            "rcp45": {
+                "mid_century": 68.2193985,
+                "end_century": 69.60119629,
+                "change_from_hist_end": 4.59415007
+            }
+        },
+        "assistant": "The temperature at grid R145C486 is projected to increase by 7.93920994\u00b0F by the end of the century under RCP 8.5. This places it in the 18.0th percentile for warming within the state and 59.0th percentile nationally."
+    },
+    {
+        "user": "Compare the maximum annual temperature increase at grid R162C288 to nearby areas.",
+        "input": {
+            "grid_cell": "R162C288",
+            "historical": {
+                "temp": 45.4878006
+            },
+            "rcp85": {
+                "mid_century": 48.70119858,
+                "end_century": 55.64910126,
+                "change_from_hist_end": 10.16129971,
+                "percentile_increase_state": 86.0,
+                "percentile_increase_country": 93.0
+            },
+            "rcp45": {
+                "mid_century": 47.89490128,
+                "end_century": 49.78099823,
+                "change_from_hist_end": 4.29317999
+            }
+        },
+        "assistant": "The temperature at grid R162C288 is projected to increase by 10.16129971\u00b0F by the end of the century under RCP 8.5. This places it in the 86.0th percentile for warming within the state and 93.0th percentile nationally."
+    }
+]

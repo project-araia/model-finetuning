@@ -55,7 +55,7 @@ finetuned_responses = extract_assistant_responses('../runs/training/outputs-marc
 ref_responses = extract_assistant_responses_json('../datasets/Testing/AnnualTemperatureMaximum/WithoutInputContext.json')
 
 score_count = min(len(base_responses),len(finetuned_responses))
-
+print(score_count)
 base_score = 0.
 fine_tuned_score = 0.
 

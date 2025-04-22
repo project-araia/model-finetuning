@@ -1,0 +1,130 @@
+[
+    {
+        "user": "Interpret this data row: R055C324, 76.67960358, 78.90370178, 81.26239777, 79.44889832, 85.54840088, 2.22407007, 4.58277988, 2.76925993, 8.86876011, 0.54519701, 4.28598022",
+        "assistant": "For grid cell R055C324, the historical maximum temperature is 76.68\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 78.90\u00b0F and end-century is 81.26\u00b0F. Under RCP8.5, the mid-century projection is 79.45\u00b0F and the end-century is 85.55\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.22\u00b0F), end-century RCP4.5 (4.58\u00b0F), mid-century RCP8.5 (2.77\u00b0F), end-century RCP8.5 (8.87\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R069C319, 74.62020111, 76.65850067, 79.063797, 77.33499908, 83.57510376, 2.03830004, 4.44359016, 2.71482992, 8.95489979, 0.67652899, 4.5113101",
+        "assistant": "For grid cell R069C319, the historical maximum temperature is 74.62\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 76.66\u00b0F and end-century is 79.06\u00b0F. Under RCP8.5, the mid-century projection is 77.33\u00b0F and the end-century is 83.58\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.04\u00b0F), end-century RCP4.5 (4.44\u00b0F), mid-century RCP8.5 (2.71\u00b0F), end-century RCP8.5 (8.95\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R155C371, 63.63970184, 65.08360291, 68.85079956, 65.98049927, 71.68370056, 1.44382, 5.21108007, 2.34080005, 8.04391003, 0.89697301, 2.83281994",
+        "assistant": "For grid cell R155C371, the historical maximum temperature is 63.64\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 65.08\u00b0F and end-century is 68.85\u00b0F. Under RCP8.5, the mid-century projection is 65.98\u00b0F and the end-century is 71.68\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (1.44\u00b0F), end-century RCP4.5 (5.21\u00b0F), mid-century RCP8.5 (2.34\u00b0F), end-century RCP8.5 (8.04\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R120C460, 66.64579773, 69.40280151, 70.54930115, 69.1473999, 74.24680328, 2.75695992, 3.90344, 2.50159001, 7.60094023, -0.255371, 3.69748998",
+        "assistant": "For grid cell R120C460, the historical maximum temperature is 66.65\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 69.40\u00b0F and end-century is 70.55\u00b0F. Under RCP8.5, the mid-century projection is 69.15\u00b0F and the end-century is 74.25\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.76\u00b0F), end-century RCP4.5 (3.90\u00b0F), mid-century RCP8.5 (2.50\u00b0F), end-century RCP8.5 (7.60\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R073C400, 74.06710052, 75.78959656, 77.75669861, 76.4559021, 81.64070129, 1.72244, 3.68953991, 2.38876009, 7.5735898, 0.66632098, 3.88404989",
+        "assistant": "For grid cell R073C400, the historical maximum temperature is 74.07\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 75.79\u00b0F and end-century is 77.76\u00b0F. Under RCP8.5, the mid-century projection is 76.46\u00b0F and the end-century is 81.64\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (1.72\u00b0F), end-century RCP4.5 (3.69\u00b0F), mid-century RCP8.5 (2.39\u00b0F), end-century RCP8.5 (7.57\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R170C211, 50.5041008, 53.17549896, 54.92160034, 53.13949966, 59.74530029, 2.67143989, 4.41750002, 2.63540006, 9.2411499, -0.0360374, 4.82364988",
+        "assistant": "For grid cell R170C211, the historical maximum temperature is 50.50\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 53.18\u00b0F and end-century is 54.92\u00b0F. Under RCP8.5, the mid-century projection is 53.14\u00b0F and the end-century is 59.75\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.67\u00b0F), end-century RCP4.5 (4.42\u00b0F), mid-century RCP8.5 (2.64\u00b0F), end-century RCP8.5 (9.24\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R081C300, 65.75479889, 67.99169922, 70.15730286, 68.62239838, 74.8647995, 2.23681998, 4.40250015, 2.86758995, 9.10997009, 0.63077497, 4.70746994",
+        "assistant": "For grid cell R081C300, the historical maximum temperature is 65.75\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 67.99\u00b0F and end-century is 70.16\u00b0F. Under RCP8.5, the mid-century projection is 68.62\u00b0F and the end-century is 74.86\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.24\u00b0F), end-century RCP4.5 (4.40\u00b0F), mid-century RCP8.5 (2.87\u00b0F), end-century RCP8.5 (9.11\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R111C380, 69.43460083, 71.97080231, 74.06420135, 72.17500305, 77.42160034, 2.53619003, 4.6296401, 2.74038005, 7.98701, 0.20418499, 3.3573699",
+        "assistant": "For grid cell R111C380, the historical maximum temperature is 69.43\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 71.97\u00b0F and end-century is 74.06\u00b0F. Under RCP8.5, the mid-century projection is 72.18\u00b0F and the end-century is 77.42\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.54\u00b0F), end-century RCP4.5 (4.63\u00b0F), mid-century RCP8.5 (2.74\u00b0F), end-century RCP8.5 (7.99\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R074C388, 74.12069702, 76.11849976, 78.54239655, 76.3321991, 82.1135025, 1.99779999, 4.42172003, 2.21159005, 7.9928298, 0.213791, 3.57111001",
+        "assistant": "For grid cell R074C388, the historical maximum temperature is 74.12\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 76.12\u00b0F and end-century is 78.54\u00b0F. Under RCP8.5, the mid-century projection is 76.33\u00b0F and the end-century is 82.11\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.00\u00b0F), end-century RCP4.5 (4.42\u00b0F), mid-century RCP8.5 (2.21\u00b0F), end-century RCP8.5 (7.99\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R230C497, 41.44250107, 46.21110153, 47.98920059, 44.96160126, 51.93330002, 4.76855993, 6.54664993, 3.51903009, 10.49069977, -1.24952996, 3.94408989",
+        "assistant": "For grid cell R230C497, the historical maximum temperature is 41.44\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 46.21\u00b0F and end-century is 47.99\u00b0F. Under RCP8.5, the mid-century projection is 44.96\u00b0F and the end-century is 51.93\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (4.77\u00b0F), end-century RCP4.5 (6.55\u00b0F), mid-century RCP8.5 (3.52\u00b0F), end-century RCP8.5 (10.49\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R056C355, 75.92819977, 78.55539703, 81.38860321, 79.07569885, 84.55120087, 2.62721992, 5.46037006, 3.14748001, 8.62300968, 0.52025598, 3.16264009",
+        "assistant": "For grid cell R056C355, the historical maximum temperature is 75.93\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 78.56\u00b0F and end-century is 81.39\u00b0F. Under RCP8.5, the mid-century projection is 79.08\u00b0F and the end-century is 84.55\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.63\u00b0F), end-century RCP4.5 (5.46\u00b0F), mid-century RCP8.5 (3.15\u00b0F), end-century RCP8.5 (8.62\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R135C371, 66.57749939, 68.77880096, 71.34079742, 69.13130188, 74.72090149, 2.20133996, 4.76335001, 2.55382991, 8.14346027, 0.35249299, 3.38010001",
+        "assistant": "For grid cell R135C371, the historical maximum temperature is 66.58\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 68.78\u00b0F and end-century is 71.34\u00b0F. Under RCP8.5, the mid-century projection is 69.13\u00b0F and the end-century is 74.72\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.20\u00b0F), end-century RCP4.5 (4.76\u00b0F), mid-century RCP8.5 (2.55\u00b0F), end-century RCP8.5 (8.14\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R145C487, 64.99669647, 68.27279663, 69.5983963, 67.74759674, 72.92590332, 3.27618003, 4.60173988, 2.7509799, 7.9292202, -0.52520001, 3.32748008",
+        "assistant": "For grid cell R145C487, the historical maximum temperature is 65.00\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 68.27\u00b0F and end-century is 69.60\u00b0F. Under RCP8.5, the mid-century projection is 67.75\u00b0F and the end-century is 72.93\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (3.28\u00b0F), end-century RCP4.5 (4.60\u00b0F), mid-century RCP8.5 (2.75\u00b0F), end-century RCP8.5 (7.93\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R231C253, 42.30699921, 45.27099991, 47.99610138, 45.49860001, 51.2071991, 2.96399999, 5.6890502, 3.19152999, 8.90017986, 0.22752801, 3.21113992",
+        "assistant": "For grid cell R231C253, the historical maximum temperature is 42.31\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 45.27\u00b0F and end-century is 48.00\u00b0F. Under RCP8.5, the mid-century projection is 45.50\u00b0F and the end-century is 51.21\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.96\u00b0F), end-century RCP4.5 (5.69\u00b0F), mid-century RCP8.5 (3.19\u00b0F), end-century RCP8.5 (8.90\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R076C491, 78.47650146, 80.66040039, 82.64810181, 80.97779846, 84.95469666, 2.18390989, 4.17166996, 2.50135994, 6.47825003, 0.317444, 2.30658007",
+        "assistant": "For grid cell R076C491, the historical maximum temperature is 78.48\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 80.66\u00b0F and end-century is 82.65\u00b0F. Under RCP8.5, the mid-century projection is 80.98\u00b0F and the end-century is 84.95\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.18\u00b0F), end-century RCP4.5 (4.17\u00b0F), mid-century RCP8.5 (2.50\u00b0F), end-century RCP8.5 (6.48\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R419C049, 36.52759933, 39.36669922, 40.35020065, 40.58670044, 49.9817009, 2.83913994, 3.8225801, 4.05912018, 13.45409966, 1.21996999, 9.63154984",
+        "assistant": "For grid cell R419C049, the historical maximum temperature is 36.53\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 39.37\u00b0F and end-century is 40.35\u00b0F. Under RCP8.5, the mid-century projection is 40.59\u00b0F and the end-century is 49.98\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.84\u00b0F), end-century RCP4.5 (3.82\u00b0F), mid-century RCP8.5 (4.06\u00b0F), end-century RCP8.5 (13.45\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R217C393, 46.0102005, 47.62120056, 51.03379822, 49.04790115, 55.15480042, 1.61108994, 5.02361012, 3.03771996, 9.14463043, 1.42663002, 4.12102985",
+        "assistant": "For grid cell R217C393, the historical maximum temperature is 46.01\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 47.62\u00b0F and end-century is 51.03\u00b0F. Under RCP8.5, the mid-century projection is 49.05\u00b0F and the end-century is 55.15\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (1.61\u00b0F), end-century RCP4.5 (5.02\u00b0F), mid-century RCP8.5 (3.04\u00b0F), end-century RCP8.5 (9.14\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R112C366, 70.28769684, 72.87850189, 75.18029785, 73.35140228, 78.61640167, 2.59080005, 4.89265013, 3.06369996, 8.32874012, 0.4729, 3.43608999",
+        "assistant": "For grid cell R112C366, the historical maximum temperature is 70.29\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 72.88\u00b0F and end-century is 75.18\u00b0F. Under RCP8.5, the mid-century projection is 73.35\u00b0F and the end-century is 78.62\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.59\u00b0F), end-century RCP4.5 (4.89\u00b0F), mid-century RCP8.5 (3.06\u00b0F), end-century RCP8.5 (8.33\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R070C401, 73.72820282, 75.3769989, 77.31140137, 76.20429993, 81.13459778, 1.64876997, 3.58314991, 2.47609997, 7.40639019, 0.82733202, 3.82324004",
+        "assistant": "For grid cell R070C401, the historical maximum temperature is 73.73\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 75.38\u00b0F and end-century is 77.31\u00b0F. Under RCP8.5, the mid-century projection is 76.20\u00b0F and the end-century is 81.13\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (1.65\u00b0F), end-century RCP4.5 (3.58\u00b0F), mid-century RCP8.5 (2.48\u00b0F), end-century RCP8.5 (7.41\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R058C325, 74.71009827, 76.90460205, 79.44509888, 77.32579803, 83.57019806, 2.19452, 4.73495007, 2.61567998, 8.86009026, 0.42116499, 4.12514019",
+        "assistant": "For grid cell R058C325, the historical maximum temperature is 74.71\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 76.90\u00b0F and end-century is 79.45\u00b0F. Under RCP8.5, the mid-century projection is 77.33\u00b0F and the end-century is 83.57\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.19\u00b0F), end-century RCP4.5 (4.73\u00b0F), mid-century RCP8.5 (2.62\u00b0F), end-century RCP8.5 (8.86\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R166C228, 48.79740143, 51.58869934, 53.29750061, 51.84249878, 58.65719986, 2.79134989, 4.50017023, 3.04507995, 9.85978985, 0.25373101, 5.35963011",
+        "assistant": "For grid cell R166C228, the historical maximum temperature is 48.80\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 51.59\u00b0F and end-century is 53.30\u00b0F. Under RCP8.5, the mid-century projection is 51.84\u00b0F and the end-century is 58.66\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.79\u00b0F), end-century RCP4.5 (4.50\u00b0F), mid-century RCP8.5 (3.05\u00b0F), end-century RCP8.5 (9.86\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R121C377, 68.72660065, 70.94100189, 73.20890045, 71.19779968, 76.6914978, 2.21433997, 4.48225021, 2.47114992, 7.96485996, 0.256805, 3.48259997",
+        "assistant": "For grid cell R121C377, the historical maximum temperature is 68.73\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 70.94\u00b0F and end-century is 73.21\u00b0F. Under RCP8.5, the mid-century projection is 71.20\u00b0F and the end-century is 76.69\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.21\u00b0F), end-century RCP4.5 (4.48\u00b0F), mid-century RCP8.5 (2.47\u00b0F), end-century RCP8.5 (7.96\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R085C264, 68.96330261, 71.45680237, 73.25720215, 72.26000214, 77.74030304, 2.49352002, 4.29390001, 3.29666996, 8.7769804, 0.80315399, 4.48307991",
+        "assistant": "For grid cell R085C264, the historical maximum temperature is 68.96\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 71.46\u00b0F and end-century is 73.26\u00b0F. Under RCP8.5, the mid-century projection is 72.26\u00b0F and the end-century is 77.74\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.49\u00b0F), end-century RCP4.5 (4.29\u00b0F), mid-century RCP8.5 (3.30\u00b0F), end-century RCP8.5 (8.78\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R228C346, 50.3844986, 52.13629913, 56.86769867, 53.15309906, 60.29600143, 1.75181997, 6.48313999, 2.76854992, 9.91147995, 1.01672995, 3.42833996",
+        "assistant": "For grid cell R228C346, the historical maximum temperature is 50.38\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 52.14\u00b0F and end-century is 56.87\u00b0F. Under RCP8.5, the mid-century projection is 53.15\u00b0F and the end-century is 60.30\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (1.75\u00b0F), end-century RCP4.5 (6.48\u00b0F), mid-century RCP8.5 (2.77\u00b0F), end-century RCP8.5 (9.91\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R185C355, 57.64379883, 59.30960083, 64.24839783, 60.0870018, 66.88289642, 1.66575003, 6.60453987, 2.44320011, 9.23900986, 0.77745098, 2.63448",
+        "assistant": "For grid cell R185C355, the historical maximum temperature is 57.64\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 59.31\u00b0F and end-century is 64.25\u00b0F. Under RCP8.5, the mid-century projection is 60.09\u00b0F and the end-century is 66.88\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (1.67\u00b0F), end-century RCP4.5 (6.60\u00b0F), mid-century RCP8.5 (2.44\u00b0F), end-century RCP8.5 (9.24\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R134C405, 65.25679779, 67.87580109, 70.50859833, 67.92250061, 73.57679749, 2.61903, 5.25185013, 2.66571999, 8.31999969, 0.0466919, 3.06815004",
+        "assistant": "For grid cell R134C405, the historical maximum temperature is 65.26\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 67.88\u00b0F and end-century is 70.51\u00b0F. Under RCP8.5, the mid-century projection is 67.92\u00b0F and the end-century is 73.58\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.62\u00b0F), end-century RCP4.5 (5.25\u00b0F), mid-century RCP8.5 (2.67\u00b0F), end-century RCP8.5 (8.32\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R114C455, 67.2845993, 69.80169678, 70.89769745, 69.53019714, 74.4484024, 2.51707006, 3.61308002, 2.24554992, 7.16379976, -0.271523, 3.55072999",
+        "assistant": "For grid cell R114C455, the historical maximum temperature is 67.28\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 69.80\u00b0F and end-century is 70.90\u00b0F. Under RCP8.5, the mid-century projection is 69.53\u00b0F and the end-century is 74.45\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.52\u00b0F), end-century RCP4.5 (3.61\u00b0F), mid-century RCP8.5 (2.25\u00b0F), end-century RCP8.5 (7.16\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R334C158, 45.18560028, 48.21229935, 49.6269989, 48.82770157, 53.17440033, 3.02667999, 4.44132996, 3.64208007, 7.98882008, 0.61540198, 3.54748988",
+        "assistant": "For grid cell R334C158, the historical maximum temperature is 45.19\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 48.21\u00b0F and end-century is 49.63\u00b0F. Under RCP8.5, the mid-century projection is 48.83\u00b0F and the end-century is 53.17\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (3.03\u00b0F), end-century RCP4.5 (4.44\u00b0F), mid-century RCP8.5 (3.64\u00b0F), end-century RCP8.5 (7.99\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R186C265, 41.26369858, 43.85340118, 45.61920166, 44.64929962, 50.72769928, 2.58969998, 4.35552979, 3.38565993, 9.46399975, 0.795959, 5.10846996",
+        "assistant": "For grid cell R186C265, the historical maximum temperature is 41.26\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 43.85\u00b0F and end-century is 45.62\u00b0F. Under RCP8.5, the mid-century projection is 44.65\u00b0F and the end-century is 50.73\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.59\u00b0F), end-century RCP4.5 (4.36\u00b0F), mid-century RCP8.5 (3.39\u00b0F), end-century RCP8.5 (9.46\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R116C320, 65.33550262, 67.75720215, 70.58509827, 68.81790161, 74.55660248, 2.42165995, 5.24959993, 3.48238993, 9.22109985, 1.06072998, 3.97149992",
+        "assistant": "For grid cell R116C320, the historical maximum temperature is 65.34\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 67.76\u00b0F and end-century is 70.59\u00b0F. Under RCP8.5, the mid-century projection is 68.82\u00b0F and the end-century is 74.56\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (2.42\u00b0F), end-century RCP4.5 (5.25\u00b0F), mid-century RCP8.5 (3.48\u00b0F), end-century RCP8.5 (9.22\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R103C429, 70.11620331, 73.29519653, 74.54440308, 72.8085022, 78.1384964, 3.17895007, 4.42820978, 2.69231009, 8.0222702, -0.48664099, 3.59405994",
+        "assistant": "For grid cell R103C429, the historical maximum temperature is 70.12\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 73.30\u00b0F and end-century is 74.54\u00b0F. Under RCP8.5, the mid-century projection is 72.81\u00b0F and the end-century is 78.14\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (3.18\u00b0F), end-century RCP4.5 (4.43\u00b0F), mid-century RCP8.5 (2.69\u00b0F), end-century RCP8.5 (8.02\u00b0F)."
+    },
+    {
+        "user": "Interpret this data row: R122C295, 41.20750046, 44.21870041, 45.94779968, 44.52980042, 50.63059998, 3.01118994, 4.74027014, 3.32226992, 9.42308044, 0.311077, 4.68280983",
+        "assistant": "For grid cell R122C295, the historical maximum temperature is 41.21\u00b0F. Under scenario RCP4.5, the projected mid-century temperature is 44.22\u00b0F and end-century is 45.95\u00b0F. Under RCP8.5, the mid-century projection is 44.53\u00b0F and the end-century is 50.63\u00b0F. The temperature differences compared to historical values are as follows: mid-century RCP4.5 (3.01\u00b0F), end-century RCP4.5 (4.74\u00b0F), mid-century RCP8.5 (3.32\u00b0F), end-century RCP8.5 (9.42\u00b0F)."
+    }
+]
