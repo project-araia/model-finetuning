@@ -50,9 +50,9 @@ def extract_assistant_responses_json(file_path):
     return responses
 
 # Path to your text file
-base_responses = extract_assistant_responses('../runs/training/outputs-march-2025/output_base_model_llama3.1_8b.txt')
-finetuned_responses = extract_assistant_responses('../runs/training/outputs-march-2025/output_finetuned_model.txt') 
-ref_responses = extract_assistant_responses_json('../datasets/Testing/AnnualTemperatureMaximum/WithoutInputContext.json')
+base_responses = extract_assistant_responses('../runs/training/outputs-april-2025/output_base.txt')
+finetuned_responses = extract_assistant_responses('../runs/training/outputs-april-2025/output_finetuned.txt') 
+ref_responses = extract_assistant_responses_json('../datasets/Testing/Test.json')
 
 score_count = min(len(base_responses),len(finetuned_responses))
 print(score_count)
