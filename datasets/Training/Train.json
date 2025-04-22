@@ -680,6 +680,346 @@
         "assistant": "By the end of the century, the annual maximum temperature at grid R098C277 is projected to reach 65.38539886\u00b0F under RCP 8.5 and 60.44070053\u00b0F under RCP 4.5."
     },
     {
+        "user": "What is the projected change in annual precipitation at R046C358 by the end of century?",
+        "input": {
+            "grid_cell": "R046C358",
+            "historical": {
+                "precipitation": 28.54840088
+            },
+            "rcp85": {
+                "mid_century": 29.41729927,
+                "end_century": 30.41220093,
+                "change_from_hist_end": 1.86374998
+            },
+            "rcp45": {
+                "mid_century": 31.10320091,
+                "end_century": 23.56870079,
+                "change_from_hist_end": -4.97976017
+            }
+        },
+        "assistant": "Annual precipitation at R046C358 is projected to change by 1.86374998 inches under RCP 8.5, and -4.97976017 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R230C388 by the end of century?",
+        "input": {
+            "grid_cell": "R230C388",
+            "historical": {
+                "precipitation": 26.55789948
+            },
+            "rcp85": {
+                "mid_century": 30.46789932,
+                "end_century": 33.53540039,
+                "change_from_hist_end": 6.97751999
+            },
+            "rcp45": {
+                "mid_century": 29.64669991,
+                "end_century": 29.7220993,
+                "change_from_hist_end": 3.1642499
+            }
+        },
+        "assistant": "Annual precipitation at R230C388 is projected to change by 6.97751999 inches under RCP 8.5, and 3.1642499 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R187C399 by the end of century?",
+        "input": {
+            "grid_cell": "R187C399",
+            "historical": {
+                "precipitation": 29.50699997
+            },
+            "rcp85": {
+                "mid_century": 35.00019836,
+                "end_century": 37.16419983,
+                "change_from_hist_end": 7.65725994
+            },
+            "rcp45": {
+                "mid_century": 36.05390167,
+                "end_century": 31.90909958,
+                "change_from_hist_end": 2.40214992
+            }
+        },
+        "assistant": "Annual precipitation at R187C399 is projected to change by 7.65725994 inches under RCP 8.5, and 2.40214992 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R070C509 by the end of century?",
+        "input": {
+            "grid_cell": "R070C509",
+            "historical": {
+                "precipitation": 73.70939636
+            },
+            "rcp85": {
+                "mid_century": 76.02729797,
+                "end_century": 81.53369904,
+                "change_from_hist_end": 7.82429981
+            },
+            "rcp45": {
+                "mid_century": 77.57309723,
+                "end_century": 67.77950287,
+                "change_from_hist_end": -5.92989016
+            }
+        },
+        "assistant": "Annual precipitation at R070C509 is projected to change by 7.82429981 inches under RCP 8.5, and -5.92989016 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R152C331 by the end of century?",
+        "input": {
+            "grid_cell": "R152C331",
+            "historical": {
+                "precipitation": 21.3701992
+            },
+            "rcp85": {
+                "mid_century": 23.03339958,
+                "end_century": 24.27700043,
+                "change_from_hist_end": 2.90680003
+            },
+            "rcp45": {
+                "mid_century": 21.02210045,
+                "end_century": 16.16679955,
+                "change_from_hist_end": -5.2034502
+            }
+        },
+        "assistant": "Annual precipitation at R152C331 is projected to change by 2.90680003 inches under RCP 8.5, and -5.2034502 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R208C195 by the end of century?",
+        "input": {
+            "grid_cell": "R208C195",
+            "historical": {
+                "precipitation": 56.20489883
+            },
+            "rcp85": {
+                "mid_century": 63.81769943,
+                "end_century": 68.10919952,
+                "change_from_hist_end": 11.90429974
+            },
+            "rcp45": {
+                "mid_century": 61.61130142,
+                "end_century": 77.3015976,
+                "change_from_hist_end": 21.09670067
+            }
+        },
+        "assistant": "Annual precipitation at R208C195 is projected to change by 11.90429974 inches under RCP 8.5, and 21.09670067 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R224C344 by the end of century?",
+        "input": {
+            "grid_cell": "R224C344",
+            "historical": {
+                "precipitation": 19.59469986
+            },
+            "rcp85": {
+                "mid_century": 22.96629906,
+                "end_century": 25.47719955,
+                "change_from_hist_end": 5.88251019
+            },
+            "rcp45": {
+                "mid_century": 21.32489967,
+                "end_century": 19.66880035,
+                "change_from_hist_end": 0.0741005
+            }
+        },
+        "assistant": "Annual precipitation at R224C344 is projected to change by 5.88251019 inches under RCP 8.5, and 0.0741005 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R172C304 by the end of century?",
+        "input": {
+            "grid_cell": "R172C304",
+            "historical": {
+                "precipitation": 14.95870018
+            },
+            "rcp85": {
+                "mid_century": 17.53429985,
+                "end_century": 18.72730064,
+                "change_from_hist_end": 3.76856995
+            },
+            "rcp45": {
+                "mid_century": 16.69560051,
+                "end_century": 13.17780018,
+                "change_from_hist_end": -1.78093004
+            }
+        },
+        "assistant": "Annual precipitation at R172C304 is projected to change by 3.76856995 inches under RCP 8.5, and -1.78093004 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R073C406 by the end of century?",
+        "input": {
+            "grid_cell": "R073C406",
+            "historical": {
+                "precipitation": 49.82740021
+            },
+            "rcp85": {
+                "mid_century": 50.15129852,
+                "end_century": 54.33480072,
+                "change_from_hist_end": 4.50743008
+            },
+            "rcp45": {
+                "mid_century": 50.4858017,
+                "end_century": 48.02899933,
+                "change_from_hist_end": -1.79835999
+            }
+        },
+        "assistant": "Annual precipitation at R073C406 is projected to change by 4.50743008 inches under RCP 8.5, and -1.79835999 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R088C232 by the end of century?",
+        "input": {
+            "grid_cell": "R088C232",
+            "historical": {
+                "precipitation": 4.38188982
+            },
+            "rcp85": {
+                "mid_century": 4.91552019,
+                "end_century": 4.7933898,
+                "change_from_hist_end": 0.41149399
+            },
+            "rcp45": {
+                "mid_century": 4.18958998,
+                "end_century": 4.27060986,
+                "change_from_hist_end": -0.111282
+            }
+        },
+        "assistant": "Annual precipitation at R088C232 is projected to change by 0.41149399 inches under RCP 8.5, and -0.111282 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R139C478 by the end of century?",
+        "input": {
+            "grid_cell": "R139C478",
+            "historical": {
+                "precipitation": 44.07089996
+            },
+            "rcp85": {
+                "mid_century": 50.65719986,
+                "end_century": 50.90909958,
+                "change_from_hist_end": 6.83820009
+            },
+            "rcp45": {
+                "mid_century": 45.63330078,
+                "end_century": 50.34560013,
+                "change_from_hist_end": 6.2746501
+            }
+        },
+        "assistant": "Annual precipitation at R139C478 is projected to change by 6.83820009 inches under RCP 8.5, and 6.2746501 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R114C231 by the end of century?",
+        "input": {
+            "grid_cell": "R114C231",
+            "historical": {
+                "precipitation": 7.12505007
+            },
+            "rcp85": {
+                "mid_century": 7.50193024,
+                "end_century": 7.41093016,
+                "change_from_hist_end": 0.28588301
+            },
+            "rcp45": {
+                "mid_century": 6.39968014,
+                "end_century": 6.95268011,
+                "change_from_hist_end": -0.172373
+            }
+        },
+        "assistant": "Annual precipitation at R114C231 is projected to change by 0.28588301 inches under RCP 8.5, and -0.172373 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R146C309 by the end of century?",
+        "input": {
+            "grid_cell": "R146C309",
+            "historical": {
+                "precipitation": 19.43149948
+            },
+            "rcp85": {
+                "mid_century": 20.30859947,
+                "end_century": 20.69000053,
+                "change_from_hist_end": 1.25854003
+            },
+            "rcp45": {
+                "mid_century": 19.68610001,
+                "end_century": 15.28139973,
+                "change_from_hist_end": -4.15006018
+            }
+        },
+        "assistant": "Annual precipitation at R146C309 is projected to change by 1.25854003 inches under RCP 8.5, and -4.15006018 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R040C364 by the end of century?",
+        "input": {
+            "grid_cell": "R040C364",
+            "historical": {
+                "precipitation": 33.83000183
+            },
+            "rcp85": {
+                "mid_century": 33.95650101,
+                "end_century": 35.32040024,
+                "change_from_hist_end": 1.49041998
+            },
+            "rcp45": {
+                "mid_century": 34.55310059,
+                "end_century": 26.57040024,
+                "change_from_hist_end": -7.25966978
+            }
+        },
+        "assistant": "Annual precipitation at R040C364 is projected to change by 1.49041998 inches under RCP 8.5, and -7.25966978 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R198C239 by the end of century?",
+        "input": {
+            "grid_cell": "R198C239",
+            "historical": {
+                "precipitation": 33.3445015
+            },
+            "rcp85": {
+                "mid_century": 35.43719864,
+                "end_century": 36.4992981,
+                "change_from_hist_end": 3.15478992
+            },
+            "rcp45": {
+                "mid_century": 34.19060135,
+                "end_century": 38.57350159,
+                "change_from_hist_end": 5.22890997
+            }
+        },
+        "assistant": "Annual precipitation at R198C239 is projected to change by 3.15478992 inches under RCP 8.5, and 5.22890997 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R168C271 by the end of century?",
+        "input": {
+            "grid_cell": "R168C271",
+            "historical": {
+                "precipitation": 10.8593998
+            },
+            "rcp85": {
+                "mid_century": 11.74499989,
+                "end_century": 13.27250004,
+                "change_from_hist_end": 2.4131
+            },
+            "rcp45": {
+                "mid_century": 11.27649975,
+                "end_century": 10.78040028,
+                "change_from_hist_end": -0.0789518
+            }
+        },
+        "assistant": "Annual precipitation at R168C271 is projected to change by 2.4131 inches under RCP 8.5, and -0.0789518 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R118C379 by the end of century?",
+        "input": {
+            "grid_cell": "R118C379",
+            "historical": {
+                "precipitation": 40.19660187
+            },
+            "rcp85": {
+                "mid_century": 44.46089935,
+                "end_century": 49.17919922,
+                "change_from_hist_end": 8.98258972
+            },
+            "rcp45": {
+                "mid_century": 40.57509995,
+                "end_century": 36.54809952,
+                "change_from_hist_end": -3.64853001
+            }
+        },
+        "assistant": "Annual precipitation at R118C379 is projected to change by 8.98258972 inches under RCP 8.5, and -3.64853001 inches under RCP 4.5,"
+    },
+    {
         "user": "What is the projected change in winter minimum temperature at R214C520 by the end of century?",
         "input": {
             "grid_cell": "R214C520",
@@ -697,7 +1037,7 @@
                 "change_from_hist_end": 6.35785007
             }
         },
-        "assistant": "The winter minimum temperature at R214C520 is expected to increase by 52.41439819\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R214C520 is expected to increase by 10.67210007\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R178C446 by the end of century?",
@@ -717,7 +1057,7 @@
                 "change_from_hist_end": 7.02201986
             }
         },
-        "assistant": "The winter minimum temperature at R178C446 is expected to increase by 50.60499954\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R178C446 is expected to increase by 10.36870003\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R135C448 by the end of century?",
@@ -737,7 +1077,7 @@
                 "change_from_hist_end": 3.83170009
             }
         },
-        "assistant": "The winter minimum temperature at R135C448 is expected to increase by 55.78609848\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R135C448 is expected to increase by 7.73827982\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R242C521 by the end of century?",
@@ -757,7 +1097,7 @@
                 "change_from_hist_end": 7.37242985
             }
         },
-        "assistant": "The winter minimum temperature at R242C521 is expected to increase by 45.20029831\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R242C521 is expected to increase by 11.44509983\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R144C499 by the end of century?",
@@ -777,7 +1117,7 @@
                 "change_from_hist_end": 4.58178997
             }
         },
-        "assistant": "The winter minimum temperature at R144C499 is expected to increase by 61.57379913\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R144C499 is expected to increase by 8.17477036\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R135C479 by the end of century?",
@@ -797,7 +1137,7 @@
                 "change_from_hist_end": 3.94886994
             }
         },
-        "assistant": "The winter minimum temperature at R135C479 is expected to increase by 58.78440094\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R135C479 is expected to increase by 7.55853987\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R268C513 by the end of century?",
@@ -817,7 +1157,7 @@
                 "change_from_hist_end": 9.52690983
             }
         },
-        "assistant": "The winter minimum temperature at R268C513 is expected to increase by 38.09030151\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R268C513 is expected to increase by 13.1633997\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R139C414 by the end of century?",
@@ -837,7 +1177,7 @@
                 "change_from_hist_end": 5.80533981
             }
         },
-        "assistant": "The winter minimum temperature at R139C414 is expected to increase by 56.55799866\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R139C414 is expected to increase by 9.65318966\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R091C234 by the end of century?",
@@ -857,7 +1197,7 @@
                 "change_from_hist_end": 2.83497
             }
         },
-        "assistant": "The winter minimum temperature at R091C234 is expected to increase by 68.98999786\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R091C234 is expected to increase by 7.77545977\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R197C355 by the end of century?",
@@ -877,7 +1217,7 @@
                 "change_from_hist_end": 7.00976992
             }
         },
-        "assistant": "The winter minimum temperature at R197C355 is expected to increase by 46.26979828\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R197C355 is expected to increase by 10.79940033\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R214C426 by the end of century?",
@@ -897,7 +1237,7 @@
                 "change_from_hist_end": 6.24370003
             }
         },
-        "assistant": "The winter minimum temperature at R214C426 is expected to increase by 47.5542984\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R214C426 is expected to increase by 12.09770012\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R234C367 by the end of century?",
@@ -917,7 +1257,7 @@
                 "change_from_hist_end": 6.98500013
             }
         },
-        "assistant": "The winter minimum temperature at R234C367 is expected to increase by 40.9408989\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R234C367 is expected to increase by 11.69929981\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R451C124 by the end of century?",
@@ -937,7 +1277,7 @@
                 "change_from_hist_end": 3.06760001
             }
         },
-        "assistant": "The winter minimum temperature at R451C124 is expected to increase by 22.55410004\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R451C124 is expected to increase by 12.07649994\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R175C411 by the end of century?",
@@ -957,7 +1297,7 @@
                 "change_from_hist_end": 5.93372011
             }
         },
-        "assistant": "The winter minimum temperature at R175C411 is expected to increase by 51.43980026\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R175C411 is expected to increase by 9.64538956\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R187C323 by the end of century?",
@@ -977,7 +1317,7 @@
                 "change_from_hist_end": 6.21217012
             }
         },
-        "assistant": "The winter minimum temperature at R187C323 is expected to increase by 51.07600021\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R187C323 is expected to increase by 9.5625\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R216C336 by the end of century?",
@@ -997,7 +1337,7 @@
                 "change_from_hist_end": 7.81820011
             }
         },
-        "assistant": "The winter minimum temperature at R216C336 is expected to increase by 44.8871994\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R216C336 is expected to increase by 11.44419956\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R200C283 by the end of century?",
@@ -1017,6 +1357,6 @@
                 "change_from_hist_end": 6.76878977
             }
         },
-        "assistant": "The winter minimum temperature at R200C283 is expected to increase by 49.10900116\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R200C283 is expected to increase by 9.60007\u00b0F under RCP 8.5"
     }
 ]

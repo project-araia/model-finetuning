@@ -120,6 +120,66 @@
         "assistant": "By the end of the century, the annual maximum temperature at grid R061C379 is projected to reach 84.34069824\u00b0F under RCP 8.5 and 80.94499969\u00b0F under RCP 4.5."
     },
     {
+        "user": "What is the projected change in annual precipitation at R120C193 by the end of century?",
+        "input": {
+            "grid_cell": "R120C193",
+            "historical": {
+                "precipitation": 12.21520042
+            },
+            "rcp85": {
+                "mid_century": 12.40390015,
+                "end_century": 11.78190041,
+                "change_from_hist_end": -0.433332
+            },
+            "rcp45": {
+                "mid_century": 10.82209969,
+                "end_century": 12.41399956,
+                "change_from_hist_end": 0.198737
+            }
+        },
+        "assistant": "Annual precipitation at R120C193 is projected to change by -0.433332 inches under RCP 8.5, and 0.198737 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R074C393 by the end of century?",
+        "input": {
+            "grid_cell": "R074C393",
+            "historical": {
+                "precipitation": 43.22019958
+            },
+            "rcp85": {
+                "mid_century": 46.63349915,
+                "end_century": 47.95849991,
+                "change_from_hist_end": 4.73824978
+            },
+            "rcp45": {
+                "mid_century": 44.05450058,
+                "end_century": 42.05139923,
+                "change_from_hist_end": -1.16881001
+            }
+        },
+        "assistant": "Annual precipitation at R074C393 is projected to change by 4.73824978 inches under RCP 8.5, and -1.16881001 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R130C260 by the end of century?",
+        "input": {
+            "grid_cell": "R130C260",
+            "historical": {
+                "precipitation": 10.10739994
+            },
+            "rcp85": {
+                "mid_century": 10.59220028,
+                "end_century": 10.77700043,
+                "change_from_hist_end": 0.66957498
+            },
+            "rcp45": {
+                "mid_century": 9.93776989,
+                "end_century": 9.8006897,
+                "change_from_hist_end": -0.30673
+            }
+        },
+        "assistant": "Annual precipitation at R130C260 is projected to change by 0.66957498 inches under RCP 8.5, and -0.30673 inches under RCP 4.5,"
+    },
+    {
         "user": "What is the projected change in winter minimum temperature at R179C351 by the end of century?",
         "input": {
             "grid_cell": "R179C351",
@@ -137,7 +197,7 @@
                 "change_from_hist_end": 5.75029993
             }
         },
-        "assistant": "The winter minimum temperature at R179C351 is expected to increase by 51.78070068\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R179C351 is expected to increase by 9.71393967\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R122C356 by the end of century?",
@@ -157,7 +217,7 @@
                 "change_from_hist_end": 4.51328993
             }
         },
-        "assistant": "The winter minimum temperature at R122C356 is expected to increase by 59.74509811\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R122C356 is expected to increase by 8.6297102\u00b0F under RCP 8.5"
     },
     {
         "user": "What is the projected change in winter minimum temperature at R167C220 by the end of century?",
@@ -177,6 +237,6 @@
                 "change_from_hist_end": 4.69852018
             }
         },
-        "assistant": "The winter minimum temperature at R167C220 is expected to increase by 49.57239914\u00b0F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R167C220 is expected to increase by 9.4363699\u00b0F under RCP 8.5"
     }
 ]

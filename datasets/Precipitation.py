@@ -9,7 +9,7 @@ def calculate_percentile(value, all_values):
     return (index + 1) / len(sorted_values) * 100
 
 # Reading the CSV data
-input_file = '/Users/Akash/Box/Jarvis-Datashare/ClimRR-Data/AnnualTemperatureMinimum.csv'  # Replace with the path to your input file
+input_file = '/Users/Akash/Box/Jarvis-Datashare/ClimRR-Data/Precipitation_inches_AnnualTotal.csv'  # Replace with the path to your input file
 training_file = 'Training/Train.json'
 testing_file = 'Testing/Test.json'
 
@@ -29,7 +29,7 @@ random_rows = random.sample(rows, 20)
 # Process the selected rows
 for row in random_rows:
     grid_cell = row['Crossmodel']
-    historical_temp = float(row['hist'])
+    historical_precipitation = float(row['hist'])
     rcp45_mid = float(row['rcp45_midc'])
     rcp45_end = float(row['rcp45_endc'])
     rcp85_mid = float(row['rcp85_midc'])
@@ -48,7 +48,7 @@ for row in random_rows:
     # Prepare the dictionary for each grid cell
     grid_cells.append({
         "grid_cell": grid_cell,
-        "historical": {"temp": historical_temp},
+        "historical": {"precipitation": historical_precipitation},
         "rcp85": {
             "mid_century": rcp85_mid,
             "end_century": rcp85_end,
@@ -87,15 +87,15 @@ output_data = []
 
 for grid_cell in grid_cells:
     output_data.append({
-        "user": f'What is the projected change in winter minimum temperature at {grid_cell["grid_cell"]} by the end of century?',
+        "user": f'What is the projected change in annual precipitation at {grid_cell["grid_cell"]} by the end of century?',
         "input": {
             "grid_cell": grid_cell['grid_cell'],
             "historical": grid_cell['historical'],
             "rcp85": grid_cell['rcp85'],
             "rcp45": grid_cell['rcp45']
         },
-        "assistant": f'The winter minimum temperature at {grid_cell["grid_cell"]} is expected to increase by {grid_cell["rcp85"]["change_from_hist_end"]}°F under RCP 8.5'   
- })
+        "assistant": f'Annual precipitation at {grid_cell["grid_cell"]} is projected to change by {grid_cell["rcp85"]["change_from_hist_end"]} inches under RCP 8.5, and {grid_cell["rcp45"]["change_from_hist_end"]} inches under RCP 4.5,'    
+})
 
 #print(output_data)
 
