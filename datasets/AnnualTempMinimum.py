@@ -9,7 +9,7 @@ def calculate_percentile(value, all_values):
     return (index + 1) / len(sorted_values) * 100
 
 # Reading the CSV data
-input_file = '/Users/Akash/Box/Jarvis-Datashare/ClimRR-Data/AnnualTemperatureMaximum.csv'  # Replace with the path to your input file
+input_file = '/Users/Akash/Box/Jarvis-Datashare/ClimRR-Data/AnnualTemperatureMinimum.csv'  # Replace with the path to your input file
 training_file = 'Training/Train.json'
 testing_file = 'Testing/Test.json'
 
@@ -71,6 +71,8 @@ for row in random_rows:
     country_values.append(change_rcp85)
     country_values.append(change_rcp45)
 
+#print(grid_cells)
+
 # Calculate percentiles for state and country
 for grid_cell in grid_cells:
     # Get all RCP 8.5 changes for the state (state comparison logic not provided in your example)
@@ -85,15 +87,17 @@ output_data = []
 
 for grid_cell in grid_cells:
     output_data.append({
-        "user": f'By the end of the century, what is the expected annual maximum temperature at {grid_cell["grid_cell"]}?',
+        "user": f'What is the projected change in winter minimum temperature at {grid_cell["grid_cell"]} by the end of century?',
         "input": {
             "grid_cell": grid_cell['grid_cell'],
             "historical": grid_cell['historical'],
             "rcp85": grid_cell['rcp85'],
             "rcp45": grid_cell['rcp45']
         },
-        "assistant": f'By the end of the century, the annual maximum temperature at grid {grid_cell["grid_cell"]} is projected to reach {grid_cell["rcp85"]["end_century"]}°F under RCP 8.5 and {grid_cell["rcp45"]["end_century"]}°F under RCP 4.5.' 
-   })
+        "assistant": f'The winter minimum temperature at {grid_cell["grid_cell"]} is expected to increase by {grid_cell["rcp85"]["end_century"]}°F under rcp85'   
+ })
+
+#print(output_data)
 
 # Write the output to a JSON file
 with open(training_file, 'a') as jsonfile:
