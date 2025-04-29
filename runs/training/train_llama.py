@@ -87,7 +87,7 @@ def formatting_prompts_func(examples):
     return { "text" : texts, }
 pass
 
-training_dataset = f'{os.getenv("PROJECT_HOME")}/datasets/Training/Train.json'
+training_dataset = f'{os.getenv("PROJECT_HOME")}/datasets/Training/Train-v3.json'
 dataset = load_dataset("json", data_files=training_dataset)["train"]
 print(dataset)
 dataset = dataset.map(formatting_prompts_func, batched = True,)
