@@ -1,0 +1,242 @@
+[
+    {
+        "user": "What is the projected annual max temperature at R073C493 by the end of the century?",
+        "input": {
+            "grid_cell": "R073C493",
+            "historical": {
+                "temp": "79.1427002 F"
+            },
+            "rcp85": {
+                "mid_century": "81.81729889 F",
+                "end_century": "85.73239899 F",
+                "change_from_hist_end": "6.58971024 F"
+            },
+            "rcp45": {
+                "mid_century": "81.3286972 F",
+                "end_century": "83.37290192 F",
+                "change_from_hist_end": "4.23022985 F"
+            }
+        },
+        "assistant": "At grid R073C493, the annual maximum temperature is projected to reach 85.73239899\u00b0F under RCP 8.5, 83.37290192\u00b0F under RCP 4.5 and  by the end of the century."
+    },
+    {
+        "user": "What is the projected annual max temperature at R217C437 by the end of the century?",
+        "input": {
+            "grid_cell": "R217C437",
+            "historical": {
+                "temp": "48.20489883 F"
+            },
+            "rcp85": {
+                "mid_century": "51.83520126 F",
+                "end_century": "58.64379883 F",
+                "change_from_hist_end": "10.43889999 F"
+            },
+            "rcp45": {
+                "mid_century": "51.84140015 F",
+                "end_century": "54.21659851 F",
+                "change_from_hist_end": "6.01167011 F"
+            }
+        },
+        "assistant": "At grid R217C437, the annual maximum temperature is projected to reach 58.64379883\u00b0F under RCP 8.5, 54.21659851\u00b0F under RCP 4.5 and  by the end of the century."
+    },
+    {
+        "user": "What is the projected annual max temperature at R061C379 by the end of the century?",
+        "input": {
+            "grid_cell": "R061C379",
+            "historical": {
+                "temp": "76.36650085 F"
+            },
+            "rcp85": {
+                "mid_century": "78.71379852 F",
+                "end_century": "84.34069824 F",
+                "change_from_hist_end": "7.97415018 F"
+            },
+            "rcp45": {
+                "mid_century": "78.19480133 F",
+                "end_century": "80.94499969 F",
+                "change_from_hist_end": "4.57848978 F"
+            }
+        },
+        "assistant": "At grid R061C379, the annual maximum temperature is projected to reach 84.34069824\u00b0F under RCP 8.5, 80.94499969\u00b0F under RCP 4.5 and  by the end of the century."
+    },
+    {
+        "user": "By the end of the century, what is the expected annual maximum temperature at R073C493?",
+        "input": {
+            "grid_cell": "R073C493",
+            "historical": {
+                "temp": "79.1427002 F"
+            },
+            "rcp85": {
+                "mid_century": "81.81729889 F",
+                "end_century": "85.73239899 F",
+                "change_from_hist_end": "6.58971024 F"
+            },
+            "rcp45": {
+                "mid_century": "81.3286972 F",
+                "end_century": "83.37290192 F",
+                "change_from_hist_end": "4.23022985 F"
+            }
+        },
+        "assistant": "By the end of the century, the annual maximum temperature at grid R073C493 is projected to reach 85.73239899\u00b0F under RCP 8.5 and 83.37290192\u00b0F under RCP 4.5."
+    },
+    {
+        "user": "By the end of the century, what is the expected annual maximum temperature at R217C437?",
+        "input": {
+            "grid_cell": "R217C437",
+            "historical": {
+                "temp": "48.20489883 F"
+            },
+            "rcp85": {
+                "mid_century": "51.83520126 F",
+                "end_century": "58.64379883 F",
+                "change_from_hist_end": "10.43889999 F"
+            },
+            "rcp45": {
+                "mid_century": "51.84140015 F",
+                "end_century": "54.21659851 F",
+                "change_from_hist_end": "6.01167011 F"
+            }
+        },
+        "assistant": "By the end of the century, the annual maximum temperature at grid R217C437 is projected to reach 58.64379883\u00b0F under RCP 8.5 and 54.21659851\u00b0F under RCP 4.5."
+    },
+    {
+        "user": "By the end of the century, what is the expected annual maximum temperature at R061C379?",
+        "input": {
+            "grid_cell": "R061C379",
+            "historical": {
+                "temp": "76.36650085 F"
+            },
+            "rcp85": {
+                "mid_century": "78.71379852 F",
+                "end_century": "84.34069824 F",
+                "change_from_hist_end": "7.97415018 F"
+            },
+            "rcp45": {
+                "mid_century": "78.19480133 F",
+                "end_century": "80.94499969 F",
+                "change_from_hist_end": "4.57848978 F"
+            }
+        },
+        "assistant": "By the end of the century, the annual maximum temperature at grid R061C379 is projected to reach 84.34069824\u00b0F under RCP 8.5 and 80.94499969\u00b0F under RCP 4.5."
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R120C193 by the end of century?",
+        "input": {
+            "grid_cell": "R120C193",
+            "historical": {
+                "precipitation": "12.21520042 inches"
+            },
+            "rcp85": {
+                "mid_century": "12.40390015 inches",
+                "end_century": "11.78190041 inches",
+                "change_from_hist_end": "-0.433332 inches"
+            },
+            "rcp45": {
+                "mid_century": "10.82209969 inches",
+                "end_century": "12.41399956 inches",
+                "change_from_hist_end": "0.198737 inches"
+            }
+        },
+        "assistant": "Annual precipitation at R120C193 is projected to change by -0.433332 inches under RCP 8.5, and 0.198737 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R074C393 by the end of century?",
+        "input": {
+            "grid_cell": "R074C393",
+            "historical": {
+                "precipitation": "43.22019958 inches"
+            },
+            "rcp85": {
+                "mid_century": "46.63349915 inches",
+                "end_century": "47.95849991 inches",
+                "change_from_hist_end": "4.73824978 inches"
+            },
+            "rcp45": {
+                "mid_century": "44.05450058 inches",
+                "end_century": "42.05139923 inches",
+                "change_from_hist_end": "-1.16881001 inches"
+            }
+        },
+        "assistant": "Annual precipitation at R074C393 is projected to change by 4.73824978 inches under RCP 8.5, and -1.16881001 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in annual precipitation at R130C260 by the end of century?",
+        "input": {
+            "grid_cell": "R130C260",
+            "historical": {
+                "precipitation": "10.10739994 inches"
+            },
+            "rcp85": {
+                "mid_century": "10.59220028 inches",
+                "end_century": "10.77700043 inches",
+                "change_from_hist_end": "0.66957498 inches"
+            },
+            "rcp45": {
+                "mid_century": "9.93776989 inches",
+                "end_century": "9.8006897 inches",
+                "change_from_hist_end": "-0.30673 inches"
+            }
+        },
+        "assistant": "Annual precipitation at R130C260 is projected to change by 0.66957498 inches under RCP 8.5, and -0.30673 inches under RCP 4.5,"
+    },
+    {
+        "user": "What is the projected change in winter minimum temperature at R179C351 by the end of century?",
+        "input": {
+            "grid_cell": "R179C351",
+            "historical": {
+                "temp": "42.06679916 F"
+            },
+            "rcp85": {
+                "mid_century": "45.35950089 F",
+                "end_century": "51.78070068 F",
+                "change_from_hist_end": "9.71393967 F"
+            },
+            "rcp45": {
+                "mid_century": "43.7867012 F",
+                "end_century": "47.81710052 F",
+                "change_from_hist_end": "5.75029993 F"
+            }
+        },
+        "assistant": "The winter minimum temperature at R179C351 is expected to increase by 9.71393967\u00b0F under RCP 8.5"
+    },
+    {
+        "user": "What is the projected change in winter minimum temperature at R122C356 by the end of century?",
+        "input": {
+            "grid_cell": "R122C356",
+            "historical": {
+                "temp": "51.11539841 F"
+            },
+            "rcp85": {
+                "mid_century": "53.90859985 F",
+                "end_century": "59.74509811 F",
+                "change_from_hist_end": "8.6297102 F"
+            },
+            "rcp45": {
+                "mid_century": "52.01509857 F",
+                "end_century": "55.62870026 F",
+                "change_from_hist_end": "4.51328993 F"
+            }
+        },
+        "assistant": "The winter minimum temperature at R122C356 is expected to increase by 8.6297102\u00b0F under RCP 8.5"
+    },
+    {
+        "user": "What is the projected change in winter minimum temperature at R167C220 by the end of century?",
+        "input": {
+            "grid_cell": "R167C220",
+            "historical": {
+                "temp": "40.13600159 F"
+            },
+            "rcp85": {
+                "mid_century": "43.20949936 F",
+                "end_century": "49.57239914 F",
+                "change_from_hist_end": "9.4363699 F"
+            },
+            "rcp45": {
+                "mid_century": "43.02389908 F",
+                "end_century": "44.83459854 F",
+                "change_from_hist_end": "4.69852018 F"
+            }
+        },
+        "assistant": "The winter minimum temperature at R167C220 is expected to increase by 9.4363699\u00b0F under RCP 8.5"
+    }
+]
