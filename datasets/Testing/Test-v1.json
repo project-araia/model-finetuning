@@ -209,7 +209,7 @@
                 "change_from_hist_end": 5.75029993
             }
         },
-        "assistant": "The winter minimum temperature at R179C351 is expected to increase by 9.71393967°F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R179C351 is expected to increase by 9.71393967°F under RCP 8.5 and 5.75029993°F under RCP 4.5."
     },
     {
         "user": "What is the projected change in winter minimum temperature at R122C356 by the end of century?",
@@ -230,7 +230,7 @@
                 "change_from_hist_end": 4.51328993
             }
         },
-        "assistant": "The winter minimum temperature at R122C356 is expected to increase by 8.6297102°F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R122C356 is expected to increase by 8.6297102°F under RCP 8.5 and 4.51328993°F under RCP 4.5."
     },
     {
         "user": "What is the projected change in winter minimum temperature at R167C220 by the end of century?",
@@ -251,6 +251,6 @@
                 "change_from_hist_end": 4.69852018
             }
         },
-        "assistant": "The winter minimum temperature at R167C220 is expected to increase by 9.4363699°F under RCP 8.5"
+        "assistant": "The winter minimum temperature at R167C220 is expected to increase by 9.4363699°F under RCP 8.5 and 4.69852018°F under RCP 4.5."
     }
 ]

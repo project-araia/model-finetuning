@@ -41,7 +41,6 @@ def extract_preci_unit_pairs(text):
     matches = re.findall(r'([-+]?\d*\.\d+|\d+)\s?(inches)', text)
     return [(val, unit) for val, unit in matches]
 
-
 # Extract grid cell
 def extract_grid(text):
     match = re.search(r'R\d{3}C\d{3}', text)
@@ -76,8 +75,8 @@ def score_output(grid_out, temps_out, grid_ref, temps_ref):
     return score
 
 # Path to your text file
-base_responses = extract_assistant_responses('../runs/training/outputs-april-28-2025/output_base.txt')
-finetuned_responses = extract_assistant_responses('../runs/training/outputs-april-28-2025/output_finetuned.txt') 
+base_responses = extract_assistant_responses('../runs/training/outputs-may-2025/output_base.txt')
+finetuned_responses = extract_assistant_responses('../runs/training/outputs-may-2025/output_finetuned.txt') 
 ref_responses = extract_assistant_responses_json('../datasets/Testing/Test-v1.json')
 
 score_count = min(len(base_responses),len(finetuned_responses))
@@ -87,10 +86,10 @@ fine_tuned_score = 0.
 
 for i in range(score_count):
 
-    if i<9:
-        output1 = base_responses[i].strip("\n")
-    else:
-        output1 = base_responses[i+1].strip("\n")
+    #if i<9:
+    output1 = base_responses[i].strip("\n")
+    #else:
+    #    output1 = base_responses[i+1].strip("\n")
     output2 = finetuned_responses[i].strip("\n")
     correct_output = ref_responses[i]
 
@@ -106,11 +105,19 @@ for i in range(score_count):
 
     score1 = score_output(grid1, val1, grid_correct, val_correct)
     score2 = score_output(grid2, val2, grid_correct, val_correct)
+    score_correct = score_output(grid_correct, val_correct, grid_correct, val_correct)
 
-    base_score = base_score + score1
-    fine_tuned_score = fine_tuned_score + score2
+    if i==8:
+        print(output1)
+        print(output2)
+        print(correct_output)
+        print(grid2,grid_correct)
+    print(i,score1, score2, score_correct)
+
+    base_score = base_score + score1/score_correct
+    fine_tuned_score = fine_tuned_score + score2/score_correct
 
 
 # Display results
-print(f"Base Model Similarity Score: {base_score/score_count/5:.4f}")
-print(f"Fine-tuned Model Similarity Score: {fine_tuned_score/score_count/5:.4f}")
+print(f"Base Model Similarity Score: {base_score/score_count:.4f}")
+print(f"Fine-tuned Model Similarity Score: {fine_tuned_score/score_count:.4f}")

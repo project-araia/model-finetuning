@@ -50,20 +50,21 @@ def extract_assistant_responses_json(file_path):
     return responses
 
 # Path to your text file
-base_responses = extract_assistant_responses('../runs/training/outputs-april-28-2025/output_base.txt')
-finetuned_responses = extract_assistant_responses('../runs/training/outputs-april-28-2025/output_finetuned.txt') 
+base_responses = extract_assistant_responses('../runs/training/outputs-may-2025/output_base.txt')
+finetuned_responses = extract_assistant_responses('../runs/training/outputs-may-2025/output_finetuned.txt') 
 ref_responses = extract_assistant_responses_json('../datasets/Testing/Test-v1.json')
 
 score_count = min(len(base_responses),len(finetuned_responses))
 print(score_count)
 base_score = 0.
 fine_tuned_score = 0.
+print(len(base_responses), len(finetuned_responses))
 
 for i in range(score_count):
-    if i<9:
-        base_output = base_responses[i].strip("\n")
-    else:
-        base_output = base_responses[i+1].strip("\n")
+    #if i<9:
+    base_output = base_responses[i].strip("\n")
+    #else:
+    #    base_output = base_responses[i+1].strip("\n")
 
     fine_tuned_output = finetuned_responses[i].strip("\n")
     reference_output = ref_responses[i]
