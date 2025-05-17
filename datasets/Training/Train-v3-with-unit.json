@@ -84,7 +84,7 @@
     "assistant": "At grid R216C244, annual maximum temperatures are expected to be 58.13169861\u00b0F (RCP 8.5) and 54.24330139\u00b0F (RCP 4.5) by 2100."
   },
   {
-    "user": "By 2100, what peak annual temperature is expected at grid R424C050?",
+    "user": "By 2100, what peak annual temperature is expected at grid R424C050 under RCP 4.5?",
     "input": {
       "grid_cell": "R424C050",
       "historical": {
@@ -102,7 +102,7 @@
         "change_from_hist_end": 4.00445986
       }
     },
-    "assistant": "At grid R424C050, annual maximum temperatures are expected to be 49.87080002\u00b0F (RCP 8.5) and 40.22389984\u00b0F (RCP 4.5) by 2100."
+    "assistant": "At grid R424C050, annual maximum temperatures are expected to be 40.22389984\u00b0F (RCP 4.5) by 2100."
   },
   {
     "user": "Could you tell me the forecasted annual high temperature at R132C210 by the end of this century?",
@@ -147,7 +147,7 @@
     "assistant": "Grid R099C233 is forecast to reach an annual maximum of 89.17130280\u00b0F under RCP 8.5 and 84.18329620\u00b0F under RCP 4.5 by 2100."
   },
   {
-    "user": "How high could the annual max temperature rise at R087C360 by century's end?",
+    "user": "How could the annual max temperature change at R087C360 relative to its state by century's end?",
     "input": {
       "grid_cell": "R087C360",
       "historical": {
@@ -157,18 +157,20 @@
       "rcp85": {
         "mid_century": 77.07990265,
         "end_century": 82.72049713,
-        "change_from_hist_end": 8.30704021
+        "change_from_hist_end": 8.30704021,
+	"region_fluctuation_end": 1.4510
       },
       "rcp45": {
         "mid_century": 76.64749908,
         "end_century": 79.53009796,
-        "change_from_hist_end": 5.1166501
+        "change_from_hist_end": 5.1166501,
+	"region_fluctuation_end": -0.5132
       }
     },
-    "assistant": "By century's end, grid R087C360 should see peak temperatures of 82.72049713\u00b0F (RCP 8.5) and 79.53009796\u00b0F (RCP 4.5)."
+    "assistant": "By century's end, grid R087C360 should see temperature fluctuations of 1.4510\u00b0F (RCP 8.5) and -0.5132\u00b0F (RCP 4.5) realtive to the aggregate values in its state."
   },
   {
-    "user": "What temperature extremes are predicted at grid R412C064 by 2100?",
+    "user": "What temperature extremes are predicted at grid R412C064 by 2100 under RCP 8.5?",
     "input": {
       "grid_cell": "R412C064",
       "historical": {
@@ -186,7 +188,7 @@
         "change_from_hist_end": 2.61271
       }
     },
-    "assistant": "At grid R412C064, annual maximum temperatures are expected to be 46.81110001\u00b0F (RCP 8.5) and 38.48289871\u00b0F (RCP 4.5) by 2100."
+    "assistant": "At grid R412C064, annual maximum temperatures are expected to be 46.81110001\u00b0F (RCP 8.5) by 2100."
   },
   {
     "user": "By 2100, what peak annual temperature is expected at grid R103C209?",
@@ -252,7 +254,7 @@
     "assistant": "By century's end, grid R394C136 should see peak temperatures of 38.17179871\u00b0F (RCP 8.5) and 32.95709991\u00b0F (RCP 4.5)."
   },
   {
-    "user": "Could you tell me the forecasted annual high temperature at R461C073 by the end of this century?",
+    "user": "Could you tell me the forecasted difference in end-century temperature at R461C073 relative to its county?",
     "input": {
       "grid_cell": "R461C073",
       "historical": {
@@ -262,15 +264,17 @@
       "rcp85": {
         "mid_century": 32.33110046,
         "end_century": 41.58449936,
-        "change_from_hist_end": 13.69620037
+        "change_from_hist_end": 13.69620037,
+	"region_fluctuation_end": -0.53435
       },
       "rcp45": {
         "mid_century": 31.69109917,
         "end_century": 33.6310997,
-        "change_from_hist_end": 5.7427702
+        "change_from_hist_end": 5.7427702,
+	"region_fluctuation_end": 1.3245
       }
     },
-    "assistant": "At grid R461C073, annual maximum temperatures are expected to be 41.58449936\u00b0F (RCP 8.5) and 33.63109970\u00b0F (RCP 4.5) by 2100."
+    "assistant": "At grid R461C073, annual maximum temperatures are expected to differ by -0.53435\u00b0F (RCP 8.5) and 1.3245\u00b0F (RCP 4.5) relative to its county's aggregate by 2100."
   },
   {
     "user": "What annual max temperature do projections show for grid R121C487 around 2100?",
@@ -693,7 +697,7 @@
     "assistant": "Projections indicate maximum annual temperatures at R147C191 of 81.76580048\u00b0F for RCP 8.5 and 77.30100250\u00b0F for RCP 4.5 by 2100."
   },
   {
-    "user": "How high could the annual max temperature rise at R098C277 by century's end?",
+    "user": "How high could the annual max temperature rise at R098C277 by century's end under RCP 8.5?",
     "input": {
       "grid_cell": "R098C277",
       "historical": {
@@ -711,7 +715,7 @@
         "change_from_hist_end": 4.33125019
       }
     },
-    "assistant": "Projections indicate maximum annual temperatures at R098C277 of 65.38539886\u00b0F for RCP 8.5 and 60.44070053\u00b0F for RCP 4.5 by 2100."
+    "assistant": "Projections indicate maximum annual temperatures at R098C277 of 65.38539886\u00b0F for RCP 8.5 by 2100."
   },
   {
     "user": "Could you provide the expected change in annual precipitation at R046C358 by 2100?",
@@ -735,7 +739,7 @@
     "assistant": "By 2100, precipitation at R046C358 could vary by 1.86374998 inches for RCP 8.5 and -4.97976017 inches for RCP 4.5."
   },
   {
-    "user": "Could you provide the expected change in annual precipitation at R230C388 by 2100 compared to its county?",
+    "user": "Could you provide the expected change in annual precipitation at R230C388 by 2100 compared to its state?",
     "input": {
       "grid_cell": "R230C388",
       "historical": {
@@ -755,10 +759,10 @@
         "region_flucation_end": 2.5836
       }
     },
-    "assistant": "Annual precipitation at grid R230C388 is expected to fluctuate by 1.3452 inches under RCP 8.5 and 2.5836 inches under RCP 4.5 compared to its overall aggregate in its county by century's end."
+    "assistant": "Annual precipitation at grid R230C388 is expected to fluctuate by 1.3452 inches under RCP 8.5 and 2.5836 inches under RCP 4.5 compared to overall aggregate in its state by century's end."
   },
   {
-    "user": "How much will yearly precipitation vary at grid R187C399 by 2100 under different scenarios?",
+    "user": "How much will yearly precipitation vary at grid R187C399 by 2100 under RCP 4.5?",
     "input": {
       "grid_cell": "R187C399",
       "historical": {
@@ -776,7 +780,7 @@
         "change_from_hist_end": 2.40214992
       }
     },
-    "assistant": "By 2100, precipitation at R187C399 could vary by 7.65725994 inches for RCP 8.5 and 2.40214992 inches for RCP 4.5."
+    "assistant": "By 2100, precipitation at R187C399 could vary by 2.40214992 inches for RCP 4.5."
   },
   {
     "user": "How much will yearly precipitation vary at grid R070C509 by 2100 under different scenarios?",

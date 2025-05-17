@@ -28,8 +28,8 @@ fourbit_models = [
 ] # More models at https://huggingface.co/unsloth
 
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name = "lora_model",
-    #model_name = "unsloth/Meta-Llama-3.1-8B",
+    #model_name = "lora_model",
+    model_name = "unsloth/Meta-Llama-3.1-8B",
     max_seq_length = max_seq_length,
     dtype = dtype,
     load_in_4bit = load_in_4bit,
