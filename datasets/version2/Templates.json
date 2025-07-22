@@ -1,0 +1,70 @@
+[
+  {
+    "question": "What is the historical maximum average temperature in spring at {location}?",
+    "answer": "The historical maximum average temperature in spring at {location} is {seas_hist}°C. This represents the observed baseline climate conditions, typically using a 1980–2010 reference period for that season."
+  },
+  {
+    "question": "What is the historical minimum average temperature in spring at {location}?",
+    "answer": "The historical minimum average temperature in spring at {location} is {seas_hist}°C. This represents the observed baseline climate conditions, typically using a 1980–2010 reference period for that season."
+  },
+  {
+    "question": "What is the historical maximum average temperature in summer at {location}?",
+    "answer": "The historical maximum average temperature summer at {location} is {seas_hist}°C. This represents the observed baseline climate conditions, typically using a 1980–2010 reference period for that season."
+  },
+  {
+    "question": "What is the historical minimum average temperature in summer at {location}?",
+    "answer": "The historical minimum average temperature summer at {location} is {seas_hist}°C. This represents the observed baseline climate conditions, typically using a 1980–2010 reference period for that season."
+  },
+  {
+    "question": "What is the historical maximum average temperature in autumn at {location}?",
+    "answer": "The historical maximum average temperature autumn at {location} is {seas_hist}°C. This represents the observed baseline climate conditions, typically using a 1980–2010 reference period for that season."
+  },
+  {
+    "question": "What is the historical minimum average temperature in autumn at {location}?",
+    "answer": "The historical minimum average temperature autumn at {location} is {seas_hist}°C. This represents the observed baseline climate conditions, typically using a 1980–2010 reference period for that season."
+  },
+  {
+    "question": "What is the historical maximum average temperature in winter at {location}?",
+    "answer": "The historical maximum average temperature winter at {location} is {seas_hist}°C. This represents the observed baseline climate conditions, typically using a 1980–2010 reference period for that season."
+  },
+  {
+    "question": "What is the historical minimum average temperature in winter at {location}?",
+    "answer": "The historical minimum average temperature winter at {location} is {seas_hist}°C. This represents the observed baseline climate conditions, typically using a 1980–2010 reference period for that season."
+  },
+  {
+    "question": "What is the projected maximum average temperature in spring under RCP 85 by mid?",
+    "answer": "The projected maximum average temperature in spring under RCP 85 by mid is {seas_rcp}°C. This reflects anticipated warming trends due to climate change."
+  },
+  {
+    "question": "What is the projected minimum average temperature in spring under RCP 85 by mid?",
+    "answer": "The projected minimum average temperature in spring under RCP 85 by mid is {seas_rcp}°C. This reflects anticipated warming trends due to climate change."
+  },
+  {
+    "question": "What is the projected maximum average temperature in summer under RCP 85 by mid?",
+    "answer": "The projected maximum average temperature in summer under RCP 85 by mid is {seas_rcp}°C. This reflects anticipated warming trends due to climate change."
+  },
+  {
+    "question": "What is the projected minimum average temperature in summer under RCP 85 by mid?",
+    "answer": "The projected minimum average temperature in summer under RCP 85 by mid is {seas_rcp}°C. This reflects anticipated warming trends due to climate change."
+  },
+  {
+    "question": "What is the projected maximum average temperature in autumn under RCP 85 by mid?",
+    "answer": "The projected maximum average temperature in autumn under RCP 85 by mid is {seas_rcp}°C. This reflects anticipated warming trends due to climate change."
+  },
+  {
+    "question": "What is the projected minimum average temperature in autumn under RCP 85 by mid?",
+    "answer": "The projected minimum average temperature in autumn under RCP 85 by mid is {seas_rcp}°C. This reflects anticipated warming trends due to climate change."
+  },
+  {
+    "question": "What is the projected maximum average temperature in winter under RCP 85 by mid?",
+    "answer": "The projected maximum average temperature in winter under RCP 85 by mid is {seas_rcp}°C. This reflects anticipated warming trends due to climate change."
+  },
+  {
+    "question": "What is the projected minimum average temperature in winter under RCP 85 by mid?",
+    "answer": "The projected minimum average temperature in winter under RCP 85 by mid is {seas_rcp}°C. This reflects anticipated warming trends due to climate change."
+  },
+  {
+    "question": "How does the historical maximum average temperature in summer at {location} compare to {location2}?",
+    "answer": "The historical maximum average temperature in summer at {location} is {seas_hist}°C, which is {comparison} compared to {location2}'s {seas_hist_loc2}°C."
+  }
+]
