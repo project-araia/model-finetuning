@@ -9,8 +9,6 @@ def extract_variables(question, answer):
         temperature_type = "maximum"
     elif "minimum" in question_lower:
         temperature_type = "minimum"
-    elif "average" in question_lower:
-        temperature_type = "average"
     else:
         temperature_type = None
     
