@@ -66,5 +66,69 @@
   {
     "question": "How does the historical maximum average temperature in summer at {location} compare to {location2}?",
     "answer": "The historical maximum average temperature in summer at {location} is {seas_hist}°C, which is {comparison} compared to {location2}'s {seas_hist_loc2}°C."
+  },
+  {
+    "question": "What is the historical total precipitation in {season} at {location}?",
+    "answer": "The historical total precipitation in {season} at {location} is {precip_hist} mm. This value represents seasonal rainfall patterns averaged over the 1980–2010 period."
+  },
+  {
+    "question": "What is the projected total precipitation in {season} at {location} under RCP {scenario} by {time_period}?",
+    "answer": "The projected total precipitation in {season} at {location} under RCP {scenario} by {time_period} is {precip_proj} mm, which may increase or decrease depending on regional climate dynamics."
+  },
+  {
+    "question": "How does the seasonal precipitation in {season} at {location} change from historical to RCP {scenario} by {time_period}?",
+    "answer": "In {season}, the seasonal precipitation at {location} is projected to change by {delta_precip} mm under RCP {scenario} by {time_period}, relative to the historical baseline."
+  },
+  {
+    "question": "What is the historical number of dry days (no precipitation) annually at {location}?",
+    "answer": "The historical number of dry days annually at {location} is {dry_days_hist}. This reflects the typical number of days with little to no measurable rainfall."
+  },
+  {
+    "question": "What is the projected number of dry days annually at {location} under RCP {scenario} by {time_period}?",
+    "answer": "Under RCP {scenario} by {time_period}, {location} is expected to experience {dry_days_proj} dry days annually, which may affect drought and agricultural conditions."
+  },
+  {
+    "question": "How do heavy precipitation days (above 25 mm) change from historical to RCP {scenario} by {time_period} at {location}?",
+    "answer": "Heavy precipitation days (above 25 mm) at {location} are projected to increase from {extreme_hist} to {extreme_proj} days under RCP {scenario} by {time_period}, suggesting more intense rain events."
+  },
+  {
+    "question": "What is the historical annual total of cooling degree days at {location}?",
+    "answer": "The historical annual total of cooling degree days at {location} is {cdd_hist}, representing the energy demand for cooling based on past climate."
+  },
+  {
+    "question": "What is the projected annual total of cooling degree days at {location} under RCP {scenario} by {time_period}?",
+    "answer": "The projected annual total of cooling degree days at {location} under RCP {scenario} by {time_period} is {cdd_proj}, indicating higher energy demand for cooling due to future warming."
+  },
+  {
+    "question": "How do cooling degree days change over time from historical to RCP {scenario} at {location}?",
+    "answer": "Cooling degree days at {location} are projected to increase by {delta_cdd} under RCP {scenario}, indicating more frequent and intense hot days relative to historical values."
+  },
+  {
+    "question": "What is the historical annual total of heating degree days at {location}?",
+    "answer": "The historical annual total of heating degree days at {location} is {hdd_hist}, measuring the accumulated temperature-based energy demand for heating."
+  },
+  {
+    "question": "What is the projected annual total of heating degree days at {location} under RCP {scenario} by {time_period}?",
+    "answer": "The projected annual total of heating degree days at {location} under RCP {scenario} by {time_period} is {hdd_proj}, reflecting a decline in heating demand as winters warm."
+  },
+  {
+    "question": "How do heating degree days change under RCP {scenario} by {time_period} compared to the historical period at {location}?",
+    "answer": "Heating degree days at {location} are projected to decrease by {delta_hdd} under RCP {scenario} by {time_period}, consistent with a warming climate."
+  },
+  {
+    "question": "Which scenario shows the greatest reduction in heating demand at {location}?",
+    "answer": "RCP 8.5 shows the greatest projected reduction in heating demand at {location}, as reflected in the largest decrease in heating degree days."
+  },
+  {
+    "question": "What is the historical fire weather index for {season} at {location}?",
+    "answer": "The historical fire weather index for {season} at {location} is {fwi_hist}, indicating baseline fire-prone conditions based on temperature, wind, and humidity."
+  },
+  {
+    "question": "What is the projected fire weather index for {season} at {location} under RCP {scenario} by {time_period}?",
+    "answer": "The projected fire weather index for {season} at {location} under RCP {scenario} by {time_period} is {fwi_proj}, suggesting a higher risk of wildfire under future climate conditions."
+  },
+  {
+    "question": "How does the number of high fire risk days in {season} change at {location} from historical to RCP {scenario} by {time_period}?",
+    "answer": "The number of high fire risk days in {season} at {location} increases from {fwi_days_hist} to {fwi_days_proj} under RCP {scenario} by {time_period}, reflecting drier and hotter conditions."
   }
 ]

@@ -326,5 +326,41 @@
             }
         },
         "assistant": "The historical maximum average temperature in summer at Loudoun, VA is 79.92485462545454\u00b0C, which is warmer compared to King, WA's 71.24805153777778\u00b0C."
+    },
+    {
+        "user": "What is the historical annual total of cooling degree days at Cook, IL?",
+        "input": {
+            "cdd_hist": 1100.0660018912502,
+            "cdd_rcp85_midc": 1545.7366587320837,
+            "cdd_mid85_hist": 445.6703745516666
+        },
+        "assistant": "The historical annual total of cooling degree days at Cook, IL is 1100.0660018912502, representing the energy demand for cooling based on past climate."
+    },
+    {
+        "user": "What is the historical annual total of cooling degree days at Loudoun, VA?",
+        "input": {
+            "cdd_hist": 868.2617298472727,
+            "cdd_rcp85_midc": 1335.1363636372726,
+            "cdd_mid85_hist": 466.8763649681818
+        },
+        "assistant": "The historical annual total of cooling degree days at Loudoun, VA is 868.2617298472727, representing the energy demand for cooling based on past climate."
+    },
+    {
+        "user": "What is the historical annual total of heating degree days at Cook, IL?",
+        "input": {
+            "hdd_hist": 7189.420064290417,
+            "hdd_rcp85_midc": 6469.764587402499,
+            "hdd_mid85_hist": -719.6544926958333
+        },
+        "assistant": "The historical annual total of heating degree days at Cook, IL is 7189.420064290417, measuring the accumulated temperature-based energy demand for heating."
+    },
+    {
+        "user": "What is the historical annual total of heating degree days at Loudoun, VA?",
+        "input": {
+            "hdd_hist": 5686.853560016363,
+            "hdd_rcp85_midc": 5173.198109020909,
+            "hdd_mid85_hist": -513.6552706636363
+        },
+        "assistant": "The historical annual total of heating degree days at Loudoun, VA is 5686.853560016363, measuring the accumulated temperature-based energy demand for heating."
     }
 ]

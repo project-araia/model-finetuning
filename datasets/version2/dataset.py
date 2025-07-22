@@ -23,7 +23,22 @@ for template in templates:
     template_vars = templateparser.extract_variables(question_template, answer_template)
     placeholders = templateparser.extract_placeholders(question_template, answer_template)
     key_pattern_str = templateparser.build_key_pattern(template_vars)
-    key_pattern = re.compile(key_pattern_str)
+
+    if not key_pattern_str:
+        continue
+
+    # --- Select key pattern based on variable_type ---
+    variable_type = template_vars.get("variable_type", "").lower()
+    if variable_type in ("precipitation", "precip", "rain"):
+        # Match only precipitation keys
+        key_pattern = re.compile(r"precipann_|precipdaily_")
+    elif variable_type in ("fire weather index", "fwi", "wildfire"):
+        # Match only wildfire/fire weather index keys
+        key_pattern = re.compile(r"wildfire_|FWI_")
+    else:
+        # Default to original key pattern (e.g., temperature, windspeed, etc.)
+        key_pattern = re.compile(key_pattern_str)
+
     value_map = templateparser.build_extract_map(placeholders, template_vars)
 
     is_comparison = template_vars.get("is_comparative", False)
@@ -32,7 +47,6 @@ for template in templates:
         # Comparison case
         for loc1 in selected_locations:
             for loc2 in compared_locations:
-
                 county1, state1 = map(str.strip, loc1.split(","))
                 county2, state2 = map(str.strip, loc2.split(","))
 
@@ -48,27 +62,33 @@ for template in templates:
                     "location2": loc2
                 }
 
-                # Extract values
                 for varname, substring in value_map.items():
-                    if varname.endswith("_loc2"):
-                        for key in matched_keys2:
-                            if substring in key:
-                                filled_vars[varname] = data2[key]
-                                break
-                    else:
-                        for key in matched_keys1:
-                            if substring in key:
-                                filled_vars[varname] = data1[key]
-                                break
+                    target_data = data2 if varname.endswith("_loc2") else data1
+                    matched_keys = matched_keys2 if varname.endswith("_loc2") else matched_keys1
 
-                # Compute comparison phrase if applicable
-                if "seas_hist" in filled_vars and "seas_hist_loc2" in filled_vars:
-                    v1 = filled_vars["seas_hist"]
-                    v2 = filled_vars["seas_hist_loc2"]
-                    if v1 > v2:
-                        comparison = "warmer"
-                    elif v1 < v2:
-                        comparison = "cooler"
+                    for key in matched_keys:
+                        if substring in key:
+                            filled_vars[varname] = target_data[key]
+                            break
+
+                # Generalized comparison phrase logic
+                a = filled_vars.get("seas_hist")
+                b = filled_vars.get("seas_hist_loc2")
+                if a is not None and b is not None:
+                    if a > b:
+                        if variable_type == "temperature":
+                            comparison = "warmer"
+                        elif variable_type in ("precipitation", "precip", "rain", "fire weather index", "fwi"):
+                            comparison = "higher"
+                        else:
+                            comparison = "higher"
+                    elif a < b:
+                        if variable_type == "temperature":
+                            comparison = "cooler"
+                        elif variable_type in ("precipitation", "precip", "rain", "fire weather index", "fwi"):
+                            comparison = "lower"
+                        else:
+                            comparison = "lower"
                     else:
                         comparison = "about the same"
                     filled_vars["comparison"] = comparison
@@ -111,6 +131,7 @@ for template in templates:
                         break
 
             required_vars = set(re.findall(r"{(.*?)}", question_template + answer_template))
+
             if not required_vars.issubset(filled_vars):
                 continue
 
