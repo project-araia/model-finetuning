@@ -4,79 +4,101 @@ import templater
 # --- Load climate dataset ---
 climate_df = climparser.load_dataset("FullData.csv")
 
-# --- Load templates with only question/answer ---
+# --- Load chat templates with placeholder-based questions and answers ---
 chat_templates = templater.load_template("Templates.json")
 
-selected_locations = ["Cook, IL"]#, "Loudoun, VA"]
-compared_locations = ["King, WA"]
+# Define locations for which climate Q&A data will be generated
+target_locations = ["Cook, IL"]  # You can add more locations here
+comparison_locations = ["King, WA"]
+
+# Final dataset entries to be stored
 generated_entries = []
 
+# Loop over each Q&A template
 for template in chat_templates:
     question_template = template["question"]
     answer_template = template["answer"]
 
-    # Extract placeholders in the answer template
-    template_vars, template_exprs = templater.separate_vars_and_exprs(question_template + answer_template)
-    template_dict = {}
-    input_dict = {}
+    # Extract placeholder variables and embedded expressions from templates
+    variable_keys, expression_placeholders = templater.separate_vars_and_exprs(
+        question_template + answer_template
+    )
 
-    for loc in selected_locations:
+    # For each main location in the target set
+    for location_str in target_locations:
+        county1, state1 = map(str.strip, location_str.split(","))
+        template_context = {}
+        input_record = {}
 
-        if "location" in template_vars:
-            template_dict["location"] = loc
+        # Fill in the location name if it's used in the template
+        if "location" in variable_keys:
+            template_context["location"] = location_str
 
-        if "compared_location" in template_vars:
-            for loc2 in compared_locations:
+        # CASE 1: Comparison between two locations
+        if "compared_location" in variable_keys:
+            for compare_str in comparison_locations:
+                county2, state2 = map(str.strip, compare_str.split(","))
+                template_context["compared_location"] = compare_str
 
-                template_dict["compared_location"] = loc2
-
-                county1, state1 = map(str.strip, loc.split(","))
-                county2, state2 = map(str.strip, loc2.split(","))
-
+                # Get average climate data for both locations
                 loc_data1 = climparser.query_mean(climate_df, county1, state1)
                 loc_data2 = climparser.query_mean(climate_df, county2, state2)
 
+                # Populate template context with variables from the primary location
                 for key, value in loc_data1.items():
-                    if key in template_vars:              
-                        template_dict[key] = value
-                        input_dict[key] = value
+                    if key in variable_keys:
+                        template_context[key] = value
+                        input_record[key] = value
 
+                # Populate template context with variables from the comparison location
                 for key, value in loc_data2.items():
-                    if key+"_loc2" in template_vars:
-                        template_dict[key+"_loc2"] = value
-                        input_dict[key+"_loc2"] = value
-                
-                for expr in template_exprs:
-                    template_dict[expr] = eval(expr, {}, template_dict)
+                    key_loc2 = key + "_loc2"
+                    if key_loc2 in variable_keys:
+                        template_context[key_loc2] = value
+                        input_record[key_loc2] = value
 
-                question = question_template.format(**template_dict)
-                answer = answer_template.format(**template_dict)
+                # Evaluate expressions using the full template context
+                for expr in expression_placeholders:
+                    try:
+                        template_context[expr] = eval(expr, {}, template_context)
+                    except Exception as e:
+                        template_context[expr] = f"[eval error: {e}]"
 
-                entry = {
+                # Format the final question and answer using resolved variables/expressions
+                question = question_template.format(**template_context)
+                answer = answer_template.format(**template_context)
+
+                generated_entries.append({
                     "user": question,
-                    "input": input_dict.copy(),
+                    "input": input_record.copy(),
                     "assistant": answer
-                }
-                generated_entries.append(entry)
+                })
 
- 
+        # CASE 2: Single-location (no comparison)
         else:
-            county, state = map(str.strip, loc.split(","))
-            loc_data = climparser.query_center(climate_df, county, state)
+            loc_data = climparser.query_center(climate_df, county1, state1)
 
             for key, value in loc_data.items():
-                if key in template_vars:
-                    template_dict[key] = value
-                    input_dict[key] = value
+                if key in variable_keys:
+                    template_context[key] = value
+                    input_record[key] = value
 
-            question = question_template.format(**template_dict)
-            answer = answer_template.format(**template_dict)
+            # Evaluate any expressions that use the context
+            for expr in expression_placeholders:
+                try:
+                    template_context[expr] = eval(expr, {}, template_context)
+                except Exception as e:
+                    template_context[expr] = f"[eval error: {e}]"
 
-            entry = {
+            # Format question and answer for the current template and location
+            question = question_template.format(**template_context)
+            answer = answer_template.format(**template_context)
+
+            generated_entries.append({
                 "user": question,
-                "input": input_dict.copy(),
+                "input": input_record.copy(),
                 "assistant": answer
-            }
-            generated_entries.append(entry)
+            })
 
+# Save the fully populated training dataset
 templater.save_template("Training.json", "w", generated_entries)
