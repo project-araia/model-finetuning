@@ -1,3 +1,9 @@
+import pandas as pd
+
+def load_dataset(filename):
+    climrr_df = pd.read_csv("FullData.csv")
+    return climrr_df
+
 def query_center(df, county, state):
     # Filter rows for Stephens County, OK
     location_df = df[
@@ -17,11 +23,10 @@ def query_center(df, county, state):
     center_crossmodel = f"R{center_row:03d}C{center_col:03d}"
     center_row_df = df[df["Crossmodel"] == center_crossmodel]
 
-    return center_row_df
+    return center_row_df.squeeze()
 
 
 def query_mean(df, county, state):
-
     # Filter rows by county and state abbreviation (case insensitive)
     location_df = df[
         (df["NAME"].str.strip().str.lower() == county.strip().lower())

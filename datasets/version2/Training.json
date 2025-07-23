@@ -1,366 +1,59 @@
 [
     {
-        "user": "What is the historical maximum average temperature in spring at Cook, IL?",
+        "user": "What is the historical maximum average temperature in summer?",
         "input": {
-            "tempmax_seas_hist_spring": 57.62163305333333,
-            "tempmax_seas_rcp85_mid_spring": 62.395187219166665,
-            "tempmax_seas_rcp85_end_spring": 66.63073428458334
+            "tempmax_seas_hist_summer": 81.6065979
         },
-        "assistant": "The historical maximum average temperature in spring at Cook, IL is 57.62163305333333\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
+        "assistant": "The historical maximum average temperature in spring at Cook, IL is 81.6065979\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
     },
     {
-        "user": "What is the historical maximum average temperature in spring at Loudoun, VA?",
+        "user": "What is the historical minimum average temperature in summer?",
         "input": {
-            "tempmax_seas_hist_spring": 61.52687350000001,
-            "tempmax_seas_rcp85_mid_spring": 66.26351027,
-            "tempmax_seas_rcp85_end_spring": 69.92209139727272
+            "tempmin_seas_hist_summer": 67.86119843
         },
-        "assistant": "The historical maximum average temperature in spring at Loudoun, VA is 61.52687350000001\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
+        "assistant": "The historical minimum average temperature in spring at Cook, IL is 67.86119843\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
     },
     {
-        "user": "What is the historical minimum average temperature in spring at Cook, IL?",
+        "user": "What is the projected maximum average temperature in summer under RCP 8.5 by mid century?",
         "input": {
-            "tempmin_seas_hist_spring": 44.903120994999995,
-            "tempmin_seas_rcp85_mid_spring": 49.09477917416667,
-            "tempmin_seas_rcp85_end_spring": 53.864512284166665
+            "tempmax_seas_rcp85_mid_summer": 86.68319702
         },
-        "assistant": "The historical minimum average temperature in spring at Cook, IL is 44.903120994999995\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
+        "assistant": "The projected maximum average temperature at Cook, IL in summer under RCP 8.5 by mid century is 86.68319702\u00b0C. This reflects anticipated warming trends due to climate change."
     },
     {
-        "user": "What is the historical minimum average temperature in spring at Loudoun, VA?",
+        "user": "What is the projected minimum average temperature in summer under RCP 8.5 by mid century?",
         "input": {
-            "tempmin_seas_hist_spring": 44.48110927181818,
-            "tempmin_seas_rcp85_mid_spring": 48.62124564454546,
-            "tempmin_seas_rcp85_end_spring": 53.04469958090909
+            "tempmin_seas_rcp85_mid_summer": 72.51000214
         },
-        "assistant": "The historical minimum average temperature in spring at Loudoun, VA is 44.48110927181818\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
+        "assistant": "The projected minimum average temperature in summer under RCP 8.5 by mid century is 72.51000214\u00b0C. This reflects anticipated warming trends due to climate change."
     },
     {
-        "user": "What is the historical maximum average temperature in summer at Cook, IL?",
+        "user": "How does the historical maximum average temperature in summer compared to King, WA?",
         "input": {
             "tempmax_seas_hist_summer": 79.57420762416666,
-            "tempmax_seas_rcp85_mid_summer": 84.572237015,
-            "tempmax_seas_rcp85_end_summer": 89.83983739166666,
-            "tempmax_seas_mid85_hist_summer": 4.998027504583333,
-            "tempmax_seas_end85_hist_summer": 10.265633344583334
+            "tempmax_seas_hist_summer_loc2": 71.24805153777778
         },
-        "assistant": "The historical maximum average temperature summer at Cook, IL is 79.57420762416666\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
+        "assistant": "The historical maximum average temperature in summer at Cook, IL is 79.57420762416666\u00b0C, which is compared to King, WA's 71.24805153777778\u00b0C."
     },
     {
-        "user": "What is the historical maximum average temperature in summer at Loudoun, VA?",
+        "user": "What is the projected annual precipitation under RCP 8.5 by mid century?",
         "input": {
-            "tempmax_seas_hist_summer": 79.92485462545454,
-            "tempmax_seas_rcp85_mid_summer": 84.85715484545455,
-            "tempmax_seas_rcp85_end_summer": 89.25894511909091,
-            "tempmax_seas_mid85_hist_summer": 4.932311793636363,
-            "tempmax_seas_end85_hist_summer": 9.334091966363637
+            "precipann_rcp85_midc": 36.42279816
         },
-        "assistant": "The historical maximum average temperature summer at Loudoun, VA is 79.92485462545454\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
+        "assistant": "The projected annual precipitation at Cook, IL under RCP 8.5 by mid century is 36.42279816 mm, which may increase or decrease depending on regional climate dynamics."
     },
     {
-        "user": "What is the historical minimum average temperature in summer at Cook, IL?",
+        "user": "What is the historical annual total of cooling degree days?",
         "input": {
-            "tempmin_seas_hist_summer": 65.24533335375,
-            "tempmin_seas_rcp85_mid_summer": 70.00192546708332,
-            "tempmin_seas_rcp85_end_summer": 75.57827122916666,
-            "tempmin_seas_mid85_hist_summer": 4.75659670375,
-            "tempmin_seas_end85_hist_summer": 10.332937558333333
+            "cdd_hist": 1390.64001465
         },
-        "assistant": "The historical minimum average temperature summer at Cook, IL is 65.24533335375\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
+        "assistant": "The historical annual total of cooling degree days at Cook, IL is 1390.64001465, representing the energy demand for cooling based on past climate."
     },
     {
-        "user": "What is the historical minimum average temperature in summer at Loudoun, VA?",
+        "user": "What is the projected annual total of cooling degree days under RCP 8.5 by mid century?",
         "input": {
-            "tempmin_seas_hist_summer": 62.13250905818183,
-            "tempmin_seas_rcp85_mid_summer": 66.89580050454546,
-            "tempmin_seas_rcp85_end_summer": 72.2366818509091,
-            "tempmin_seas_mid85_hist_summer": 4.7633082227272725,
-            "tempmin_seas_end85_hist_summer": 10.10415900909091
+            "cdd_rcp85_midc": 1881.4699707
         },
-        "assistant": "The historical minimum average temperature summer at Loudoun, VA is 62.13250905818183\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
-    },
-    {
-        "user": "What is the historical maximum average temperature in winter at Cook, IL?",
-        "input": {
-            "tempmax_seas_hist_winter": 32.67272464458333,
-            "tempmax_seas_rcp85_midc_winter": 36.408466340833336,
-            "tempmax_seas_rcp85_endc_winter": 41.732396126666664,
-            "tempmax_seas_mid85_hist_winter": 3.7357345816666663,
-            "tempmax_seas_end85_hist_winter": 9.059669594583333
-        },
-        "assistant": "The historical maximum average temperature winter at Cook, IL is 32.67272464458333\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
-    },
-    {
-        "user": "What is the historical maximum average temperature in winter at Loudoun, VA?",
-        "input": {
-            "tempmax_seas_hist_winter": 43.222472798181826,
-            "tempmax_seas_rcp85_midc_winter": 46.33248103545454,
-            "tempmax_seas_rcp85_endc_winter": 50.40120939818182,
-            "tempmax_seas_mid85_hist_winter": 3.1100100181818178,
-            "tempmax_seas_end85_hist_winter": 7.178751771818182
-        },
-        "assistant": "The historical maximum average temperature winter at Loudoun, VA is 43.222472798181826\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
-    },
-    {
-        "user": "What is the historical minimum average temperature in winter at Cook, IL?",
-        "input": {
-            "tempmin_seas_hist_winter": 20.400583425833332,
-            "tempmin_seas_rcp85_midc_winter": 25.804816644166667,
-            "tempmin_seas_rcp85_endc_winter": 32.061095795,
-            "tempmin_seas_mid85_hist_winter": 5.4042316674999995,
-            "tempmin_seas_end85_hist_winter": 11.660524885000001
-        },
-        "assistant": "The historical minimum average temperature winter at Cook, IL is 20.400583425833332\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
-    },
-    {
-        "user": "What is the historical minimum average temperature in winter at Loudoun, VA?",
-        "input": {
-            "tempmin_seas_hist_winter": 28.61212747818182,
-            "tempmin_seas_rcp85_midc_winter": 31.783291035454546,
-            "tempmin_seas_rcp85_endc_winter": 36.40365392454545,
-            "tempmin_seas_mid85_hist_winter": 3.171158205454546,
-            "tempmin_seas_end85_hist_winter": 7.791544568181817
-        },
-        "assistant": "The historical minimum average temperature winter at Loudoun, VA is 28.61212747818182\u00b0C. This represents the observed baseline climate conditions, typically using a 1980\u20132010 reference period for that season."
-    },
-    {
-        "user": "What is the projected maximum average temperature in spring under RCP 85 by mid?",
-        "input": {
-            "tempmax_seas_hist_spring": 57.62163305333333,
-            "tempmax_seas_rcp85_mid_spring": 62.395187219166665,
-            "tempmax_seas_rcp85_end_spring": 66.63073428458334
-        },
-        "assistant": "The projected maximum average temperature in spring under RCP 85 by mid is 62.395187219166665\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected maximum average temperature in spring under RCP 85 by mid?",
-        "input": {
-            "tempmax_seas_hist_spring": 61.52687350000001,
-            "tempmax_seas_rcp85_mid_spring": 66.26351027,
-            "tempmax_seas_rcp85_end_spring": 69.92209139727272
-        },
-        "assistant": "The projected maximum average temperature in spring under RCP 85 by mid is 66.26351027\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected minimum average temperature in spring under RCP 85 by mid?",
-        "input": {
-            "tempmin_seas_hist_spring": 44.903120994999995,
-            "tempmin_seas_rcp85_mid_spring": 49.09477917416667,
-            "tempmin_seas_rcp85_end_spring": 53.864512284166665
-        },
-        "assistant": "The projected minimum average temperature in spring under RCP 85 by mid is 49.09477917416667\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected minimum average temperature in spring under RCP 85 by mid?",
-        "input": {
-            "tempmin_seas_hist_spring": 44.48110927181818,
-            "tempmin_seas_rcp85_mid_spring": 48.62124564454546,
-            "tempmin_seas_rcp85_end_spring": 53.04469958090909
-        },
-        "assistant": "The projected minimum average temperature in spring under RCP 85 by mid is 48.62124564454546\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected maximum average temperature in summer under RCP 85 by mid?",
-        "input": {
-            "tempmax_seas_hist_summer": 79.57420762416666,
-            "tempmax_seas_rcp85_mid_summer": 84.572237015,
-            "tempmax_seas_rcp85_end_summer": 89.83983739166666,
-            "tempmax_seas_mid85_hist_summer": 4.998027504583333,
-            "tempmax_seas_end85_hist_summer": 10.265633344583334
-        },
-        "assistant": "The projected maximum average temperature in summer under RCP 85 by mid is 84.572237015\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected maximum average temperature in summer under RCP 85 by mid?",
-        "input": {
-            "tempmax_seas_hist_summer": 79.92485462545454,
-            "tempmax_seas_rcp85_mid_summer": 84.85715484545455,
-            "tempmax_seas_rcp85_end_summer": 89.25894511909091,
-            "tempmax_seas_mid85_hist_summer": 4.932311793636363,
-            "tempmax_seas_end85_hist_summer": 9.334091966363637
-        },
-        "assistant": "The projected maximum average temperature in summer under RCP 85 by mid is 84.85715484545455\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected minimum average temperature in summer under RCP 85 by mid?",
-        "input": {
-            "tempmin_seas_hist_summer": 65.24533335375,
-            "tempmin_seas_rcp85_mid_summer": 70.00192546708332,
-            "tempmin_seas_rcp85_end_summer": 75.57827122916666,
-            "tempmin_seas_mid85_hist_summer": 4.75659670375,
-            "tempmin_seas_end85_hist_summer": 10.332937558333333
-        },
-        "assistant": "The projected minimum average temperature in summer under RCP 85 by mid is 70.00192546708332\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected minimum average temperature in summer under RCP 85 by mid?",
-        "input": {
-            "tempmin_seas_hist_summer": 62.13250905818183,
-            "tempmin_seas_rcp85_mid_summer": 66.89580050454546,
-            "tempmin_seas_rcp85_end_summer": 72.2366818509091,
-            "tempmin_seas_mid85_hist_summer": 4.7633082227272725,
-            "tempmin_seas_end85_hist_summer": 10.10415900909091
-        },
-        "assistant": "The projected minimum average temperature in summer under RCP 85 by mid is 66.89580050454546\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected maximum average temperature in autumn under RCP 85 by mid?",
-        "input": {
-            "tempmax_seas_rcp85_mid_autumn": 65.09885009083332,
-            "tempmax_seas_rcp85_end_autumn": 71.61136182166666,
-            "tempmax_seas_mid85_hist_autumn": 3.7886008425000006,
-            "tempmax_seas_end85_hist_autumn": 10.301108320416667
-        },
-        "assistant": "The projected maximum average temperature in autumn under RCP 85 by mid is 65.09885009083332\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected maximum average temperature in autumn under RCP 85 by mid?",
-        "input": {
-            "tempmax_seas_rcp85_mid_autumn": 68.9332088109091,
-            "tempmax_seas_rcp85_end_autumn": 73.77200109272727,
-            "tempmax_seas_mid85_hist_autumn": 3.8457109063636365,
-            "tempmax_seas_end85_hist_autumn": 8.684509105454545
-        },
-        "assistant": "The projected maximum average temperature in autumn under RCP 85 by mid is 68.9332088109091\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected minimum average temperature in autumn under RCP 85 by mid?",
-        "input": {
-            "tempmin_seas_rcp85_mid_autumn": 51.56074984875,
-            "tempmin_seas_rcp85_end_autumn": 57.39486201583333,
-            "tempmin_seas_mid85_hist_autumn": 4.393720825,
-            "tempmin_seas_end85_hist_autumn": 10.22782496625
-        },
-        "assistant": "The projected minimum average temperature in autumn under RCP 85 by mid is 51.56074984875\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected minimum average temperature in autumn under RCP 85 by mid?",
-        "input": {
-            "tempmin_seas_rcp85_mid_autumn": 50.53845423,
-            "tempmin_seas_rcp85_end_autumn": 55.67472769999999,
-            "tempmin_seas_mid85_hist_autumn": 3.601148194545455,
-            "tempmin_seas_end85_hist_autumn": 8.737397193636363
-        },
-        "assistant": "The projected minimum average temperature in autumn under RCP 85 by mid is 50.53845423\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected maximum average temperature in winter under RCP 85 by mid?",
-        "input": {
-            "tempmax_seas_hist_winter": 32.67272464458333,
-            "tempmax_seas_rcp85_midc_winter": 36.408466340833336,
-            "tempmax_seas_rcp85_endc_winter": 41.732396126666664,
-            "tempmax_seas_mid85_hist_winter": 3.7357345816666663,
-            "tempmax_seas_end85_hist_winter": 9.059669594583333
-        },
-        "assistant": "The projected maximum average temperature in winter under RCP 85 by mid is 36.408466340833336\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected maximum average temperature in winter under RCP 85 by mid?",
-        "input": {
-            "tempmax_seas_hist_winter": 43.222472798181826,
-            "tempmax_seas_rcp85_midc_winter": 46.33248103545454,
-            "tempmax_seas_rcp85_endc_winter": 50.40120939818182,
-            "tempmax_seas_mid85_hist_winter": 3.1100100181818178,
-            "tempmax_seas_end85_hist_winter": 7.178751771818182
-        },
-        "assistant": "The projected maximum average temperature in winter under RCP 85 by mid is 46.33248103545454\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected minimum average temperature in winter under RCP 85 by mid?",
-        "input": {
-            "tempmin_seas_hist_winter": 20.400583425833332,
-            "tempmin_seas_rcp85_midc_winter": 25.804816644166667,
-            "tempmin_seas_rcp85_endc_winter": 32.061095795,
-            "tempmin_seas_mid85_hist_winter": 5.4042316674999995,
-            "tempmin_seas_end85_hist_winter": 11.660524885000001
-        },
-        "assistant": "The projected minimum average temperature in winter under RCP 85 by mid is 25.804816644166667\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "What is the projected minimum average temperature in winter under RCP 85 by mid?",
-        "input": {
-            "tempmin_seas_hist_winter": 28.61212747818182,
-            "tempmin_seas_rcp85_midc_winter": 31.783291035454546,
-            "tempmin_seas_rcp85_endc_winter": 36.40365392454545,
-            "tempmin_seas_mid85_hist_winter": 3.171158205454546,
-            "tempmin_seas_end85_hist_winter": 7.791544568181817
-        },
-        "assistant": "The projected minimum average temperature in winter under RCP 85 by mid is 31.783291035454546\u00b0C. This reflects anticipated warming trends due to climate change."
-    },
-    {
-        "user": "How does the historical maximum average temperature in summer at Cook, IL compare to King, WA?",
-        "input": {
-            "location1_data": {
-                "tempmax_seas_hist_summer": 79.57420762416666,
-                "tempmax_seas_rcp85_mid_summer": 84.572237015,
-                "tempmax_seas_rcp85_end_summer": 89.83983739166666,
-                "tempmax_seas_mid85_hist_summer": 4.998027504583333,
-                "tempmax_seas_end85_hist_summer": 10.265633344583334
-            },
-            "location2_data": {
-                "tempmax_seas_hist_summer": 71.24805153777778,
-                "tempmax_seas_rcp85_mid_summer": 75.81361106555555,
-                "tempmax_seas_rcp85_end_summer": 81.07138513703704,
-                "tempmax_seas_mid85_hist_summer": 4.565556297037037,
-                "tempmax_seas_end85_hist_summer": 9.823318165185185
-            }
-        },
-        "assistant": "The historical maximum average temperature in summer at Cook, IL is 79.57420762416666\u00b0C, which is warmer compared to King, WA's 71.24805153777778\u00b0C."
-    },
-    {
-        "user": "How does the historical maximum average temperature in summer at Loudoun, VA compare to King, WA?",
-        "input": {
-            "location1_data": {
-                "tempmax_seas_hist_summer": 79.92485462545454,
-                "tempmax_seas_rcp85_mid_summer": 84.85715484545455,
-                "tempmax_seas_rcp85_end_summer": 89.25894511909091,
-                "tempmax_seas_mid85_hist_summer": 4.932311793636363,
-                "tempmax_seas_end85_hist_summer": 9.334091966363637
-            },
-            "location2_data": {
-                "tempmax_seas_hist_summer": 71.24805153777778,
-                "tempmax_seas_rcp85_mid_summer": 75.81361106555555,
-                "tempmax_seas_rcp85_end_summer": 81.07138513703704,
-                "tempmax_seas_mid85_hist_summer": 4.565556297037037,
-                "tempmax_seas_end85_hist_summer": 9.823318165185185
-            }
-        },
-        "assistant": "The historical maximum average temperature in summer at Loudoun, VA is 79.92485462545454\u00b0C, which is warmer compared to King, WA's 71.24805153777778\u00b0C."
-    },
-    {
-        "user": "What is the historical annual total of cooling degree days at Cook, IL?",
-        "input": {
-            "cdd_hist": 1100.0660018912502,
-            "cdd_rcp85_midc": 1545.7366587320837,
-            "cdd_mid85_hist": 445.6703745516666
-        },
-        "assistant": "The historical annual total of cooling degree days at Cook, IL is 1100.0660018912502, representing the energy demand for cooling based on past climate."
-    },
-    {
-        "user": "What is the historical annual total of cooling degree days at Loudoun, VA?",
-        "input": {
-            "cdd_hist": 868.2617298472727,
-            "cdd_rcp85_midc": 1335.1363636372726,
-            "cdd_mid85_hist": 466.8763649681818
-        },
-        "assistant": "The historical annual total of cooling degree days at Loudoun, VA is 868.2617298472727, representing the energy demand for cooling based on past climate."
-    },
-    {
-        "user": "What is the historical annual total of heating degree days at Cook, IL?",
-        "input": {
-            "hdd_hist": 7189.420064290417,
-            "hdd_rcp85_midc": 6469.764587402499,
-            "hdd_mid85_hist": -719.6544926958333
-        },
-        "assistant": "The historical annual total of heating degree days at Cook, IL is 7189.420064290417, measuring the accumulated temperature-based energy demand for heating."
-    },
-    {
-        "user": "What is the historical annual total of heating degree days at Loudoun, VA?",
-        "input": {
-            "hdd_hist": 5686.853560016363,
-            "hdd_rcp85_midc": 5173.198109020909,
-            "hdd_mid85_hist": -513.6552706636363
-        },
-        "assistant": "The historical annual total of heating degree days at Loudoun, VA is 5686.853560016363, measuring the accumulated temperature-based energy demand for heating."
+        "assistant": "The projected annual total of cooling degree days at Cook, IL under RCP 8.5 by mid century is 1881.4699707, indicating higher energy demand for cooling due to future warming."
     }
 ]
