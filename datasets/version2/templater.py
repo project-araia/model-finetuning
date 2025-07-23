@@ -36,16 +36,3 @@ def save_template(filename, mode, data):
     with open(filename, mode) as out_file:
         json.dump(data, out_file, indent=4)
     print(f"Data saved to {filename}")
-
-
-if __name__ == "__main__":
-    text = (
-        "The temp is {tempmax_seas_hist_summer}°C which is "
-        "{'higher' if tempmax_seas_hist_summer > tempmax_seas_hist_summer_loc2 else 'lower'} "
-        "compared to {compared_location}'s {tempmax_seas_hist_summer_loc2}."
-    )
-
-    vars, exprs = separate_vars_and_exprs(text)
-    print("Variables:", vars)
-    print("Expressions:", exprs)
-
