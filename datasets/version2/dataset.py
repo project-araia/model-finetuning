@@ -16,7 +16,7 @@ for template in chat_templates:
     answer_template = template["answer"]
 
     # Extract placeholders in the answer template
-    template_vars = templater.extract_placeholders(question_template + answer_template)
+    template_vars, template_exprs = templater.separate_vars_and_exprs(question_template + answer_template)
     template_dict = {}
     input_dict = {}
 
@@ -46,6 +46,9 @@ for template in chat_templates:
                         template_dict[key+"_loc2"] = value
                         input_dict[key+"_loc2"] = value
                 
+                for expr in template_exprs:
+                    template_dict[expr] = eval(expr, {}, template_dict)
+
                 question = question_template.format(**template_dict)
                 answer = answer_template.format(**template_dict)
 

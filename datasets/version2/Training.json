@@ -33,7 +33,7 @@
             "tempmax_seas_hist_summer": 79.57420762416666,
             "tempmax_seas_hist_summer_loc2": 71.24805153777778
         },
-        "assistant": "The historical maximum average temperature in summer at Cook, IL is 79.57420762416666\u00b0C, which is compared to King, WA's 71.24805153777778\u00b0C."
+        "assistant": "The historical maximum average temperature in summer at Cook, IL is 79.57420762416666\u00b0C, which is higher compared to King, WA's 71.24805153777778\u00b0C."
     },
     {
         "user": "What is the projected annual precipitation under RCP 8.5 by mid century?",

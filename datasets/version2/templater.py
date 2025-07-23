@@ -11,8 +11,41 @@ def load_template(filename):
 def extract_placeholders(text):
     return re.findall(r"{(.*?)}", text)
 
+def is_variable(placeholder):
+    """Returns True if the placeholder is a simple variable name."""
+    return re.fullmatch(r"[a-zA-Z_][a-zA-Z0-9_]*", placeholder) is not None
+
+def separate_vars_and_exprs(text):
+    """
+    Splits all placeholders into variables and expressions.
+    Returns a tuple: (variables, expressions)
+    """
+    variables = []
+    expressions = []
+
+    for placeholder in extract_placeholders(text):
+        if is_variable(placeholder):
+            variables.append(placeholder)
+        else:
+            expressions.append(placeholder)
+
+    return variables, expressions
+
 # --- Save generated data ---
 def save_template(filename, mode, data):
     with open(filename, mode) as out_file:
         json.dump(data, out_file, indent=4)
     print(f"Data saved to {filename}")
+
+
+if __name__ == "__main__":
+    text = (
+        "The temp is {tempmax_seas_hist_summer}°C which is "
+        "{'higher' if tempmax_seas_hist_summer > tempmax_seas_hist_summer_loc2 else 'lower'} "
+        "compared to {compared_location}'s {tempmax_seas_hist_summer_loc2}."
+    )
+
+    vars, exprs = separate_vars_and_exprs(text)
+    print("Variables:", vars)
+    print("Expressions:", exprs)
+

@@ -17,7 +17,7 @@
   },
   {
     "question": "How does the historical maximum average temperature in summer compared to {compared_location}?",
-    "answer": "The historical maximum average temperature in summer at {location} is {tempmax_seas_hist_summer}°C, which is compared to {compared_location}'s {tempmax_seas_hist_summer_loc2}°C."
+    "answer": "The historical maximum average temperature in summer at {location} is {tempmax_seas_hist_summer}°C, which is {'higher' if tempmax_seas_hist_summer > tempmax_seas_hist_summer_loc2 else 'lower'} compared to {compared_location}'s {tempmax_seas_hist_summer_loc2}°C."
   },
   {
     "question": "What is the projected annual precipitation under RCP 8.5 by mid century?",
