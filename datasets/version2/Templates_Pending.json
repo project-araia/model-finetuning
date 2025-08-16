@@ -1,0 +1,50 @@
+[
+  {
+    "question": "How many daytime hours exceed 78\u00b0F WBGT in summer in the historical period?",
+    "answer": "At {location}, the number of daytime hours exceeding 78\u00b0F WBGT in summer during the historical period is {wbgt_hours78_hist_summer}."
+  },
+  {
+    "question": "What is the expected change in days exceeding 82\u00b0F WBGT in summer by mid-century under RCP 4.5?",
+    "answer": "At {location}, the change in days exceeding 82\u00b0F WBGT in summer by mid-century under RCP 4.5 is {wbgt_days82_rcp45_midc_delta} compared to historical."
+  },
+  {
+    "question": "What month had the highest daytime hours above 78\u00b0F WBGT in the historical period?",
+    "answer": "The month with the highest daytime hours above 78\u00b0F WBGT at {location} in the historical period is {wbgt_hours78_hist_month_max}."
+  },
+  {
+    "question": "What is the projected 95th percentile fire weather index in autumn under RCP 8.5 at mid-century?",
+    "answer": "At {location}, the projected 95th percentile fire weather index in autumn under RCP 8.5 at mid-century is {fwi_95th_rcp85_mid_autumn}."
+  },
+  {
+    "question": "How does the fire weather classification change in summer from historical to end-of-century?",
+    "answer": "At {location}, the fire weather classification in summer changes from {fwi_class_hist_summer} historically to {fwi_class_rcp85_end_summer} by end-of-century."
+  },
+  {
+    "question": "How many summer days are projected to exceed a WBGT of 82\u00b0F under RCP 4.5 at mid-century?",
+    "answer": "At {location}, the projected number of summer days exceeding 82\u00b0F WBGT under RCP 4.5 at mid-century is {wbgt_days82_rcp45_midc}."
+  },
+  {
+    "question": "In which season does the Fire Weather Index exceed the 'High' threshold in future projections?",
+    "answer": "At {location}, the season in which the FWI exceeds the 'High' threshold (FWI > 21) in future projections is {fwi_highseason_rcp85_endc}."
+  },
+  {
+    "question": "Are there projected increases in grid cells reaching 'Extreme' FWI levels by end-of-century?",
+    "answer": "Yes, at {location}, the number of grid cells reaching 'Extreme' FWI levels (FWI > 39) by end-of-century increases to {fwi_extreme_rcp85_endc} compared to historical."
+  },
+  {
+    "question": "How many daytime hours exceed 78\u00b0F WBGT in summer in the historical period?",
+    "answer": "At {location}, the number of daytime hours exceeding 78\u00b0F WBGT in summer during the historical period is {wbgt_hist_hours78_summer}."
+  },
+  {
+    "question": "What is the expected change in days exceeding 82\u00b0F WBGT in summer by mid-century under RCP 4.5?",
+    "answer": "At {location}, the number of days exceeding 82\u00b0F WBGT in summer by mid-century under RCP 4.5 is {wbgt_rcp45_midc_days82} compared to {wbgt_hist_days82_summer} historically."
+  },
+  {
+    "question": "In which season does the Fire Weather Index exceed the 'High' threshold in future projections?",
+    "answer": "At {location}, the Fire Weather Index exceeds the 'High' threshold (FWI > 21) in {wildfire_summer_Endc_season} during future projections."
+  },
+  {
+    "question": "Are there projected increases in grid cells reaching 'Extreme' FWI levels by end-of-century?",
+    "answer": "Yes, at {location}, the number of grid cells reaching 'Extreme' FWI levels by end-of-century increases to {wildfire_summer_Endc} compared to {wildfire_summer_Hist} historically."
+  }
+]

@@ -5,10 +5,10 @@ import templater
 climate_df = climparser.load_dataset("FullData.csv")
 
 # --- Load chat templates with placeholder-based questions and answers ---
-chat_templates = templater.load_template("Templates.json")
+chat_templates = templater.load_template("Templates_Extended.json")
 
 # Define locations for which climate Q&A data will be generated
-target_locations = ["Cook, IL"]  # You can add more locations here
+target_locations = ["Cook, IL", "Montgomery, MD", "Flathead, MT"]  # You can add more locations here
 comparison_locations = ["King, WA"]
 
 # Final dataset entries to be stored
@@ -101,4 +101,4 @@ for template in chat_templates:
             })
 
 # Save the fully populated training dataset
-templater.save_template("Training.json", "w", generated_entries)
+templater.save_template("Training_Raw.json", "w", generated_entries)
