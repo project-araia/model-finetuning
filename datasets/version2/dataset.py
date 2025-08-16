@@ -4,11 +4,23 @@ import templater
 # --- Load climate dataset ---
 climate_df = climparser.load_dataset("FullData.csv")
 
+ignored_climrr_keys = ['OID_','Crossmodel', 'NAME', 'State', 'State_Abbr',
+                       'GlobalID','created_us','created_da','last_edite',
+                       'last_edi_1','Shape_STAr','Shape_STLe', 'X', 'Y',
+                       'TRACTCE', 'GEOID', 'NAME_1', 'NAMELSAD',
+                       'Percentage_of_the_population_65', 'Gini_Index_of_income_inequality',
+                       'Pop_below_U_S__Census_poverty_l', 'Percentage_of_housing_units_tha',
+                       'Aggregate_Resilience_Indicator', 'Aggregate_Resilience_Indicator_',
+                       'The_net_migration__internationa', 'OBJECTID_12', 'OBJECTID_12_13',
+                       'Crossmodel_12', 'OBJECTID_1', 'Crossmodel_1']
+
 # --- Load chat templates with placeholder-based questions and answers ---
 chat_templates = templater.load_template("Templates_Extended.json")
 
 # Define locations for which climate Q&A data will be generated
-target_locations = ["Cook, IL", "Montgomery, MD", "Flathead, MT"]  # You can add more locations here
+target_locations = ["Cook, IL", "Montgomery, MD", 
+                    "Flathead, MT"]  # You can add more locations here
+
 comparison_locations = ["King, WA"]
 
 # Final dataset entries to be stored
@@ -48,6 +60,7 @@ for template in chat_templates:
                 for key, value in loc_data1.items():
                     if key in variable_keys:
                         template_context[key] = value
+                    if key not in ignored_climrr_keys:
                         input_record[key] = value
 
                 # Populate template context with variables from the comparison location
@@ -55,6 +68,7 @@ for template in chat_templates:
                     key_loc2 = key + "_loc2"
                     if key_loc2 in variable_keys:
                         template_context[key_loc2] = value
+                    if key not in ignored_climrr_keys:
                         input_record[key_loc2] = value
 
                 # Evaluate expressions using the full template context
@@ -81,6 +95,7 @@ for template in chat_templates:
             for key, value in loc_data.items():
                 if key in variable_keys:
                     template_context[key] = value
+                if key not in ignored_climrr_keys:
                     input_record[key] = value
 
             # Evaluate any expressions that use the context
